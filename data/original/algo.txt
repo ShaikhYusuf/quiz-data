@@ -1,0 +1,3640 @@
+﻿1. Which of the following best describes time complexity analysis?
+   A) It measures the amount of time an algorithm takes to execute.
+   B) It measures the space an algorithm consumes during execution.
+   C) It measures the number of iterations in an algorithm.
+   D) It measures the number of comparisons in an algorithm.
+   - Answer: A
+   
+2. What is the time complexity of an algorithm with a loop of n iterations, each containing a constant time operation?
+   A) O(n)
+   B) O(1)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: A
+
+3. Which of the following statements is true regarding logarithmic time complexity?
+   A) It grows linearly with the input size.
+   B) It grows exponentially with the input size.
+   C) It decreases as the input size increases.
+   D) It grows slowly with the input size.
+   - Answer: D
+
+4. What is the time complexity of an algorithm that has nested loops, one iterating n times and the other iterating m times?
+   A) O(n)
+   B) O(m)
+   C) O(n * m)
+   D) O(n + m)
+   - Answer: C
+
+5. Which of the following is an example of constant time complexity?
+   A) Linear search
+   B) Binary search
+   C) Accessing an element in an array
+   D) Bubble sort
+   - Answer: C
+
+
+6. Space complexity analysis measures:
+   A) The amount of time an algorithm takes to execute.
+   B) The space an algorithm consumes during execution.
+   C) The number of iterations in an algorithm.
+   D) The number of comparisons in an algorithm.
+   - Answer: B
+
+7. What is the space complexity of an algorithm that creates an array of size n?
+   A) O(n)
+   B) O(1)
+   C) O(log n)
+   D) O(n^2)
+   - Answer: A
+
+8. Which of the following data structures typically has the highest space complexity?
+   A) Arrays
+   B) Linked lists
+   C) Stacks
+   D) Queues
+   - Answer: A
+
+9. What is the space complexity of an algorithm that has a recursive function with a depth of n?
+   A) O(n)
+   B) O(log n)
+   C) O(n^2)
+   D) O(1)
+   - Answer: B
+
+10. Which of the following is an example of linear space complexity?
+   A) Binary search
+   B) Quick sort
+   C) Merge sort
+   D) Selection sort
+   - Answer: C
+
+
+11. What does Big O notation represent in asymptotic analysis?
+    A) Upper bound
+    B) Lower bound
+    C) Exact bound
+    D) None of the above
+    - Answer: A
+
+12. Which notation represents the best-case time complexity of an algorithm?
+    A) Big O
+    B) Big Omega
+    C) Big Theta
+    D) All of the above
+    - Answer: B
+
+13. If a function f(n) is bounded both from above and below by g(n), which notation represents this relationship?
+    A) Big O
+    B) Big Omega
+    C) Big Theta
+    D) None of the above
+    - Answer: C
+
+14. What is the tightest upper bound of a function f(n) if f(n) = O(g(n))?
+    A) Big O
+    B) Big Omega
+    C) Big Theta
+    D) None of the above
+    - Answer: A
+
+15. Which notation represents the worst-case time complexity of an algorithm?
+    A) Big O
+    B) Big Omega
+    C) Big Theta
+    D) All of the above
+    - Answer: A
+
+
+16. Which case analysis provides a guarantee on the performance of an algorithm?
+    A) Worst-case analysis
+    B) Best-case analysis
+    C) Average-case analysis
+    D) None of the above
+    - Answer: A
+
+17. In which case is the input that causes the algorithm to run slowest?
+    A) Worst case
+    B) Best case
+    C) Average case
+    D) None of the above
+    - Answer: A
+
+18. Which case analysis is often used when dealing with randomized algorithms?
+    A) Worst-case analysis
+    B) Best-case analysis
+    C) Average-case analysis
+    D) None of the above
+    - Answer: C
+
+19. Which case analysis is often used to evaluate the performance of an algorithm when the input is not skewed?
+    A) Worst-case analysis
+    B) Best-case analysis
+    C) Average-case analysis
+    D) None of the above
+    - Answer: C
+
+20. Which case analysis provides an upper bound on the performance of an algorithm?
+    A) Worst-case analysis
+    B) Best-case analysis
+    C) Average-case analysis
+    D) None of the above
+    - Answer: A
+
+21. What is the time complexity of a linear search algorithm?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+22. Which sorting algorithm typically has the worst-case time complexity of O(n^2)?
+    A) Merge sort
+    B) Quick sort
+    C) Bubble sort
+    D) Insertion sort
+    - Answer: C
+
+23. Which of the following statements about time complexity analysis is false?
+    A) It ignores constant factors.
+    B) It provides an exact measurement of execution time.
+    C) It measures the growth rate of an algorithm.
+    D) It helps in comparing the efficiency of algorithms.
+    - Answer: B
+
+24. What is the time complexity of a binary search algorithm on a sorted array?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: B
+
+25. Which of the following algorithms has the best time complexity for searching an element in a sorted array?
+    A) Linear search
+    B) Binary search
+    C) Bubble sort
+    D) Selection sort
+    - Answer: B
+
+26. What is the space complexity of a recursive algorithm that has a depth of log n?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: B
+
+27. Which data structure typically has the lowest space complexity for storing elements?
+    A) Arrays
+    B) Linked lists
+    C) Hash tables
+    D) Stacks
+    - Answer: B
+
+28. Which of the following statements about space complexity analysis is true?
+    A) It measures the amount of time an algorithm takes to execute.
+    B) It measures the space an algorithm consumes during execution.
+    C) It measures the number of iterations in an algorithm.
+    D) It measures the number of comparisons in an algorithm.
+    - Answer: B
+
+29. What is the space complexity of an algorithm that creates a matrix of size n x n?
+    A) O(1)
+    B) O(n)
+    C) O(n^2)
+    D) O(log n)
+    - Answer: C
+
+30. Which of the following sorting algorithms typically has the highest space complexity?
+    A) Merge sort
+    B) Quick sort
+    C) Bubble sort
+    D) Insertion sort
+    - Answer: A
+
+
+31. Which notation provides a lower bound on the growth rate of a function?
+    A) Big O
+    B) Big Omega
+    C) Big Theta
+    D) All of the above
+    - Answer: B
+
+32. Which of the following statements about Big Theta notation is true?
+    A) It represents the worst-case scenario.
+    B) It provides both upper and lower bounds.
+    C) It is the same as Big O notation.
+    D) It is used for average-case analysis.
+    - Answer: B
+
+33. If f(n) = Θ(g(n)), what can be said about the growth rate of f(n)?
+    A) It grows faster than g(n).
+    B) It grows slower than g(n).
+    C) It grows at the same rate as g(n).
+    D) It is not bounded by g(n).
+    - Answer: C
+
+34. Which notation represents the average-case time complexity of an algorithm?
+    A) Big O
+    B) Big Omega
+    C) Big Theta
+    D) None of the above
+    - Answer: D
+
+35. Which of the following functions grows faster asymptotically: n^2 or 2^n?
+    A) n^2
+    B) 2^n
+    C) Both grow at the same rate
+    D) None of the above
+    - Answer: B
+
+
+36. Which of the following is true about best-case analysis?
+    A) It provides an upper bound on the performance of an algorithm.
+    B) It considers the input that makes the algorithm run the fastest.
+    C) It is often used to analyze the performance of randomized algorithms.
+    D) It is not useful in practice.
+    - Answer: B
+
+37. Which of the following sorting algorithms exhibits O(n) time complexity in the best-case scenario?
+    A) Merge sort
+    B) Quick sort
+    C) Bubble sort
+    D) Insertion sort
+    - Answer: D
+
+38. Which case analysis provides a lower bound on the performance of an algorithm?
+    A) Worst-case analysis
+    B) Best-case analysis
+    C) Average-case analysis
+    D) None of the above
+    - Answer: A
+
+39. Which of the following statements about average-case analysis is true?
+    A) It provides a guarantee on the performance of an algorithm.
+    B) It is useful when the input distribution is not known.
+    C) It always gives the same result as worst-case analysis.
+    D) It is only applicable to deterministic algorithms.
+    - Answer: B
+
+40. Which case analysis is used to analyze the performance of an algorithm on typical inputs?
+    A) Worst-case analysis
+    B) Best-case analysis
+    C) Average-case analysis
+    D) None of the above
+    - Answer: C
+
+41. What is the time complexity of the following code snippet?\nfor i in range(n):\n    for j in range(n):\n        print(i, j)\n
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: C
+
+42. Which of the following statements about time complexity analysis is correct?
+   A) It measures the exact runtime of an algorithm.
+   B) It considers the number of steps an algorithm takes relative to the size of its input.
+   C) It focuses on the best-case scenario only.
+   D) It is not influenced by the programming language used to implement the algorithm.
+   - Answer: B
+
+43. What is the time complexity of finding the maximum element in an unsorted array of size n?
+   A) O(1)
+   B) O(n)
+   C) O(n log n)
+   D) O(n^2)
+   - Answer: B
+
+44. Which of the following algorithms has a time complexity of O(log n)?
+   A) Linear search
+   B) Bubble sort
+   C) Merge sort
+   D) Selection sort
+   - Answer: C
+
+45. In time complexity analysis, which term describes the fastest growing function?
+   A) Constant
+   B) Logarithmic
+   C) Linear
+   D) Exponential
+   - Answer: D
+
+46. What is the space complexity of the following code snippet?\ndef some_function(n):\n    data = [0] * n\n    return data
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: B
+
+47. Which of the following statements about space complexity analysis is correct?
+   A) It measures the exact memory usage of an algorithm.
+   B) It ignores the memory used by input parameters.
+   C) It is unrelated to time complexity analysis.
+   D) It is only concerned with the maximum memory used by an algorithm.
+   - Answer: B
+
+48. What is the space complexity of a recursive Fibonacci function?
+   A) O(1)
+   B) O(n)
+   C) O(log n)
+   D) O(2^n)
+   - Answer: D
+
+49. Which data structure typically has a space complexity of O(n)?
+   A) Hash table
+   B) Stack
+   C) Linked list
+   D) Array
+   - Answer: D
+
+50. What is the space complexity of a depth-first search (DFS) algorithm on a graph with n vertices?
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: B
+
+
+51. Which of the following best describes Big O notation?
+   A) It represents the average-case performance of an algorithm.
+   B) It provides a lower bound on the growth rate of a function.
+   C) It is used to express the tightest upper bound of an algorithm's runtime.
+   D) It is equivalent to Big Theta notation.
+   - Answer: C
+
+52. If f(n) = O(g(n)), which of the following statements is true?
+   A) f(n) grows slower than or at the same rate as g(n).
+   B) f(n) grows faster than or at the same rate as g(n).
+   C) f(n) grows strictly slower than g(n).
+   D) f(n) and g(n) have no relationship.
+   - Answer: A
+
+53. Which notation is used to denote the average-case time complexity of an algorithm?
+   A) Big O
+   B) Big Omega
+   C) Big Theta
+   D) None of the above
+   - Answer: D
+
+54. Which of the following functions grows faster asymptotically: n! or 2^n?
+   A) n!
+   B) 2^n
+   C) Both grow at the same rate
+   D) None of the above
+   - Answer: B
+
+55. If f(n) = Ω(g(n)), what can be said about the growth rate of f(n)?
+   A) It grows slower than or at the same rate as g(n).
+   B) It grows faster than or at the same rate as g(n).
+   C) It grows strictly slower than g(n).
+   D) It grows strictly faster than g(n).
+   - Answer: B
+
+
+56. Which of the following algorithms has the best-case time complexity of O(1)?
+   A) Linear search
+   B) Binary search
+   C) Bubble sort
+   D) Merge sort
+   - Answer: B
+
+57. Which case analysis provides a guarantee on the performance of an algorithm?
+   A) Worst-case analysis
+   B) Best-case analysis
+   C) Average-case analysis
+   D) None of the above
+   - Answer: A
+
+58. In which case is the input that causes the algorithm to run fastest?
+   A) Worst case
+   B) Best case
+   C) Average case
+   D) None of the above
+   - Answer: B
+
+59. Which of the following sorting algorithms exhibits O(n^2) time complexity in the worst-case scenario?
+   A) Merge sort
+   B) Quick sort
+   C) Bubble sort
+   D) Insertion sort
+   - Answer: C
+
+60. Which case analysis is often used when dealing with randomized algorithms?
+   A) Worst-case analysis
+   B) Best-case analysis
+   C) Average-case analysis
+   D) None of the above
+   - Answer: C
+
+61. What is the time complexity of the following code snippet?\nfor i in range(n):\n    for j in range(i):\n        print(i, j)
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: C
+
+62. Which of the following statements about time complexity analysis is correct?
+   A) It measures the exact number of instructions executed by an algorithm.
+   B) It focuses solely on the worst-case scenario.
+   C) It is independent of the input size.
+   D) It measures the growth rate of an algorithm relative to the input size.
+   - Answer: D
+
+63. What is the time complexity of finding duplicates in an unsorted array of size n?
+   A) O(1)
+   B) O(n)
+   C) O(n log n)
+   D) O(n^2)
+   - Answer: B
+
+64. Which of the following algorithms has a time complexity of O(1)?
+   A) Insertion sort
+   B) Selection sort
+   C) Heap sort
+   D) Constant-time algorithm
+   - Answer: D
+
+65. In time complexity analysis, which term describes the slowest growing function?
+   A) Constant
+   B) Logarithmic
+   C) Linear
+   D) Exponential
+   - Answer: A
+
+
+66. What is the space complexity of the following code snippet?\ndef some_function(n):\n    data = [0] * (2*n)\n    return data
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: B
+
+67. Which of the following statements about space complexity analysis is correct?
+   A) It measures the exact amount of memory used by an algorithm.
+   B) It only considers the space used by variables declared inside the algorithm.
+   C) It is unrelated to time complexity analysis.
+   D) It ignores the space used by the algorithm's input.
+   - Answer: D
+
+68. What is the space complexity of a recursive function that calculates the factorial of a number?
+   A) O(1)
+   B) O(n)
+   C) O(log n)
+   D) O(n!)
+   - Answer: C
+
+69. Which data structure typically has a space complexity of O(log n)?
+   A) Stack
+   B) Linked list
+   C) Binary tree
+   D) Queue
+   - Answer: C
+
+70. What is the space complexity of a breadth-first search (BFS) algorithm on a graph with n vertices?
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: B
+
+
+71. Which of the following best describes Big Omega notation?
+   A) It represents the average-case performance of an algorithm.
+   B) It provides an upper bound on the growth rate of a function.
+   C) It is used to express the tightest lower bound of an algorithm's runtime.
+   D) It is equivalent to Big Theta notation.
+   - Answer: C
+
+72. If f(n) = Ω(g(n)), which of the following statements is true?
+   A) f(n) grows slower than or at the same rate as g(n).
+   B) f(n) grows faster than or at the same rate as g(n).
+   C) f(n) grows strictly slower than g(n).
+   D) f(n) and g(n) have no relationship.
+   - Answer: B
+
+73. Which notation is used to denote the worst-case time complexity of an algorithm?
+   A) Big O
+   B) Big Omega
+   C) Big Theta
+   D) None of the above
+   - Answer: A
+
+74. Which of the following functions grows faster asymptotically: n^3 or 3^n?
+   A) n^3
+   B) 3^n
+   C) Both grow at the same rate
+   D) None of the above
+   - Answer: B
+
+75. If f(n) = Θ(g(n)), what can be said about the growth rate of f(n)?
+   A) It grows slower than or at the same rate as g(n).
+   B) It grows faster than or at the same rate as g(n).
+   C) It grows strictly slower than g(n).
+   D) It grows strictly faster than g(n).
+   - Answer: B
+
+
+76. Which of the following algorithms has the best-case time complexity of O(n)?
+   A) Quick sort
+   B) Merge sort
+   C) Bubble sort
+   D) Linear search
+   - Answer: D
+
+77. Which case analysis provides an upper bound on the performance of an algorithm?
+   A) Worst-case analysis
+   B) Best-case analysis
+   C) Average-case analysis
+   D) None of the above
+   - Answer: A
+
+78. In which case is the input that causes the algorithm to run slowest?
+   A) Best case
+   B) Worst case
+   C) Average case
+   D) None of the above
+   - Answer: B
+
+79. Which of the following sorting algorithms exhibits O(n log n) time complexity in the worst-case scenario?
+   A) Quick sort
+   B) Merge sort
+   C) Bubble sort
+   D) Insertion sort
+   - Answer: A
+
+80. Which case analysis is often used to analyze the performance of an algorithm on random inputs?
+   A) Worst-case analysis
+   B) Best-case analysis
+   C) Average-case analysis
+   D) None of the above
+   - Answer: C
+
+81. What is the time complexity of the following code snippet?\nfor i in range(n):\n    print("Hello, World!")\n
+   A) O(1)
+   B) O(n)
+   C) O(n log n)
+   D) O(log n)
+   - Answer: B
+
+82. Which of the following best describes time complexity analysis?
+   A) It measures the actual time taken by an algorithm to execute.
+   B) It measures the number of instructions executed by an algorithm.
+   C) It measures the growth rate of an algorithm relative to its input size.
+   D) It measures the memory consumption of an algorithm.
+   - Answer: C
+
+83. What is the time complexity of a linear search algorithm on an unsorted array?
+   A) O(1)
+   B) O(log n)
+   C) O(n)
+   D) O(n^2)
+   - Answer: C
+
+84. Which of the following algorithms has the best-case time complexity of O(n log n)?
+   A) Quick sort
+   B) Bubble sort
+   C) Insertion sort
+   D) Selection sort
+   - Answer: A
+
+85. In time complexity analysis, what does the term "logarithmic" represent?
+   A) The time taken increases exponentially with the input size.
+   B) The time taken increases linearly with the input size.
+   C) The time taken increases logarithmically with the input size.
+   D) The time taken remains constant regardless of the input size.
+   - Answer: C
+
+
+86. What is the space complexity of the following code snippet?\ndef some_function(n):\n    data = []\n    for i in range(n):\n        data.append(i)\n    return data
+   A) O(1)
+   B) O(n)
+   C) O(n^2)
+   D) O(log n)
+   - Answer: B
+
+87. Which of the following statements about space complexity analysis is correct?
+   A) It measures the execution time of an algorithm.
+   B) It measures the number of iterations in an algorithm.
+   C) It measures the memory used by an algorithm.
+   D) It is unrelated to time complexity analysis.
+   - Answer: C
+
+88. What is the space complexity of a recursive algorithm with a depth of n?
+   A) O(1)
+   B) O(n)
+   C) O(log n)
+   D) O(n!)
+   - Answer: C
+
+89. Which data structure typically has the highest space complexity for storing n elements?
+   A) Array
+   B) Linked list
+   C) Stack
+   D) Queue
+   - Answer: A
+
+90. What is the space complexity of a binary search algorithm?
+   A) O(1)
+   B) O(log n)
+   C) O(n)
+   D) O(n log n)
+   - Answer: O(1)
+
+
+91. Which of the following notations provides the tightest bound for an algorithm's time complexity?
+   A) Big O
+   B) Big Omega
+   C) Big Theta
+   D) None of the above
+   - Answer: C
+
+92. If f(n) = Θ(g(n)), what can be inferred about the growth rates of f(n) and g(n)?
+   A) f(n) grows faster than g(n).
+   B) f(n) and g(n) grow at the same rate.
+   C) f(n) grows slower than g(n).
+   D) There is no relationship between the growth rates of f(n) and g(n).
+   - Answer: B
+
+93. Which of the following notations represents the best-case time complexity of an algorithm?
+   A) Big O
+   B) Big Omega
+   C) Big Theta
+   D) None of the above
+   - Answer: B
+
+94. What does it mean if f(n) = O(g(n))?
+   A) f(n) grows faster than g(n).
+   B) f(n) and g(n) grow at the same rate.
+   C) f(n) grows slower than g(n).
+   D) There is no relationship between the growth rates of f(n) and g(n).
+   - Answer: C
+
+95. Which notation represents the worst-case time complexity of an algorithm?
+   A) Big O
+   B) Big Omega
+   C) Big Theta
+   D) All of the above
+   - Answer: A
+
+
+96. In which case does an algorithm perform at its peak efficiency?
+   A) Worst case
+   B) Best case
+   C) Average case
+   D) None of the above
+   - Answer: B
+
+97. Which case analysis is most commonly used for analyzing the performance of an algorithm?
+   A) Worst case
+   B) Best case
+   C) Average case
+   D) None of the above
+   - Answer: A
+
+98. Which of the following sorting algorithms typically has the best-case time complexity of O(n log n)?
+   A) Bubble sort
+   B) Insertion sort
+   C) Merge sort
+   D) Quick sort
+   - Answer: C
+
+99. Which case analysis is useful for determining the expected performance of an algorithm when inputs are randomly distributed?
+   A) Worst case
+   B) Best case
+   C) Average case
+   D) None of the above
+   - Answer: C
+
+100. What does the worst-case analysis of an algorithm provide?
+   A) An upper bound on the algorithm's performance.
+   B) A lower bound on the algorithm's performance.
+   C) An average estimate of the algorithm's performance.
+   D) None of the above.
+   - Answer: A
+
+1. What defines a brute force algorithm?
+   A) It is an algorithm that makes use of randomization.
+   B) It is an algorithm that relies on the principle of divide and conquer.
+   C) It is an algorithm that exhaustively searches through all possible solutions.
+   D) It is an algorithm that uses heuristics to find the optimal solution.
+   - Answer: C
+
+2. Which problem-solving strategy is often associated with brute force algorithms?
+   A) Minimizing recursion depth
+   B) Eliminating redundant computations
+   C) Exhaustive search
+   D) Dynamic programming
+   - Answer: C
+
+3. Which of the following problems is typically solved using a brute force approach?
+   A) Shortest path problem
+   B) Travelling Salesman Problem (TSP)
+   C) Knapsack problem
+   D) Matrix chain multiplication
+   - Answer: B
+
+4. What is the time complexity of a brute force solution for the traveling salesman problem (TSP) with n cities?
+   A) O(n)
+   B) O(n log n)
+   C) O(n!)
+   D) O(2^n)
+   - Answer: C
+
+5. In brute force algorithms, what is the primary drawback?
+   A) Limited applicability
+   B) High space complexity
+   C) Exponential time complexity
+   D) Lack of determinism
+   - Answer: C
+
+
+6. Which technique does a divide and conquer algorithm employ?
+   A) Iterative improvement
+   B) Dynamic programming
+   C) Recursion
+   D) Greedy selection
+   - Answer: C
+
+7. Which problem-solving approach involves breaking down a problem into subproblems of the same type?
+   A) Divide and conquer
+   B) Greedy algorithms
+   C) Dynamic programming
+   D) Backtracking
+   - Answer: A
+
+8. Which of the following algorithms uses the divide and conquer strategy?
+   A) Breadth-first search (BFS)
+   B) Depth-first search (DFS)
+   C) Binary search
+   D) Topological sort
+   - Answer: C
+
+9. What is the time complexity of merge sort, a divide and conquer algorithm, in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: B
+
+10. Which problem can be efficiently solved using the divide and conquer approach?
+   A) Knapsack problem
+   B) Longest common subsequence problem
+   C) Graph coloring problem
+   D) Maximum flow problem
+   - Answer: B
+
+
+11. What is the main characteristic of a greedy algorithm?
+    A) It exhaustively searches through all possible solutions.
+    B) It always produces the optimal solution.
+    C) It makes locally optimal choices at each step with the hope of finding a global optimum.
+    D) It relies on backtracking to explore solution space.
+    - Answer: C
+
+12. Which problem-solving strategy does a greedy algorithm follow?
+    A) Divide and conquer
+    B) Dynamic programming
+    C) Backtracking
+    D) Sequential improvement
+    - Answer: C
+
+13. What is the primary advantage of greedy algorithms?
+    A) They always find the global optimum solution.
+    B) They are efficient and easy to implement.
+    C) They can handle problems with large solution spaces.
+    D) They are guaranteed to converge to the optimal solution.
+    - Answer: B
+
+14. Which of the following problems is typically solved using a greedy algorithm?
+    A) Shortest path problem in a weighted graph
+    B) Traveling Salesman Problem (TSP)
+    C) Knapsack problem
+    D) Longest common subsequence problem
+    - Answer: A
+
+15. In which scenario can a greedy algorithm fail to produce the optimal solution?
+    A) When the problem exhibits overlapping subproblems
+    B) When the problem has a single optimal solution
+    C) When the problem involves a series of choices leading to a final solution
+    D) When the problem has a globally optimal solution at each step
+    - Answer: C
+
+
+16. What is the primary characteristic of dynamic programming?
+    A) It relies on making locally optimal choices at each step.
+    B) It explores all possible solutions through exhaustive search.
+    C) It stores and reuses solutions to subproblems.
+    D) It involves dividing the problem into smaller subproblems.
+    - Answer: C
+
+17. Which problem-solving strategy does dynamic programming resemble?
+    A) Greedy algorithms
+    B) Divide and conquer
+    C) Brute force algorithms
+    D) Backtracking
+    - Answer: B
+
+18. What is the time complexity of dynamic programming algorithms?
+    A) Exponential
+    B) Polynomial
+    C) Logarithmic
+    D) Linear
+    - Answer: B
+
+19. In dynamic programming, what does memoization involve?
+    A) Storing the results of already solved subproblems
+    B) Repeating the computation of subproblems
+    C) Exploring all possible solutions exhaustively
+    D) Making greedy choices at each step
+    - Answer: A
+
+20. Which of the following problems can be efficiently solved using dynamic programming?
+    A) Traveling Salesman Problem (TSP)
+    B) Knapsack problem
+    C) Longest common subsequence problem
+    D) Graph coloring problem
+    - Answer: C
+
+
+21. What is the fundamental principle of backtracking algorithms?
+    A) Making locally optimal choices
+    B) Storing solutions to subproblems
+    C) Exploring all possible solutions
+    D) Dividing the problem into smaller subproblems
+    - Answer: C
+
+22. Which problem-solving approach does backtracking closely resemble?
+    A) Greedy algorithms
+    B) Dynamic programming
+    C) Divide and conquer
+    D) Brute force algorithms
+    - Answer: D
+
+23. What is the primary characteristic of a backtracking algorithm?
+    A) It always finds the optimal solution.
+    B) It prunes the search space to improve efficiency.
+    C) It backtracks to previous choices if the current path leads to a dead end.
+    D) It breaks down the problem into smaller subproblems.
+    - Answer: C
+
+24. Which of the following problems is typically solved using backtracking?
+    A) Shortest path problem
+    B) Knapsack problem
+    C) Longest common subsequence problem
+    D) Matrix chain multiplication
+    - Answer: B
+
+25. What is the time complexity of backtracking algorithms in the worst-case scenario?
+    A) Exponential
+    B) Polynomial
+    C) Logarithmic
+    D) Linear
+    - Answer: A
+
+
+26. What distinguishes randomized algorithms from deterministic algorithms?
+    A) Randomized algorithms guarantee an optimal solution.
+    B) Randomized algorithms involve making random choices during computation.
+    C) Randomized algorithms avoid making decisions based on probabilities.
+    D) Randomized algorithms follow a predetermined sequence of steps.
+    - Answer: B
+
+27. Which of the following problems can be efficiently solved using a randomized algorithm?
+    A) Traveling Salesman Problem (TSP)
+    B) Knapsack problem
+    C) Matrix multiplication
+    D) Shortest path problem
+    - Answer: C
+
+28. What is the primary advantage of randomized algorithms?
+    A) They always produce the optimal solution.
+    B) They are faster than deterministic algorithms.
+    C) They are more predictable in terms of performance.
+    D) They can handle problems with large solution spaces.
+    - Answer: D
+
+29. Which problem-solving strategy does a randomized algorithm employ?
+    A) Divide and conquer
+    B) Greedy selection
+    C) Random sampling
+    D) Backtracking
+    - Answer: C
+
+30. What is the primary challenge associated with randomized algorithms?
+    A) Determining the optimal solution
+    B) Achieving reproducibility of results
+    C) Controlling the randomness and analyzing performance
+    D) Handling problems with small solution spaces
+    - Answer: C
+31. Which of the following problems is typically solved using a brute force algorithm?
+    A) Finding the shortest path in a weighted graph
+    B) Sorting a list of integers
+    C) Computing the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: A
+
+32. What is the primary drawback of brute force algorithms?
+    A) They have high space complexity
+    B) They are not applicable to complex problems
+    C) They have exponential time complexity
+    D) They cannot handle dynamic inputs
+    - Answer: C
+
+33. Which of the following problems is an example of a combinatorial optimization problem that can be solved using a brute force algorithm?
+    A) Sorting a list of integers
+    B) Finding the shortest path in a weighted graph
+    C) Computing the factorial of a number
+    D) Finding the maximum element in an array
+    - Answer: B
+
+34. What is the time complexity of a brute force algorithm for finding all subsets of a set with n elements?
+    A) O(n)
+    B) O(2^n)
+    C) O(n!)
+    D) O(n^2)
+    - Answer: B
+
+35. In which scenario is a brute force algorithm preferable over other approaches?
+    A) When the problem size is small
+    B) When the problem has overlapping subproblems
+    C) When the problem exhibits optimal substructure
+    D) When the problem has a polynomial-time solution
+    - Answer: A
+
+
+36. Which of the following problems can be efficiently solved using a divide and conquer algorithm?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Solving systems of linear equations
+    D) Calculating the factorial of a number
+    - Answer: A
+
+37. What is the primary advantage of divide and conquer algorithms?
+    A) They have lower space complexity compared to other approaches
+    B) They are easier to implement and debug
+    C) They can exploit parallelism to improve performance
+    D) They have logarithmic time complexity for many problems
+    - Answer: C
+
+38. Which of the following problems is an example of a problem that naturally lends itself to a divide and conquer approach?
+    A) Finding the shortest path in a weighted graph
+    B) Sorting a list of integers
+    C) Computing the Fibonacci sequence
+    D) Finding the maximum element in an array
+    - Answer: B
+
+39. What is the time complexity of merge sort, a classic example of a divide and conquer algorithm, for sorting n elements?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: B
+
+40. What does the "divide" step in divide and conquer algorithms involve?
+    A) Combining the solutions to subproblems
+    B) Breaking the problem into smaller subproblems
+    C) Making locally optimal choices
+    D) Reusing previously computed solutions
+    - Answer: B
+
+
+41. Which of the following problems is typically solved using a greedy algorithm?
+    A) Finding the shortest path in a weighted graph
+    B) Sorting a list of integers
+    C) Computing the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: A
+
+42. What is the primary characteristic of a greedy algorithm?
+    A) It always produces the optimal solution
+    B) It explores all possible solutions exhaustively
+    C) It makes locally optimal choices at each step
+    D) It relies on backtracking to find the solution
+    - Answer: C
+
+43. Which of the following problems can be efficiently solved using a greedy algorithm?
+    A) Knapsack problem
+    B) Traveling Salesman Problem (TSP)
+    C) Longest common subsequence problem
+    D) Matrix chain multiplication
+    - Answer: A
+
+44. What is the time complexity of Dijkstra's algorithm, a classic example of a greedy algorithm, for finding the shortest path in a weighted graph?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+45. In which scenario can a greedy algorithm fail to produce the optimal solution?
+    A) When the problem has a single optimal solution
+    B) When the problem exhibits overlapping subproblems
+    C) When the problem involves a series of choices leading to a final solution
+    D) When the problem has a globally optimal solution at each step
+    - Answer: C
+
+
+46. Which of the following problems can be efficiently solved using dynamic programming?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Computing the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: C
+
+47. What is the primary characteristic of dynamic programming?
+    A) It relies on making locally optimal choices at each step
+    B) It explores all possible solutions exhaustively
+    C) It stores and reuses solutions to subproblems
+    D) It involves dividing the problem into smaller subproblems
+    - Answer: C
+
+48. What is the time complexity of dynamic programming algorithms?
+    A) Exponential
+    B) Polynomial
+    C) Logarithmic
+    D) Linear
+    - Answer: B
+
+49. What is the primary advantage of dynamic programming?
+    A) It always produces the optimal solution
+    B) It is faster than brute force algorithms
+    C) It can handle problems with large solution spaces
+    D) It is easy to implement and understand
+    - Answer: C
+
+50. What is memoization in the context of dynamic programming?
+    A) Storing the results of already solved subproblems
+    B) Repeating the computation of subproblems
+    C) Exploring all possible solutions exhaustively
+    D) Making greedy choices at each step
+    - Answer: A
+
+
+51. What is the fundamental principle of backtracking algorithms?
+    A) Making locally optimal choices
+    B) Storing solutions to subproblems
+    C) Exploring all possible solutions
+    D) Dividing the problem into smaller subproblems
+    - Answer: C
+
+52. Which of the following problems is typically solved using backtracking?
+    A) Finding the shortest path in a weighted graph
+    B) Sorting a list of integers
+    C) Generating all permutations of a set
+    D) Computing the Fibonacci sequence
+    - Answer: C
+
+53. What is the primary characteristic of a backtracking algorithm?
+    A) It always finds the optimal solution
+    B) It prunes the search space to improve efficiency
+    C) It backtracks to previous choices if the current path leads to a dead end
+    D) It breaks down the problem into smaller subproblems
+    - Answer: C
+
+54. What is the time complexity of backtracking algorithms in the worst-case scenario?
+    A) Exponential
+    B) Polynomial
+    C) Logarithmic
+    D) Linear
+    - Answer: A
+
+55. What is the primary challenge associated with backtracking algorithms?
+    A) Determining the optimal solution
+    B) Achieving reproducibility of results
+    C) Controlling the randomness and analyzing performance
+    D) Handling problems with small solution spaces
+    - Answer: C
+
+
+56. What distinguishes randomized algorithms from deterministic algorithms?
+    A) Randomized algorithms guarantee an optimal solution
+    B) Randomized algorithms involve making random choices during computation
+    C) Randomized algorithms avoid making decisions based on probabilities
+    D) Randomized algorithms follow a predetermined sequence of steps
+    - Answer: B
+
+57. Which of the following problems can be efficiently solved using a randomized algorithm?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Generating all permutations of a set
+    D) Calculating the Fibonacci sequence
+    - Answer: C
+
+58. What is the primary advantage of randomized algorithms?
+    A) They always produce the optimal solution
+    B) They are faster than deterministic algorithms
+    C) They are more predictable in terms of performance
+    D) They can handle problems with large solution spaces
+    - Answer: D
+
+59. Which problem-solving strategy does a randomized algorithm employ?
+    A) Divide and conquer
+    B) Greedy selection
+    C) Random sampling
+    D) Backtracking
+    - Answer: C
+
+60. What is the primary challenge associated with randomized algorithms?
+    A) Determining the optimal solution
+    B) Achieving reproducibility of results
+    C) Controlling the randomness and analyzing performance
+    D) Handling problems with small solution spaces
+    - Answer: C
+
+61. Which of the following problems can be efficiently solved using a brute force algorithm?
+    A) Finding the shortest path in a weighted graph
+    B) Sorting a list of integers
+    C) Calculating the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: B
+
+62. What is the primary disadvantage of brute force algorithms?
+    A) They require extensive computational resources
+    B) They are difficult to implement
+    C) They often result in incorrect solutions
+    D) They cannot handle large problem instances
+    - Answer: A
+
+63. Which of the following problems can be solved using a brute force algorithm with a time complexity of O(2^n)?
+    A) Finding the maximum element in an array
+    B) Generating all permutations of a set
+    C) Calculating the factorial of a number
+    D) Sorting a list of integers
+    - Answer: B
+
+64. What is the primary advantage of brute force algorithms?
+    A) They are easy to implement
+    B) They guarantee the optimal solution
+    C) They have low space complexity
+    D) They can handle complex optimization problems
+    - Answer: A
+
+65. Which of the following problems is an example of a problem that can be solved using brute force algorithms but may not be practical for large problem instances?
+    A) Sorting a list of integers
+    B) Traveling Salesman Problem (TSP)
+    C) Calculating the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: B
+
+
+66. Which of the following problems can be efficiently solved using a divide and conquer algorithm?
+    A) Finding the maximum element in an array
+    B) Sorting a list of integers
+    C) Generating all permutations of a set
+    D) Calculating the Fibonacci sequence
+    - Answer: B
+
+67. What is the primary advantage of divide and conquer algorithms?
+    A) They are easy to implement
+    B) They have low time complexity
+    C) They can exploit parallelism to improve performance
+    D) They guarantee the optimal solution
+    - Answer: C
+
+68. Which of the following problems is an example of a problem that naturally lends itself to a divide and conquer approach?
+    A) Calculating the factorial of a number
+    B) Finding the shortest path in a weighted graph
+    C) Solving systems of linear equations
+    D) Sorting a list of integers
+    - Answer: D
+
+69. What is the time complexity of binary search, a classic example of a divide and conquer algorithm, for searching a sorted array of n elements?
+    A) O(log n)
+    B) O(n)
+    C) O(n log n)
+    D) O(2^n)
+    - Answer: A
+
+70. What does the "conquer" step in divide and conquer algorithms involve?
+    A) Combining the solutions to subproblems
+    B) Breaking the problem into smaller subproblems
+    C) Making locally optimal choices
+    D) Reusing previously computed solutions
+    - Answer: A
+
+
+71. Which of the following problems is typically solved using a greedy algorithm?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Calculating the Fibonacci sequence
+    D) Finding the shortest path in a weighted graph
+    - Answer: D
+
+72. What is the primary characteristic of a greedy algorithm?
+    A) It always produces the optimal solution
+    B) It explores all possible solutions exhaustively
+    C) It makes locally optimal choices at each step
+    D) It relies on backtracking to find the solution
+    - Answer: C
+
+73. Which of the following problems can be efficiently solved using a greedy algorithm?
+    A) Knapsack problem
+    B) Traveling Salesman Problem (TSP)
+    C) Longest common subsequence problem
+    D) Matrix chain multiplication
+    - Answer: A
+
+74. What is the time complexity of Prim's algorithm, a classic example of a greedy algorithm, for finding the minimum spanning tree of a graph with n vertices?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+75. In which scenario can a greedy algorithm fail to produce the optimal solution?
+    A) When the problem has a single optimal solution
+    B) When the problem exhibits overlapping subproblems
+    C) When the problem involves a series of choices leading to a final solution
+    D) When the problem has a globally optimal solution at each step
+    - Answer: C
+
+
+76. Which of the following problems can be efficiently solved using dynamic programming?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Calculating the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: C
+
+77. What is the primary characteristic of dynamic programming?
+    A) It relies on making locally optimal choices at each step
+    B) It explores all possible solutions exhaustively
+    C) It stores and reuses solutions to subproblems
+    D) It involves dividing the problem into smaller subproblems
+    - Answer: C
+
+78. What is the time complexity of dynamic programming algorithms?
+    A) Exponential
+    B) Polynomial
+    C) Logarithmic
+    D) Linear
+    - Answer: B
+
+79. What is the primary advantage of dynamic programming?
+    A) It always produces the optimal solution
+    B) It is faster than brute force algorithms
+    C) It can handle problems with large solution spaces
+    D) It is easy to implement and understand
+    - Answer: C
+
+80. What is memoization in the context of dynamic programming?
+    A) Storing the results of already solved subproblems
+    B) Repeating the computation of subproblems
+    C) Exploring all possible solutions exhaustively
+    D) Making greedy choices at each step
+    - Answer: A
+
+
+81. What is the fundamental principle of backtracking algorithms?
+    A) Making locally optimal choices
+    B) Storing solutions to subproblems
+    C) Exploring all possible solutions
+    D) Dividing the problem into smaller subproblems
+    - Answer: C
+
+82. Which of the following problems is typically solved using backtracking?
+    A) Finding the shortest path in a weighted graph
+    B) Sorting a list of integers
+    C) Generating all permutations of a set
+    D) Calculating the Fibonacci sequence
+    - Answer: C
+
+83. What is the primary characteristic of a backtracking algorithm?
+    A) It always finds the optimal solution
+    B) It prunes the search space to improve efficiency
+    C) It backtracks to previous choices if the current path leads to a dead end
+    D) It breaks down the problem into smaller subproblems
+    - Answer: C
+
+84. What is the time complexity of backtracking algorithms in the worst-case scenario?
+    A) Exponential
+    B) Polynomial
+    C) Logarithmic
+    D) Linear
+    - Answer: A
+
+85. What is the primary challenge associated with backtracking algorithms?
+    A) Determining the optimal solution
+    B) Achieving reproducibility of results
+    C) Controlling the randomness and analyzing performance
+    D) Handling problems with small solution spaces
+    - Answer: C
+
+
+86. What distinguishes randomized algorithms from deterministic algorithms?
+    A) Randomized algorithms guarantee an optimal solution
+    B) Randomized algorithms involve making random choices during computation
+    C) Randomized algorithms avoid making decisions based on probabilities
+    D) Randomized algorithms follow a predetermined sequence of steps
+    - Answer: B
+
+87. Which of the following problems can be efficiently solved using a randomized algorithm?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Generating all permutations of a set
+    D) Calculating the Fibonacci sequence
+    - Answer: C
+
+88. What is the primary advantage of randomized algorithms?
+    A) They always produce the optimal solution
+    B) They are faster than deterministic algorithms
+    C) They are more predictable in terms of performance
+    D) They can handle problems with large solution spaces
+    - Answer: D
+
+89. Which problem-solving strategy does a randomized algorithm employ?
+    A) Divide and conquer
+    B) Greedy selection
+    C) Random sampling
+    D) Backtracking
+    - Answer: C
+
+90. What is the primary challenge associated with randomized algorithms?
+    A) Determining the optimal solution
+    B) Achieving reproducibility of results
+    C) Controlling the randomness and analyzing performance
+    D) Handling problems with small solution spaces
+    - Answer: C
+
+91. What is the primary characteristic of brute force algorithms?
+    A) They always produce the optimal solution.
+    B) They make use of randomization.
+    C) They rely on divide and conquer principles.
+    D) They exhaustively search through all possible solutions.
+    - Answer: D
+
+92. Which of the following problems is typically solved using a brute force algorithm?
+    A) Shortest path problem
+    B) Knapsack problem
+    C) Longest common subsequence problem
+    D) Travelling Salesman Problem (TSP)
+    - Answer: D
+
+
+93. Which of the following problems can be efficiently solved using a divide and conquer algorithm?
+    A) Sorting a list of integers
+    B) Generating all permutations of a set
+    C) Finding the maximum element in an array
+    D) Calculating the Fibonacci sequence
+    - Answer: A
+
+94. What is the primary advantage of divide and conquer algorithms?
+    A) They have lower space complexity compared to other approaches.
+    B) They are easier to implement and debug.
+    C) They can exploit parallelism to improve performance.
+    D) They guarantee the optimal solution.
+    - Answer: C
+
+
+95. Which of the following problems is typically solved using a greedy algorithm?
+    A) Longest common subsequence problem
+    B) Knapsack problem
+    C) Matrix chain multiplication
+    D) Travelling Salesman Problem (TSP)
+    - Answer: B
+
+96. What is the primary characteristic of a greedy algorithm?
+    A) It always produces the optimal solution.
+    B) It explores all possible solutions exhaustively.
+    C) It makes locally optimal choices at each step.
+    D) It relies on backtracking to find the solution.
+    - Answer: C
+
+
+97. Which of the following problems can be efficiently solved using dynamic programming?
+    A) Sorting a list of integers
+    B) Finding the maximum element in an array
+    C) Calculating the Fibonacci sequence
+    D) Solving systems of linear equations
+    - Answer: C
+
+98. What is the primary advantage of dynamic programming?
+    A) It always produces the optimal solution.
+    B) It is faster than brute force algorithms.
+    C) It can handle problems with large solution spaces.
+    D) It is easy to implement and understand.
+    - Answer: C
+
+
+99. What is the fundamental principle of backtracking algorithms?
+    A) Making locally optimal choices.
+    B) Storing solutions to subproblems.
+    C) Exploring all possible solutions.
+    D) Dividing the problem into smaller subproblems.
+    - Answer: C
+
+100. Which of the following problems is typically solved using backtracking?
+    A) Finding the shortest path in a weighted graph.
+    B) Sorting a list of integers.
+    C) Generating all permutations of a set.
+    D) Calculating the Fibonacci sequence.
+    - Answer: C
+
+1. What is the primary operation performed in each pass of the Bubble Sort algorithm?
+   A) Selection
+   B) Insertion
+   C) Swapping adjacent elements
+   D) Merging subarrays
+   - Answer: C
+
+2. What is the worst-case time complexity of the Bubble Sort algorithm for sorting n elements?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+3. Which of the following sorting algorithms is known for its simplicity but is inefficient on large lists?
+   A) Merge Sort
+   B) Quick Sort
+   C) Bubble Sort
+   D) Radix Sort
+   - Answer: C
+
+4. In Bubble Sort, after the first pass, the largest element will be found at which position?
+   A) First
+   B) Last
+   C) Middle
+   D) Any position
+   - Answer: B
+
+5. What is the primary disadvantage of the Bubble Sort algorithm?
+   A) High space complexity
+   B) Unstable sorting
+   C) Worst-case time complexity
+   D) Inefficiency on large lists
+   - Answer: D
+
+
+6. What is the primary operation performed in each pass of the Selection Sort algorithm?
+   A) Insertion
+   B) Merging subarrays
+   C) Swapping adjacent elements
+   D) Finding the minimum element
+   - Answer: D
+
+7. What is the worst-case time complexity of the Selection Sort algorithm for sorting n elements?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+8. Which of the following sorting algorithms exhibits poor performance even on small lists?
+   A) Merge Sort
+   B) Quick Sort
+   C) Selection Sort
+   D) Radix Sort
+   - Answer: C
+
+9. In Selection Sort, after the first pass, the smallest element will be found at which position?
+   A) First
+   B) Last
+   C) Middle
+   D) Any position
+   - Answer: A
+
+10. What is the primary advantage of the Selection Sort algorithm?
+    A) Stability in sorting
+    B) Low space complexity
+    C) Ease of implementation
+    D) Fast performance on large lists
+    - Answer: C
+
+
+11. What is the primary operation performed in each iteration of the Insertion Sort algorithm?
+    A) Swapping adjacent elements
+    B) Finding the minimum element
+    C) Shifting elements to make room for insertion
+    D) Merging subarrays
+    - Answer: C
+
+12. What is the worst-case time complexity of the Insertion Sort algorithm for sorting n elements?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+13. Which of the following sorting algorithms works efficiently for small datasets or nearly sorted arrays?
+    A) Merge Sort
+    B) Quick Sort
+    C) Insertion Sort
+    D) Radix Sort
+    - Answer: C
+
+14. In Insertion Sort, after the first pass, the sorted subarray consists of how many elements?
+    A) 1
+    B) n-1
+    C) n
+    D) 0
+    - Answer: A
+
+15. What is the primary advantage of the Insertion Sort algorithm?
+    A) Stability in sorting
+    B) Low space complexity
+    C) Ease of implementation
+    D) Fast performance on large lists
+    - Answer: C
+
+
+16. Which of the following sorting algorithms uses the divide-and-conquer strategy?
+    A) Bubble Sort
+    B) Selection Sort
+    C) Merge Sort
+    D) Insertion Sort
+    - Answer: C
+
+17. What is the worst-case time complexity of the Merge Sort algorithm for sorting n elements?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: B
+
+18. Which step in the Merge Sort algorithm combines two sorted arrays into a single sorted array?
+    A) Merge
+    B) Split
+    C) Sort
+    D) Partition
+    - Answer: A
+
+19. Merge Sort exhibits which of the following properties?
+    A) In-place sorting
+    B) Stability in sorting
+    C) Worst-case time complexity of O(n^2)
+    D) Unstable sorting
+    - Answer: B
+
+20. What is the primary advantage of the Merge Sort algorithm?
+    A) Low space complexity
+    B) Fast performance on nearly sorted arrays
+    C) In-place sorting
+    D) Ease of implementation
+    - Answer: A
+
+
+21. Which of the following sorting algorithms uses the divide-and-conquer strategy?
+    A) Bubble Sort
+    B) Selection Sort
+    C) Quick Sort
+    D) Insertion Sort
+    - Answer: C
+
+22. What is the worst-case time complexity of the Quick Sort algorithm for sorting n elements?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+23. Which step in the Quick Sort algorithm divides the array into two subarrays?
+    A) Merge
+    B) Split
+    C) Partition
+    D) Sort
+    - Answer: C
+
+24. Quick Sort exhibits which of the following properties?
+    A) In-place sorting
+    B) Stability in sorting
+    C) Worst-case time complexity of O(n^2)
+    D) Unstable sorting
+    - Answer: A
+
+25. What is the primary advantage of the Quick Sort algorithm?
+    A) Low space complexity
+    B) Fast performance on nearly sorted arrays
+    C) Stability in sorting
+    D) Ease of implementation
+    - Answer: B
+
+
+26. Which data structure is essential for the Heap Sort algorithm?
+    A) Stack
+    B) Queue
+    C) Heap
+    D) Linked List
+    - Answer: C
+
+27. What is the worst-case time complexity of the Heap Sort algorithm for sorting n elements?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: B
+
+28. Which step in the Heap Sort algorithm transforms an array into a max-heap or min-heap?
+    A) Heapify
+    B) Sort
+    C) Partition
+    D) Merge
+    - Answer: A
+
+29. Heap Sort exhibits which of the following properties?
+    A) In-place sorting
+    B) Stability in sorting
+    C) Worst-case time complexity of O(n^2)
+    D) Unstable sorting
+    - Answer: A
+
+30. What is the primary advantage of the Heap Sort algorithm?
+    A) Low space complexity
+    B) Fast performance on nearly sorted arrays
+    C) Stability in sorting
+    D) Ease of implementation
+    - Answer: A
+
+
+1. What is the main characteristic of the bubble sort algorithm?
+   A) It repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+   B) It divides the array into two subarrays and recursively sorts them.
+   C) It selects the smallest element from the unsorted portion and swaps it with the first element.
+   D) It builds the final sorted array by incrementally merging sorted subarrays.
+   - Answer: A
+
+2. What is the time complexity of the bubble sort algorithm in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+
+3. What does the selection sort algorithm do in each iteration?
+   A) It repeatedly swaps adjacent elements if they are in the wrong order.
+   B) It selects the smallest element from the unsorted portion and swaps it with the first element.
+   C) It divides the array into two subarrays and recursively sorts them.
+   D) It builds the final sorted array by incrementally merging sorted subarrays.
+   - Answer: B
+
+4. What is the time complexity of the selection sort algorithm in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+
+5. How does the insertion sort algorithm work?
+   A) It repeatedly swaps adjacent elements if they are in the wrong order.
+   B) It selects the smallest element from the unsorted portion and swaps it with the first element.
+   C) It builds the final sorted array by incrementally merging sorted subarrays.
+   D) It inserts each element into its proper place in a sorted subarray.
+   - Answer: D
+
+6. What is the time complexity of the insertion sort algorithm in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+
+7. What is the main characteristic of the merge sort algorithm?
+   A) It repeatedly swaps adjacent elements if they are in the wrong order.
+   B) It selects the smallest element from the unsorted portion and swaps it with the first element.
+   C) It divides the array into two subarrays and recursively sorts them.
+   D) It builds the final sorted array by incrementally merging sorted subarrays.
+   - Answer: C
+
+8. What is the time complexity of the merge sort algorithm in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: B
+
+
+9. What does the quick sort algorithm do in each iteration?
+   A) It repeatedly swaps adjacent elements if they are in the wrong order.
+   B) It selects the smallest element from the unsorted portion and swaps it with the first element.
+   C) It divides the array into two subarrays and recursively sorts them.
+   D) It partitions the array into two parts based on a pivot element and recursively sorts them.
+   - Answer: D
+
+10. What is the time complexity of the quick sort algorithm in the worst-case scenario?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+
+11. What is the primary data structure used in the heap sort algorithm?
+    A) Linked list
+    B) Queue
+    C) Stack
+    D) Binary heap
+    - Answer: D
+
+12. What is the time complexity of the heap sort algorithm in the worst-case scenario?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: B
+
+
+13. How does the radix sort algorithm sort elements?
+    A) It repeatedly swaps adjacent elements if they are in the wrong order.
+    B) It divides the array into two subarrays and recursively sorts them.
+    C) It distributes elements into buckets based on their digits, from the least significant to the most significant.
+    D) It selects the smallest element from the unsorted portion and swaps it with the first element.
+    - Answer: C
+
+14. What is the time complexity of the radix sort algorithm in the worst-case scenario?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: B
+
+
+15. Under what condition is counting sort particularly efficient?
+    A) When the range of input elements is significantly smaller than the number of elements to be sorted.
+    B) When the input elements are already partially sorted.
+    C) When the input elements are distributed uniformly across a large range.
+    D) When the input elements are distinct integers.
+    - Answer: A
+
+16. What is the time complexity of counting sort?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(k), where k is the range of input elements
+    - Answer: D
+
+
+17. What is the primary characteristic of the bucket sort algorithm?
+    A) It repeatedly swaps adjacent elements if they are in the wrong order.
+    B) It selects the smallest element from the unsorted portion and swaps it with the first element.
+    C) It divides the array into two subarrays and recursively sorts them.
+    D) It distributes elements into a finite number of buckets and sorts each bucket individually.
+    - Answer: D
+
+18. What is the time complexity of bucket sort in the average case?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) It depends on the sorting algorithm used to sort the elements within each bucket.
+    - Answer: B
+
+19. In the bubble sort algorithm, what happens during each pass through the array?
+   A) The largest element bubbles up to its correct position.
+   B) The smallest element is moved to the beginning of the array.
+   C) Adjacent elements are compared and swapped if they are in the wrong order.
+   D) Elements are divided into subarrays for further sorting.
+   - Answer: C
+
+20. What is the best-case time complexity of the bubble sort algorithm?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: A
+
+
+21. How does the selection sort algorithm sort elements?
+    A) By repeatedly swapping adjacent elements if they are in the wrong order.
+    B) By selecting the smallest element from the unsorted portion and moving it to the sorted portion.
+    C) By partitioning the array into two subarrays based on a pivot element.
+    D) By recursively dividing the array and sorting each partition.
+    - Answer: B
+
+22. What is the worst-case time complexity of the selection sort algorithm?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+
+23. In the insertion sort algorithm, how are elements inserted into the sorted portion of the array?
+    A) By swapping adjacent elements until the array is sorted.
+    B) By selecting the smallest element from the unsorted portion and moving it to the sorted portion.
+    C) By comparing each element with its adjacent element and swapping if necessary.
+    D) By shifting elements to the right until the correct position for insertion is found.
+    - Answer: D
+
+24. What is the average-case time complexity of the insertion sort algorithm?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+
+25. How does the merge sort algorithm work?
+    A) By repeatedly swapping adjacent elements if they are in the wrong order.
+    B) By selecting the smallest element from the unsorted portion and moving it to the sorted portion.
+    C) By dividing the array into two subarrays, sorting each subarray, and then merging them.
+    D) By partitioning the array into two subarrays based on a pivot element.
+    - Answer: C
+
+26. What is the space complexity of the merge sort algorithm?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+
+27. What is the main advantage of the quick sort algorithm over other sorting algorithms?
+    A) It has a lower space complexity.
+    B) It is stable.
+    C) It is not affected by the initial order of the elements.
+    D) It has an average-case time complexity of O(n log n).
+    - Answer: D
+
+28. What is the worst-case time complexity of the quick sort algorithm?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: C
+
+
+29. Which data structure is used in the heap sort algorithm?
+    A) Linked list
+    B) Stack
+    C) Queue
+    D) Binary heap
+    - Answer: D
+
+30. What is the time complexity of the heap sort algorithm?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(2^n)
+    - Answer: B
+
+
+31. In radix sort, how are elements sorted?
+    A) By recursively partitioning the array into smaller subarrays.
+    B) By distributing elements into buckets based on a range of values.
+    C) By comparing adjacent elements and swapping if necessary.
+    D) By distributing elements into buckets based on digits.
+    - Answer: D
+
+32. What is the time complexity of radix sort?
+    A) O(n)
+    B) O(n log n)
+    C) O(nk), where k is the number of digits in the largest element.
+    D) O(n^2)
+    - Answer: C
+
+
+33. When is counting sort particularly efficient?
+    A) When the input elements are distributed uniformly across a large range.
+    B) When the input elements are already partially sorted.
+    C) When the input elements are distinct integers.
+    D) When the range of input elements is significantly smaller than the number of elements to be sorted.
+    - Answer: A
+
+34. What is the time complexity of counting sort?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) O(k), where k is the range of input elements.
+    - Answer: D
+
+
+35. How does bucket sort work?
+    A) By recursively partitioning the array into smaller subarrays.
+    B) By distributing elements into a finite number of buckets and sorting each bucket individually.
+    C) By comparing adjacent elements and swapping if necessary.
+    D) By selecting the smallest element from the unsorted portion and moving it to the sorted portion.
+    - Answer: B
+
+36. What is the time complexity of bucket sort in the average case?
+    A) O(n)
+    B) O(n log n)
+    C) O(n^2)
+    D) It depends on the sorting algorithm used to sort the elements within each bucket.
+    - Answer: B
+
+37. What is the primary disadvantage of the bubble sort algorithm?
+   A) It has a high space complexity.
+   B) It is not stable.
+   C) It has a time complexity of O(n log n) in the worst-case scenario.
+   D) It has a time complexity of O(n^2) in the worst-case scenario.
+   - Answer: D
+
+38. Which of the following statements is true about bubble sort?
+   A) It is always faster than quicksort.
+   B) It is always faster than insertion sort.
+   C) It is adaptive, meaning it can take advantage of existing order in its input.
+   D) It is not a comparison-based sorting algorithm.
+   - Answer: C
+
+
+39. What is the main disadvantage of selection sort?
+   A) It has a high space complexity.
+   B) It is not stable.
+   C) It has a time complexity of O(n^2) in the best-case scenario.
+   D) It has a time complexity of O(n log n) in the worst-case scenario.
+   - Answer: B
+
+40. Which of the following statements is true about selection sort?
+   A) It always maintains the relative order of equal elements.
+   B) It performs better than merge sort on small arrays.
+   C) It is not an in-place sorting algorithm.
+   D) It is particularly efficient for sorting linked lists.
+   - Answer: D
+
+
+41. What is the primary advantage of insertion sort?
+   A) It has a low space complexity.
+   B) It is not affected by the initial order of the elements.
+   C) It has a time complexity of O(n log n) in the worst-case scenario.
+   D) It has a time complexity of O(n) in the worst-case scenario.
+   - Answer: A
+
+42. Which of the following statements is true about insertion sort?
+   A) It is not stable.
+   B) It is an adaptive sorting algorithm.
+   C) It performs poorly on partially sorted arrays.
+   D) It has a time complexity of O(n^2) in the best-case scenario.
+   - Answer: B
+
+
+43. What is the primary advantage of merge sort?
+   A) It has a low space complexity.
+   B) It is not affected by the initial order of the elements.
+   C) It is an in-place sorting algorithm.
+   D) It has a time complexity of O(n) in the worst-case scenario.
+   - Answer: A
+
+44. Which of the following statements is true about merge sort?
+   A) It is not a stable sorting algorithm.
+   B) It is particularly efficient for sorting small arrays.
+   C) It has a time complexity of O(n^2) in the worst-case scenario.
+   D) It divides the array into three subarrays in each recursive step.
+   - Answer: D
+
+
+45. What is the main disadvantage of quick sort?
+   A) It has a high space complexity.
+   B) It is not stable.
+   C) It is not an in-place sorting algorithm.
+   D) It has a time complexity of O(n) in the worst-case scenario.
+   - Answer: B
+
+46. Which of the following statements is true about quick sort?
+   A) It always maintains the relative order of equal elements.
+   B) It has a time complexity of O(n^2) in the best-case scenario.
+   C) It performs better than merge sort on linked lists.
+   D) It is not affected by the initial order of the elements.
+   - Answer: C
+
+
+47. What is the primary advantage of heap sort?
+   A) It is an adaptive sorting algorithm.
+   B) It has a time complexity of O(n log n) in the worst-case scenario.
+   C) It is particularly efficient for partially sorted arrays.
+   D) It has a low space complexity.
+   - Answer: B
+
+48. Which of the following statements is true about heap sort?
+   A) It is not an in-place sorting algorithm.
+   B) It is not a comparison-based sorting algorithm.
+   C) It performs better than quicksort on small arrays.
+   D) It is not affected by the initial order of the elements.
+   - Answer: A
+
+
+49. What is the main disadvantage of radix sort?
+   A) It has a high space complexity.
+   B) It is not stable.
+   C) It has a time complexity of O(n^2) in the worst-case scenario.
+   D) It is not an in-place sorting algorithm.
+   - Answer: D
+
+50. Which of the following statements is true about radix sort?
+   A) It sorts elements by comparing adjacent elements and swapping if necessary.
+   B) It is particularly efficient for sorting large arrays with few unique keys.
+   C) It has a time complexity of O(n log n) in the worst-case scenario.
+   D) It is not affected by the initial order of the elements.
+   - Answer: B
+
+51. In counting sort, what is the purpose of the auxiliary array used?
+   A) To store the sorted elements
+   B) To count the occurrences of each element in the input array
+   C) To determine the pivot element for partitioning
+   D) To keep track of the indices of elements in the sorted array
+   - Answer: B
+
+52. What is the time complexity of counting sort?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(k + n), where k is the range of input elements
+   - Answer: D
+
+
+53. Bucket sort divides the input array into equal-sized intervals, called buckets. What determines the number of buckets used?
+   A) The length of the input array
+   B) The maximum value in the input array
+   C) The minimum value in the input array
+   D) The sum of all elements in the input array
+   - Answer: B
+
+54. Which of the following statements about bucket sort is true?
+   A) Bucket sort is a comparison-based sorting algorithm.
+   B) Bucket sort has a time complexity of O(n^2) in the worst-case scenario.
+   C) Bucket sort is stable.
+   D) Bucket sort is particularly efficient when the input array is uniformly distributed.
+   - Answer: D
+
+
+55. Which of the following sorting algorithms typically has the best time complexity in the worst-case scenario?
+   A) Bubble sort
+   B) Merge sort
+   C) Quick sort
+   D) Selection sort
+   - Answer: B
+
+56. Which sorting algorithm is known for its efficient performance on small datasets and partially sorted arrays?
+   A) Merge sort
+   B) Heap sort
+   C) Insertion sort
+   D) Radix sort
+   - Answer: C
+
+
+57. In which of the following scenarios is it most appropriate to use quick sort over merge sort?
+   A) When the dataset is large and nearly sorted
+   B) When the dataset contains many duplicate elements
+   C) When the dataset is small and memory is limited
+   D) When stability in sorting is required
+   - Answer: A
+
+58. Which sorting algorithm is commonly used as a subroutine in more advanced algorithms like Timsort?
+   A) Insertion sort
+   B) Quick sort
+   C) Radix sort
+   D) Bubble sort
+   - Answer: A
+
+
+59. In which of the following scenarios would counting sort be most suitable?
+   A) Sorting a list of names alphabetically
+   B) Sorting a list of integers in a small range
+   C) Sorting a list of floating-point numbers
+   D) Sorting a list of dates in chronological order
+   - Answer: B
+
+60. Bucket sort is often used in:
+   A) Sorting linked lists
+   B) Implementing priority queues
+   C) External sorting of large datasets
+   D) Cryptography applications
+   - Answer: C
+
+61. Which of the following describes the process of bubble sort?
+   A) Swapping adjacent elements until the array is sorted.
+   B) Selecting the smallest element and moving it to the beginning.
+   C) Dividing the array into two subarrays and recursively sorting them.
+   D) Merging two sorted subarrays into one.
+   - Answer: A
+
+62. What is the time complexity of bubble sort in the best-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: A
+
+
+63. What does selection sort repeatedly do to sort an array?
+   A) Swaps adjacent elements until the array is sorted.
+   B) Selects the smallest element and moves it to the beginning.
+   C) Divides the array into two subarrays and recursively sorts them.
+   D) Merges two sorted subarrays into one.
+   - Answer: B
+
+64. What is the time complexity of selection sort in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+
+65. How does insertion sort algorithm work?
+   A) Swapping adjacent elements until the array is sorted.
+   B) Selecting the smallest element and moving it to the beginning.
+   C) Inserting each element into its correct position in a sorted subarray.
+   D) Merging two sorted subarrays into one.
+   - Answer: C
+
+66. What is the time complexity of insertion sort in the average-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+
+67. What is the main step involved in the merge sort algorithm?
+   A) Swapping adjacent elements until the array is sorted.
+   B) Selecting the smallest element and moving it to the beginning.
+   C) Dividing the array into two subarrays and recursively sorting them.
+   D) Merging two sorted subarrays into one.
+   - Answer: D
+
+68. What is the space complexity of merge sort?
+   A) O(1)
+   B) O(log n)
+   C) O(n)
+   D) O(n^2)
+   - Answer: C
+
+
+69. What is the primary characteristic of the quick sort algorithm?
+   A) Swapping adjacent elements until the array is sorted.
+   B) Selecting the smallest element and moving it to the beginning.
+   C) Dividing the array into two subarrays based on a pivot element.
+   D) Merging two sorted subarrays into one.
+   - Answer: C
+
+70. What is the time complexity of quick sort in the worst-case scenario?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: C
+
+
+71. What data structure is used in heap sort?
+   A) Linked list
+   B) Queue
+   C) Stack
+   D) Binary heap
+   - Answer: D
+
+72. What is the time complexity of heap sort?
+   A) O(n)
+   B) O(n log n)
+   C) O(n^2)
+   D) O(2^n)
+   - Answer: B
+
+
+73. How does radix sort sort elements?
+   A) Swapping adjacent elements until the array is sorted.
+   B) Distributing elements into buckets based on digits.
+   C) Dividing the array into two subarrays and recursively sorting them.
+   D) Merging two sorted subarrays into one.
+   - Answer: B
+
+74. What is the time complexity of radix sort?
+   A) O(n)
+   B) O(n log n)
+   C) O(nk), where k is the number of digits in the largest element.
+   D) O(n^2)
+   - Answer: C
+
+1. What is the primary characteristic of the linear search algorithm?
+   A) It requires the list to be sorted.
+   B) It divides the list into two halves at each step.
+   C) It sequentially checks each element in the list.
+   D) It uses recursion to search for an element.
+   - Answer: C
+
+2. What is the time complexity of linear search in the worst-case scenario?
+   A) O(1)
+   B) O(log n)
+   C) O(n)
+   D) O(n^2)
+   - Answer: C
+
+
+3. How does the binary search algorithm work?
+   A) It sequentially checks each element in the list.
+   B) It repeatedly divides the list into two halves and compares the target value with the middle element.
+   C) It uses a stack to search for an element.
+   D) It performs a depth-first traversal of the search space.
+   - Answer: B
+
+4. What is the time complexity of binary search in the worst-case scenario?
+   A) O(1)
+   B) O(log n)
+   C) O(n)
+   D) O(n^2)
+   - Answer: B
+
+5. In depth-first search (DFS), which data structure is typically used to keep track of visited nodes?
+   A) Stack
+   B) Queue
+   C) Priority Queue
+   D) Heap
+   - Answer: A
+
+6. What is the main principle behind depth-first search (DFS)?
+   A) Exploring all neighboring nodes before moving to the next level.
+   B) Exploring the search space in a breadth-first manner.
+   C) Exploring as far as possible along each branch before backtracking.
+   D) Exploring nodes based on their priority.
+   - Answer: C
+
+
+7. In breadth-first search (BFS), which data structure is typically used to keep track of visited nodes?
+   A) Stack
+   B) Queue
+   C) Priority Queue
+   D) Heap
+   - Answer: B
+
+8. What is the main principle behind breadth-first search (BFS)?
+   A) Exploring all neighboring nodes before moving to the next level.
+   B) Exploring the search space in a depth-first manner.
+   C) Exploring as far as possible along each branch before backtracking.
+   D) Exploring nodes based on their priority.
+   - Answer: A
+
+
+9. What is the primary characteristic of the A* search algorithm?
+   A) It guarantees finding the shortest path in a graph.
+   B) It uses dynamic programming to find the optimal solution.
+   C) It combines breadth-first and depth-first search techniques.
+   D) It uses heuristics to guide the search towards the most promising paths.
+   - Answer: D
+
+10. What is the time complexity of the A* search algorithm?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) It depends on the heuristic function.
+    - Answer: D
+
+11. In linear search, what is the best-case scenario for finding an element in a list?
+    A) The element is the first element in the list.
+    B) The element is in the middle of the list.
+    C) The element is the last element in the list.
+    D) The element is not present in the list.
+    - Answer: A
+
+12. What is the primary advantage of linear search?
+    A) It has a time complexity of O(log n).
+    B) It works efficiently on unsorted arrays.
+    C) It requires the list to be sorted.
+    D) It always finds the target element in one iteration.
+    - Answer: B
+
+
+13. Which of the following data structures is NOT suitable for implementing binary search?
+    A) Array
+    B) Linked list
+    C) Binary search tree
+    D) Heap
+    - Answer: B
+
+14. What is the difference between iterative and recursive binary search?
+    A) Iterative binary search uses recursion, while recursive binary search uses iteration.
+    B) Iterative binary search avoids using extra space, while recursive binary search may use additional stack space.
+    C) Iterative binary search always requires a sorted array, while recursive binary search can work on unsorted arrays.
+    D) There is no difference; both methods follow the same algorithm.
+    - Answer: B
+
+15. Which traversal order does depth-first search (DFS) follow in a binary tree?
+    A) Preorder
+    B) Inorder
+    C) Postorder
+    D) Level order
+    - Answer: A
+
+16. In DFS, what happens when a dead end is reached during traversal?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the nearest unexplored node with alternative paths.
+    C) The algorithm switches to breadth-first search.
+    D) The algorithm marks the dead-end node and continues traversal.
+    - Answer: B
+
+17. Which traversal order does breadth-first search (BFS) follow in a binary tree?
+    A) Preorder
+    B) Inorder
+    C) Postorder
+    D) Level order
+    - Answer: D
+
+18. What is the primary advantage of breadth-first search (BFS) over depth-first search (DFS)?
+    A) BFS typically requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS is easier to implement recursively.
+    D) BFS has a lower time complexity.
+    - Answer: B
+
+
+19. What is the heuristic function used for in A* search?
+    A) To determine the search direction.
+    B) To prioritize nodes for exploration based on an estimate of their distance to the goal.
+    C) To detect cycles in the search space.
+    D) To handle tie-breaking situations.
+    - Answer: B
+
+20. In A* search, what is the significance of the "f-score" of a node?
+    A) It represents the cost of reaching the node from the start node.
+    B) It represents the actual distance of the node from the goal node.
+    C) It is the sum of the node's g-score and h-score.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: C
+
+21. What happens if the target element is not found in the list during linear search?
+    A) The algorithm returns the index of the last element in the list.
+    B) The algorithm returns -1 to indicate that the element was not found.
+    C) The algorithm returns the index of the first element in the list.
+    D) The algorithm returns the index of the middle element in the list.
+    - Answer: B
+
+22. In linear search, what is the average-case time complexity for finding an element in a list of size n?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+
+23. Which condition must be satisfied for binary search to work correctly?
+    A) The list must be sorted in ascending order.
+    B) The list must contain only positive integers.
+    C) The list must contain at least 100 elements.
+    D) The list must be stored in a linked list data structure.
+    - Answer: A
+
+24. What is the primary difference between binary search and linear search?
+    A) Binary search requires the list to be sorted, while linear search does not.
+    B) Binary search always returns the index of the target element, while linear search may not.
+    C) Binary search has a time complexity of O(log n), while linear search has a time complexity of O(n).
+    D) Binary search is a recursive algorithm, while linear search is iterative.
+    - Answer: C
+
+25. Which data structure is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority queue
+    D) Binary search tree
+    - Answer: B
+
+26. In DFS, which type of traversal does the algorithm perform?
+    A) Breadth-first
+    B) Depth-first
+    C) Inorder
+    D) Level order
+    - Answer: B
+
+
+27. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+28. Which data structure is typically used to implement BFS?
+    A) Queue
+    B) Stack
+    C) Priority queue
+    D) Binary search tree
+    - Answer: A
+
+29. In A* search, what is the role of the g-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: A
+
+30. Which of the following is a valid heuristic function for A* search?
+    A) Counting the number of nodes visited so far
+    B) Calculating the Euclidean distance between nodes
+    C) Randomly selecting nodes for exploration
+    D) Assigning a fixed value to all nodes
+    - Answer: B
+
+31. In linear search, what is the average-case time complexity for finding an element in a list of size n?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+32. Which of the following statements is true regarding linear search?
+    A) It is a divide-and-conquer algorithm.
+    B) It works efficiently only on sorted arrays.
+    C) It has a time complexity of O(log n).
+    D) It sequentially checks each element in the list until the target element is found.
+    - Answer: D
+
+
+33. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+34. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+35. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+36. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+37. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+38. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+39. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+40. In A* search, what is the role of the h-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: B
+
+
+41. What is the worst-case time complexity of linear search?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+42. Which of the following statements is true regarding linear search?
+    A) It requires the list to be sorted.
+    B) It always finds the element in one comparison.
+    C) It can only be applied to arrays.
+    D) It has a time complexity of O(log n).
+    - Answer: B
+
+
+43. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+44. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+45. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+46. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+
+47. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+48. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+49. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+50. In A* search, what is the role of the h-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: B
+
+51. What is the worst-case time complexity of linear search?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+52. Which of the following statements is true regarding linear search?
+    A) It requires the list to be sorted.
+    B) It always finds the element in one comparison.
+    C) It can only be applied to arrays.
+    D) It has a time complexity of O(log n).
+    - Answer: B
+
+
+53. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+54. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+55. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+56. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+
+57. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+58. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+59. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+60. In A* search, what is the role of the h-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: B
+
+
+61. What is the worst-case time complexity of linear search?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+62. Which of the following statements is true regarding linear search?
+    A) It requires the list to be sorted.
+    B) It always finds the element in one comparison.
+    C) It can only be applied to arrays.
+    D) It has a time complexity of O(log n).
+    - Answer: B
+
+
+63. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+64. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+
+65. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+66. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+67. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+68. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+69. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+70. In A* search, what is the role of the h-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: B
+
+71. What is the time complexity of linear search in the best-case scenario?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: A
+
+72. Which of the following statements is true regarding linear search?
+    A) It requires the list to be sorted.
+    B) It always finds the element in one comparison.
+    C) It can only be applied to arrays.
+    D) It has a time complexity of O(log n).
+    - Answer: B
+
+
+73. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+74. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+75. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+76. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+
+77. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+78. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+79. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+80. In A* search, what is the role of the h-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: B
+
+
+81. What is the time complexity of linear search in the worst-case scenario?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+82. Which of the following statements is true regarding linear search?
+    A) It requires the list to be sorted.
+    B) It always finds the element in one comparison.
+    C) It can only be applied to arrays.
+    D) It has a time complexity of O(log n).
+    - Answer: B
+
+
+83. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+84. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+85. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+86. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+87. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+88. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+89. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+90. In A* search, what is the role of the h-score?
+    A) It represents the actual distance from the start node to the current node.
+    B) It represents the estimated distance from the current node to the goal node.
+    C) It is the sum of the node's actual distance and heuristic distance.
+    D) It is used to prioritize nodes for exploration.
+    - Answer: B
+91. What is the time complexity of linear search in the worst-case scenario?
+    A) O(1)
+    B) O(log n)
+    C) O(n)
+    D) O(n^2)
+    - Answer: C
+
+92. Which of the following statements is true regarding linear search?
+    A) It requires the list to be sorted.
+    B) It always finds the element in one comparison.
+    C) It can only be applied to arrays.
+    D) It has a time complexity of O(log n).
+    - Answer: B
+
+
+93. What is the main advantage of binary search over linear search?
+    A) Binary search has a lower space complexity.
+    B) Binary search has a lower time complexity in all cases.
+    C) Binary search does not require the list to be sorted.
+    D) Binary search is easier to implement.
+    - Answer: B
+
+94. Which of the following is a prerequisite for applying binary search?
+    A) The list must be sorted.
+    B) The list must contain only positive integers.
+    C) The list must be stored in a linked list data structure.
+    D) The list must have fewer than 100 elements.
+    - Answer: A
+
+
+95. In DFS, what happens if the algorithm encounters a visited node?
+    A) The algorithm halts.
+    B) The algorithm backtracks to the previous unvisited node.
+    C) The algorithm skips the node and moves to the next unvisited neighbor.
+    D) The algorithm switches to breadth-first search.
+    - Answer: B
+
+96. Which of the following data structures is typically used to implement DFS?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: B
+
+
+97. In BFS, which data structure is used to keep track of visited nodes?
+    A) Queue
+    B) Stack
+    C) Priority Queue
+    D) Binary Tree
+    - Answer: A
+
+98. What is the primary advantage of BFS over DFS?
+    A) BFS requires less memory.
+    B) BFS guarantees finding the shortest path in weighted graphs.
+    C) BFS has a lower time complexity.
+    D) BFS can handle cyclic graphs more efficiently.
+    - Answer: B
+
+
+99. What is the primary advantage of using A* search algorithm?
+    A) It guarantees finding the shortest path in all cases.
+    B) It is always faster than other search algorithms.
+    C) It can be applied to any type of graph.
+    D) It combines the advantages of both BFS and DFS.
+    - Answer: A
+
+100. In A* search, what is the role of the h-score?
+     A) It represents the actual distance from the start node to the current node.
+     B) It represents the estimated distance from the current node to the goal node.
+     C) It is the sum of the node's actual distance and heuristic distance.
+     D) It is used to prioritize nodes for exploration.
+     - Answer: B
+
+1. What is the time complexity of the Naive String Matching algorithm?
+   A) O(n)
+   B) O(m)
+   C) O(n * m)
+   D) O(n^2)
+   - Answer: C
+
+2. Which string matching algorithm uses hashing to compare patterns with substrings?
+   A) Naive String Matching
+   B) Rabin-Karp Algorithm
+   C) Knuth-Morris-Pratt Algorithm
+   D) Boyer-Moore Algorithm
+   - Answer: B
+
+
+3. What is the dynamic programming approach commonly used to find the Longest Common Subsequence (LCS)?
+   A) Bellman-Ford Algorithm
+   B) Dijkstra's Algorithm
+   C) Floyd-Warshall Algorithm
+   D) Needleman-Wunsch Algorithm
+   - Answer: D
+
+4. What is the time complexity of the dynamic programming solution for finding the Longest Common Subsequence (LCS)?
+   A) O(n)
+   B) O(n^2)
+   C) O(n * m)
+   D) O(2^n)
+   - Answer: C
+
+
+5. Which algorithm is commonly used to find the Longest Increasing Subsequence (LIS)?
+   A) Breadth-First Search (BFS)
+   B) Depth-First Search (DFS)
+   C) Bellman-Ford Algorithm
+   D) Dynamic Programming
+   - Answer: D
+
+6. What is the time complexity of the dynamic programming solution for finding the Longest Increasing Subsequence (LIS)?
+   A) O(n)
+   B) O(n^2)
+   C) O(n * log n)
+   D) O(2^n)
+   - Answer: B
+
+
+7. Edit distance measures the similarity between two strings by counting the minimum number of ___________ operations required to transform one string into the other.
+   A) Insertion and deletion
+   B) Insertion and replacement
+   C) Deletion and replacement
+   D) Insertion, deletion, and replacement
+   - Answer: D
+
+8. Which dynamic programming algorithm is commonly used to calculate the edit distance between two strings?
+   A) Bellman-Ford Algorithm
+   B) Dijkstra's Algorithm
+   C) Floyd-Warshall Algorithm
+   D) Levenshtein Distance Algorithm
+   - Answer: D
+
+
+9. Which of the following is a meta-character used in regular expressions to match any single character?
+   A) *
+   B) ?
+   C) .
+   D) +
+   - Answer: C
+
+10. In regular expressions, what does the meta-character "^" represent when placed at the beginning of a pattern?
+    A) It matches the end of a string.
+    B) It matches the start of a string.
+    C) It matches one or more occurrences of the preceding character.
+    D) It matches zero or one occurrence of the preceding character.
+    - Answer: B
+11. What is the primary advantage of the Knuth-Morris-Pratt (KMP) algorithm over the naive string matching algorithm?
+    A) KMP algorithm has a lower time complexity.
+    B) KMP algorithm works better with small patterns.
+    C) KMP algorithm does not require preprocessing.
+    D) KMP algorithm guarantees finding all occurrences of the pattern.
+    - Answer: A
+
+12. Which of the following string matching algorithms has the best average-case time complexity?
+    A) Naive String Matching
+    B) Rabin-Karp Algorithm
+    C) Knuth-Morris-Pratt Algorithm
+    D) Boyer-Moore Algorithm
+    - Answer: D
+
+
+13. What is the Longest Common Subsequence (LCS) of "ABCD" and "ACBAD"?
+    A) "ABD"
+    B) "ACD"
+    C) "ABCD"
+    D) "AD"
+    - Answer: A
+
+14. Which dynamic programming algorithm is used to find the Longest Common Subsequence (LCS)?
+    A) Floyd-Warshall Algorithm
+    B) Needleman-Wunsch Algorithm
+    C) Dijkstra's Algorithm
+    D) Bellman-Ford Algorithm
+    - Answer: B
+
+
+15. What is the length of the Longest Increasing Subsequence (LIS) of the sequence [10, 9, 2, 5, 3, 7, 101, 18]?
+    A) 4
+    B) 5
+    C) 6
+    D) 7
+    - Answer: C
+
+16. Which dynamic programming approach is commonly used to find the Longest Increasing Subsequence (LIS)?
+    A) Bottom-up approach
+    B) Top-down approach
+    C) Memoization
+    D) Greedy approach
+    - Answer: A
+
+
+17. What is the edit distance between the strings "kitten" and "sitting"?
+    A) 1
+    B) 2
+    C) 3
+    D) 4
+    - Answer: C
+
+18. Which dynamic programming algorithm is commonly used to compute the edit distance between two strings?
+    A) Levenshtein Distance Algorithm
+    B) Dijkstra's Algorithm
+    C) Floyd-Warshall Algorithm
+    D) A* Search Algorithm
+    - Answer: A
+
+
+19. What does the meta-character "$" represent in regular expressions?
+    A) It matches the start of a string.
+    B) It matches the end of a string.
+    C) It matches any single character.
+    D) It specifies zero or more occurrences of the preceding character.
+    - Answer: B
+
+20. In regular expressions, what does the meta-character "?" represent?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It matches one or more occurrences of the preceding character.
+    C) It matches any single character.
+    D) It matches the end of a string.
+    - Answer: A
+
+21. What is the time complexity of the Rabin-Karp Algorithm for pattern matching?
+    A) O(n)
+    B) O(m)
+    C) O(n * m)
+    D) O(n + m)
+    - Answer: D
+
+22. Which of the following is a disadvantage of the Rabin-Karp Algorithm?
+    A) It cannot handle large texts efficiently.
+    B) It requires preprocessing of the pattern.
+    C) It has a high space complexity.
+    D) It may produce false positives.
+    - Answer: D
+
+23. What is the main idea behind the Knuth-Morris-Pratt (KMP) Algorithm?
+    A) It uses hashing to compare patterns with substrings.
+    B) It preprocesses the pattern to avoid unnecessary character comparisons.
+    C) It utilizes backtracking to find all occurrences of a pattern.
+    D) It employs dynamic programming to compute the edit distance between strings.
+    - Answer: B
+
+24. Which of the following scenarios is the Knuth-Morris-Pratt (KMP) Algorithm particularly efficient for?
+    A) When the pattern is very short.
+    B) When the text is very long.
+    C) When the pattern contains repeating characters.
+    D) When the text and pattern are both random sequences of characters.
+    - Answer: C
+
+
+25. What is the Longest Common Subsequence (LCS) of "ABCD" and "DCBA"?
+    A) "A"
+    B) "D"
+    C) "AD"
+    D) "ACD"
+    - Answer: B
+
+26. Which dynamic programming algorithm is commonly used to find the Longest Common Subsequence (LCS)?
+    A) Needleman-Wunsch Algorithm
+    B) Dijkstra's Algorithm
+    C) Bellman-Ford Algorithm
+    D) Floyd-Warshall Algorithm
+    - Answer: A
+
+27. What is the time complexity of the dynamic programming solution for finding the Longest Common Subsequence (LCS)?
+    A) O(n)
+    B) O(n^2)
+    C) O(n * m)
+    D) O(2^n)
+    - Answer: C
+
+28. Which of the following scenarios is the Longest Common Subsequence (LCS) problem commonly used for?
+    A) Finding similarities between DNA sequences.
+    B) Sorting arrays efficiently.
+    C) Calculating the shortest path in a graph.
+    D) Implementing data compression algorithms.
+    - Answer: A
+
+
+29. What is the length of the Longest Increasing Subsequence (LIS) of the sequence [3, 4, -1, 0, 6, 2, 3]?
+    A) 3
+    B) 4
+    C) 5
+    D) 6
+    - Answer: C
+
+30. Which dynamic programming approach is commonly used to find the Longest Increasing Subsequence (LIS)?
+    A) Bottom-up approach
+    B) Top-down approach
+    C) Memoization
+    D) Greedy approach
+    - Answer: A
+
+
+31. What is the edit distance between the strings "intention" and "execution"?
+    A) 2
+    B) 3
+    C) 5
+    D) 6
+    - Answer: D
+
+32. Which dynamic programming algorithm is commonly used to compute the edit distance between two strings?
+    A) Levenshtein Distance Algorithm
+    B) Dijkstra's Algorithm
+    C) Floyd-Warshall Algorithm
+    D) A* Search Algorithm
+    - Answer: A
+
+33. What is the primary application of the Levenshtein Distance Algorithm?
+    A) Finding the longest common subsequence between two strings.
+    B) Calculating the edit distance between two strings.
+    C) Matching patterns in a text.
+    D) Identifying palindromes in a string.
+    - Answer: B
+
+
+34. What does the meta-character "." represent in regular expressions?
+    A) It matches the start of a string.
+    B) It matches the end of a string.
+    C) It matches any single character.
+    D) It specifies zero or more occurrences of the preceding character.
+    - Answer: C
+
+35. What does the meta-character "*" represent in regular expressions?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It matches one or more occurrences of the preceding character.
+    C) It matches any single character.
+    D) It matches the end of a string.
+    - Answer: B
+
+36. Which of the following quantifiers in regular expressions matches zero or more occurrences of the preceding character?
+    A) +
+    B) ?
+    C) *
+    D) .
+    - Answer: C
+
+37. In regular expressions, what does the meta-character "^" represent when placed at the beginning of a pattern?
+    A) It matches the end of a string.
+    B) It matches the start of a string.
+    C) It matches one or more occurrences of the preceding character.
+    D) It matches zero or one occurrence of the preceding character.
+    - Answer: B
+
+38. What is a capturing group in regular expressions?
+    A) A group of characters enclosed in square brackets.
+    B) A group of characters enclosed in curly braces.
+    C) A group of characters enclosed in parentheses.
+    D) A group of characters preceded by a backslash.
+    - Answer: C
+
+39. Which meta-character is used in regular expressions to specify alternative patterns?
+    A) |
+    B) ^
+    C) $
+    D) *
+    - Answer: A
+
+40. What does the meta-character "$" represent in regular expressions?
+    A) It matches the start of a string.
+    B) It matches the end of a string.
+    C) It matches any single character.
+    D) It specifies zero or more occurrences of the preceding character.
+    - Answer: B
+
+41. In regular expressions, what does the meta-character "?" represent?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It matches one or more occurrences of the preceding character.
+    C) It matches any single character.
+    D) It matches the end of a string.
+    - Answer: A
+
+42. What does the meta-character "+" represent in regular expressions?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It matches one or more occurrences of the preceding character.
+    C) It matches any single character.
+    D) It matches the end of a string.
+    - Answer: B
+
+43. In regular expressions, what does the meta-character "{}" represent?
+    A) It matches a specified number of occurrences of the preceding character.
+    B) It matches zero or one occurrence of the preceding character.
+    C) It matches any single character.
+    D) It matches the end of a string.
+    - Answer: A
+
+44. Which of the following meta-characters in regular expressions matches the end of a string?
+    A) \
+    B) |
+    C) ^
+    D) $
+    - Answer: D
+
+45. What does the meta-character "\" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+46. Which of the following meta-characters in regular expressions matches the start of a string?
+    A) \
+    B) |
+    C) ^
+    D) $
+    - Answer: C
+
+47. What does the meta-character "|" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: B
+
+48. In regular expressions, what does the meta-character "[" represent?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: C
+
+49. What does the meta-character "]" represent in regular expressions?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: D
+
+50. What does the meta-character "^" represent in a character class in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a character class.
+    C) It matches any single character.
+    D) It negates the character class.
+    - Answer: D
+
+51. What does the meta-character "-" represent in a character class in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a character class.
+    C) It matches any single character.
+    D) It specifies a range of characters.
+    - Answer: D
+
+52. In regular expressions, what does the meta-character "." represent?
+    A) It matches the start of a string.
+    B) It specifies a range of characters.
+    C) It matches any single character except newline.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
+
+53. In regular expressions, what does the meta-character "|" represent?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: B
+
+54. What does the meta-character "^" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a string.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: B
+
+55. In regular expressions, what does the meta-character "?" represent?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+56. What does the meta-character "+" represent in regular expressions?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches one or more occurrences of the preceding character.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
+
+57. In regular expressions, what does the meta-character "{}" represent?
+    A) It matches a specified number of occurrences of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+58. Which of the following meta-characters in regular expressions matches the end of a string?
+    A) \
+    B) |
+    C) ^
+    D) $
+    - Answer: D
+
+59. What does the meta-character "\" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+60. Which of the following meta-characters in regular expressions matches the start of a string?
+    A) \
+    B) |
+    C) ^
+    D) $
+    - Answer: C
+
+61. What does the meta-character "|" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: B
+
+62. In regular expressions, what does the meta-character "[" represent?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: C
+
+63. What does the meta-character "]" represent in regular expressions?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: D
+
+64. What does the meta-character "^" represent in a character class in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a character class.
+    C) It matches any single character.
+    D) It negates the character class.
+    - Answer: D
+
+65. What does the meta-character "-" represent in a character class in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a character class.
+    C) It matches any single character.
+    D) It specifies a range of characters.
+    - Answer: D
+
+66. In regular expressions, what does the meta-character "." represent?
+    A) It matches the start of a string.
+    B) It specifies a range of characters.
+    C) It matches any single character except newline.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
+
+67. In regular expressions, what does the meta-character "|" represent?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: B
+
+68. What does the meta-character "^" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a string.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: B
+
+69. In regular expressions, what does the meta-character "?" represent?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+70. What does the meta-character "+" represent in regular expressions?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches one or more occurrences of the preceding character.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
+
+1. Which of the following algorithms is most suitable for finding multiple occurrences of a pattern in a text efficiently?
+   A) Naive String Matching
+   B) Rabin-Karp Algorithm
+   C) Knuth-Morris-Pratt Algorithm
+   D) Boyer-Moore Algorithm
+   - Answer: D
+
+2. What is the worst-case time complexity of the Rabin-Karp Algorithm?
+   A) O(n)
+   B) O(m)
+   C) O(n * m)
+   D) O(n + m)
+   - Answer: C
+
+3. The Knuth-Morris-Pratt (KMP) algorithm is based on which concept?
+   A) Dynamic Programming
+   B) Hashing
+   C) Prefix function
+   D) Sliding window
+   - Answer: C
+
+4. Which of the following scenarios is the Knuth-Morris-Pratt (KMP) Algorithm particularly efficient for?
+   A) When the pattern is very short.
+   B) When the text is very long.
+   C) When the pattern contains repeating characters.
+   D) When the text and pattern are both random sequences of characters.
+   - Answer: C
+
+
+5. What is the Longest Common Subsequence (LCS) of "ABCD" and "DCBA"?
+   A) "A"
+   B) "D"
+   C) "AD"
+   D) "ACD"
+   - Answer: B
+
+6. Which dynamic programming algorithm is commonly used to find the Longest Common Subsequence (LCS)?
+   A) Needleman-Wunsch Algorithm
+   B) Dijkstra's Algorithm
+   C) Bellman-Ford Algorithm
+   D) Floyd-Warshall Algorithm
+   - Answer: A
+
+7. What is the time complexity of the dynamic programming solution for finding the Longest Common Subsequence (LCS)?
+   A) O(n)
+   B) O(n^2)
+   C) O(n * m)
+   D) O(2^n)
+   - Answer: C
+
+8. Which of the following scenarios is the Longest Common Subsequence (LCS) problem commonly used for?
+   A) Finding similarities between DNA sequences.
+   B) Sorting arrays efficiently.
+   C) Calculating the shortest path in a graph.
+   D) Implementing data compression algorithms.
+   - Answer: A
+
+
+9. What is the length of the Longest Increasing Subsequence (LIS) of the sequence [3, 4, -1, 0, 6, 2, 3]?
+   A) 3
+   B) 4
+   C) 5
+   D) 6
+   - Answer: C
+
+10. Which dynamic programming approach is commonly used to find the Longest Increasing Subsequence (LIS)?
+    A) Bottom-up approach
+    B) Top-down approach
+    C) Memoization
+    D) Greedy approach
+    - Answer: A
+
+
+11. What is the edit distance between the strings "intention" and "execution"?
+    A) 2
+    B) 3
+    C) 5
+    D) 6
+    - Answer: D
+
+12. Which dynamic programming algorithm is commonly used to compute the edit distance between two strings?
+    A) Levenshtein Distance Algorithm
+    B) Dijkstra's Algorithm
+    C) Floyd-Warshall Algorithm
+    D) A* Search Algorithm
+    - Answer: A
+
+13. What is the primary application of the Levenshtein Distance Algorithm?
+    A) Finding the longest common subsequence between two strings.
+    B) Calculating the edit distance between two strings.
+    C) Matching patterns in a text.
+    D) Identifying palindromes in a string.
+    - Answer: B
+
+
+14. What does the meta-character "." represent in regular expressions?
+    A) It matches any single character.
+    B) It specifies a range of characters.
+    C) It marks the beginning of a capturing group.
+    D) It matches the start of a string.
+    - Answer: A
+
+15. What does the meta-character "*" represent in regular expressions?
+    A) It matches one or more occurrences of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches zero or one occurrence of the preceding character.
+    D) It matches the end of a string.
+    - Answer: A
+
+16. What does the meta-character "+" represent in regular expressions?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches one or more occurrences of the preceding character.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
+
+17. In regular expressions, what does the meta-character "{}" represent?
+    A) It matches a specified number of occurrences of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+18. Which of the following meta-characters in regular expressions matches the end of a string?
+    A) \
+    B) |
+    C) ^
+    D) $
+    - Answer: D
+
+19. What does the meta-character "\" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+20. Which of the following meta-characters in regular expressions matches the start of a string?
+    A) \
+    B) |
+    C) ^
+    D) $
+    - Answer: C
+
+21. What does the meta-character "|" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: B
+
+22. In regular expressions, what does the meta-character "[" represent?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: C
+
+23. What does the meta-character "]" represent in regular expressions?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: D
+
+24. What does the meta-character "^" represent in a character class in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a character class.
+    C) It matches any single character.
+    D) It negates the character class.
+    - Answer: D
+
+25. What does the meta-character "-" represent in a character class in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a character class.
+    C) It matches any single character.
+    D) It specifies a range of characters.
+    - Answer: D
+
+26. In regular expressions, what does the meta-character "." represent?
+    A) It matches the start of a string.
+    B) It specifies a range of characters.
+    C) It matches any single character except newline.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
+
+27. In regular expressions, what does the meta-character "|" represent?
+    A) It matches the start of a string.
+    B) It specifies alternative patterns.
+    C) It marks the beginning of a character class.
+    D) It marks the end of a character class.
+    - Answer: B
+
+28. What does the meta-character "^" represent in regular expressions?
+    A) It escapes the following character, treating it as a literal.
+    B) It specifies the start of a string.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: B
+
+29. In regular expressions, what does the meta-character "?" represent?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches any single character.
+    D) It marks the beginning of a capturing group.
+    - Answer: A
+
+30. What does the meta-character "+" represent in regular expressions?
+    A) It matches zero or one occurrence of the preceding character.
+    B) It specifies alternative patterns.
+    C) It matches one or more occurrences of the preceding character.
+    D) It marks the beginning of a capturing group.
+    - Answer: C
