@@ -1,0 +1,5972 @@
+1. Which of the following version of Python was released in December, 2015 by Python.org?
+   A)3.3
+   B)3.5.1
+   C)2.4
+   D)2.6
+   - Answer: B
+
+2. Python files are saved with the extension as ?
+   A).python
+   B).pe
+   C).py
+   D).pi
+   - Answer: C
+
+3. What is the name of the GUI that comes in-built as an interactive shell with Python?
+   A)PGUI
+   B)Pyshell
+   C)IDLE
+   D)PythonSh
+   - Answer: C
+
+4. IDLE stands for ? ?
+   A)Indigenous Development Lab
+   B)Integrated Development Environment
+   C)Integrated Developers Local Environment
+   D)Indie Developers Environment
+   - Answer: B
+
+5. The function to display a specified message on the screen is ? ?
+   A)print
+   B)display
+   C)run
+   D)output
+   - Answer: A
+
+6. Which of the following is an assignment operator in Python?
+   A)==
+   B)===
+   C)>>>
+   D)=
+   - Answer: D
+
+7. Which of the following is used to initialize multiple variables with a common value?
+   A)x = y: y = 33
+   B)x = y = z = 33
+   C)x = z; y = z; x = 33;
+   D)x & y & z = 33
+   - Answer: B
+
+8. Comments in Python begin with ??
+   A){
+   B)%
+   C)*
+   D)#
+   - Answer: D
+
+9. A user-specified value can be assigned to a variable with this function ? 
+   A)user
+   B)enter
+   C)input
+   D)value
+   - Answer: C
+
+10. User input is read as ?
+   A)Floating Decimal
+   B)Text String
+   C)Boolean Value
+   D)Integer
+   - Answer: B
+
+11. Output displayed by the print function will add this invisible character at the end of the line by default ?
+   A)\t
+   B)\n
+   C)\s
+   D)\r
+   - Answer: B
+
+12. Multiple values specified in parentheses to print function will display each value separated with this by default ?
+   A)Single Space
+   B)Double Space
+   C)A new Line
+   D)Double Lines
+   - Answer: A
+
+13. Which of the following will provide an ! character as alternative separator for the print function?
+   A)sep is !
+   B)separate = !
+   C)sep >> '!'
+   D)sep = '!'
+   - Answer: D
+
+14. Which of the following will provide a * character as alternative line ending for the print function?
+   A)end to *
+   B)end as *
+   C)end = '*'
+   D)ending = '*'
+   - Answer: C
+
+15. For which type of error does the interpreter halts and reports the error but does not execute the program?
+   A)Semantic error
+   B)Syntax error
+   C)Runtime error
+   D)All type of errors
+   - Answer: B
+
+16. For which type of error does the interpreter runs the program but halts at error and reports the error as an "Exception"?
+   A)Semantic error
+   B)Syntax error
+   C)Runtime error
+   D)All type of errors
+   - Answer: C
+
+17. For which type of error does the interpreter runs the program and does not report an error?
+   A)Semantic error
+   B)Syntax error
+   C)Runtime error
+   D)All type of errors
+   - Answer: A
+
+18. What will be the output after the following statements?
+CODE-START
+x = 6
+y = 3
+print(x / y)
+CODE-END
+   A)2.0
+   B)2
+   C)18
+   D)18.0
+   - Answer: A
+
+19. What will be the output after the following statements?
+CODE-START
+x = 8 y = 2 print(x // y)
+CODE-END
+   A)4.0
+   B)4
+   C)16
+   D)16.0
+   - Answer: B
+
+20. What will be the output after the following statements?
+CODE-START
+x = 5 y = 4 print(x % y)
+CODE-END
+   A)0
+   B)20
+   C)1.0
+   D)1
+   - Answer: D
+
+21. What will be the output after the following statements?
+CODE-START
+x = 3 y = 2 x += y
+print(x)
+CODE-END
+   A)3
+   B)2
+   C)5
+   D)1
+   - Answer: C
+
+22. What will be the output after the following statements?
+CODE-START
+x = 5 y = 7 x *= y print(x)
+CODE-END
+   A)7
+   B)12
+   C)5
+   D)35
+   - Answer: D
+
+23. What will be the output after the following statements?
+CODE-START
+x = 25 y = 15 x -= y
+print(x)
+CODE-END
+   A)10
+   B)25
+   C)15
+   D)-15
+   - Answer: A
+
+24. What will be the output after the following statements?
+CODE-START
+x = 30
+y = 7 x %= y print(x)
+CODE-END
+   A)4
+   B)28
+   C)2
+   D)37
+   - Answer: C
+
+25. What will be the output after the following statements?
+CODE-START
+x = 3 y = 7 print(x == y)
+CODE-END
+   A)y = 7 and x = 3
+   B)True
+   C)x = 3 and y = 3
+   D)False
+   - Answer: D
+
+26. What will be the output after the following statements?
+CODE-START
+x = 8 y = 6 print(x != y)
+CODE-END
+   A)y = 6 and x = 8
+   B)True
+   C)x = 6 and y = 6
+   D)False
+   - Answer: B
+
+27. What will be the output after the following statements?
+CODE-START
+x = 83 y = 57 print(x > y)
+CODE-END
+   A)True
+   B)False
+   C)Yes
+   D)No
+   - Answer: A
+
+28. What will be the output after the following statements?
+CODE-START
+x = 72 y = 64 print(x < y)
+CODE-END
+   A)True
+   B)False
+   C)Yes
+   D)No
+   - Answer: B
+
+29. What will be the output after the following statements?
+CODE-START
+x = True y = False print(x and y)
+CODE-END
+   A)True
+   B)False
+   C)Not defined
+   D)xy
+   - Answer: B
+
+30. What will be the output after the following statements?
+CODE-START
+x = True y = False print(x or y)
+CODE-END
+   A)True
+   B)False
+   C)Not defined
+   D)xy
+   - Answer: A
+
+31. What will be the output after the following statements?
+CODE-START
+x = True y = False print(not x)
+CODE-END
+   A)True
+   B)False
+   C)Not defined
+   D)y
+   - Answer: B
+
+32. What will be the output after the following statements?
+CODE-START
+x = True y = False print(not y)
+CODE-END
+   A)True
+   B)False
+   C)Not defined
+   D)x
+   - Answer: A
+
+33. What will be the output after the following statements?
+CODE-START
+x = 20 y = 40
+z = y if (y > x) else x print(z)
+CODE-END
+   A)True
+   B)False
+   C)20
+   D)40
+   - Answer: D
+
+34. What will be the output after the following statements?
+CODE-START
+x = 50
+y = 10 z = y if (y > x) else x print(z)
+CODE-END
+   A)True
+   B)False
+   C)50
+   D)10
+   - Answer: C
+
+35. What will be the output after the following statements?
+CODE-START
+x = 65
+y = 53 z = y if (x % 2 == 0) else x
+print(z)
+CODE-END
+   A)True
+   B)False
+   C)65
+   D)53
+   - Answer: C
+
+36. What will be the output after the following statements?
+CODE-START
+x = 46 y = 98
+z = y if (y % 2 == 0) else x print(z)
+CODE-END
+   A)True
+   B)False
+   C)46
+   D)98
+   - Answer: D
+
+37. What will be the output after the following statements?
+CODE-START
+x = 2 * 4 + 7 print(x)
+CODE-END
+   A)30
+   B)15
+   C)22
+   D)247
+   - Answer: B
+
+38. What will be the output after the following statements?
+CODE-START
+x = 7 * (4 + 5) print(x)
+CODE-END
+   A)63
+   B)16
+   C)33
+   D)35
+   - Answer: A
+
+39. What will be the output after the following statements?
+CODE-START
+x = '24' + '16' print(x)
+CODE-END
+   A)40
+   B)2416
+   C)21
+   D)46
+   - Answer: B
+
+40. What will be the output after the following statements?
+CODE-START
+x = 15 + 35 print(x)
+CODE-END
+   A)40
+   B)153
+   C)50
+   D)1535
+   - Answer: C
+
+41. What will be the data type of x after the following statement if input entered is 18 ?
+CODE-START
+x = input('Enter a number: ')
+CODE-END
+   A)Float
+   B)String
+   C)List
+   D)Integer
+   - Answer: B
+
+42. What will be the data type of y after the following statements if input entered is 50?
+CODE-START
+x = input('Enter a number: ') y = int(x)
+CODE-END
+   A)Float
+   B)String
+   C)List
+   D)Integer
+   - Answer: D
+
+43. What will be the data type of y after the following statements?
+CODE-START
+x = 71 y = float(x)
+CODE-END
+   A)Float
+   B)String
+   C)List
+   D)Integer
+   - Answer: A
+
+44. What will be the data type of y after the following statements?
+CODE-START
+x = 48 y = str(x)
+CODE-END
+   A)Float
+   B)String
+   C)List
+   D)Integer
+   - Answer: B
+
+45. What will be the output after the following statements?
+CODE-START
+x = y = z = 8
+print(y)
+CODE-END
+   A)x
+   B)8
+   C)z
+   D)y
+   - Answer: B
+
+46. What will be the value of x, y and z after the following statement?
+CODE-START
+ x = y = z = 300
+CODE-END
+   A)All three will have the value of 3
+   B)All three will have the value of 100
+   C)All three will have the value of 300
+   D)x and y will have arbitrary values, while z will have the value of 300
+   - Answer: C
+
+47. What will be the value of x, y and z after the following statement? 
+CODE-START
+x, y, z = 3, 4, 5
+CODE-END
+   A)All three will have the value of 3
+   B)All three will have the value of 345
+   C)x will have the value of 3, y will have the value 4 and z will have the value of 5
+   D)x and y will have arbitrary values, while z will have the value of 345
+   - Answer: C
+
+48. What is the data type of x after the following statement?
+CODE-START
+ x = [7, 8, 9, 10]
+CODE-END
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)String
+   - Answer: A
+
+49. What is the data type of x after the following statement?
+CODE-START
+ x = ['Today', 'Tomorrow', 'Yesterday']
+CODE-END
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)String
+   - Answer: A
+
+50. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'Tomorrow', 'Yesterday'] y = x[1] print(y)
+CODE-END
+   A)x1
+   B)Today
+   C)Tomorrow
+   D)Yesterday
+   - Answer: C
+
+51. What will be the output after the following statements?
+CODE-START
+x = [25, 35, 45] y = x[0] print(y)
+CODE-END
+   A)x0
+   B)25
+   C)35
+   D)45
+   - Answer: B
+
+52. What will be the output after the following statements?
+CODE-START
+x = [10, 20, 30] y = x[1] + x[2] print(y)
+CODE-END
+   A)20
+   B)30
+   C)40
+   D)50
+   - Answer: D
+
+53. What will be the output after the following statements?
+CODE-START
+x = ['Sunday', 'Monday', 'Tuesday'] y = x[1] + x[2] print(y)
+CODE-END
+   A)MondayTuesday
+   B)SundayMonday
+   C)SunMonday
+   D)Monday Tuesday
+   - Answer: A
+
+54. What will be the output after the following statements?
+CODE-START
+x = [[0.0, 1.0, 2.0],[4.0, 5.0, 6.0]] y = x[1][2]
+print(y)
+CODE-END
+   A)0.0
+   B)1.0
+   C)5.0
+   D)6.0
+   - Answer: D
+
+55. What will be the output after the following statements?
+CODE-START
+x = [[0.0, 1.0, 2.0],[4.0, 5.0, 6.0]] y = x[0][1] + x[1][0] print(y)
+CODE-END
+   A)1.0
+   B)4.0
+   C)5.0
+   D)6.0
+   - Answer: C
+
+56. What will be the output after the following statements?
+CODE-START
+x = 3 y = 4 print(x*y)
+CODE-END
+   A)3
+   B)4
+   C)3 4
+   D)12
+   - Answer: D
+
+57. What will be the output after the following statements?
+CODE-START
+x = [15, 45, 85, 95] print(x[3]-x[1])
+CODE-END
+   A)30
+   B)40
+   C)50
+   D)10
+   - Answer: C
+
+58. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2] print(x)
+CODE-END
+   A)[5, 4, 3, 2]
+   B)5, 4, 3, 2
+   C)5432
+   D)(5, 4, 3, 2)
+   - Answer: A
+
+59. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2]
+x.append(1) print(x)
+CODE-END
+   A)[5, 4, 3, 2]
+   B)5, 4, 3, 2, 1
+   C)5432
+   D)[5, 4, 3, 2, 1]
+   - Answer: D
+
+60. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2]
+x.insert(1, 0) print(x)
+CODE-END
+   A)[5, 1, 3, 2, 0]
+   B)[5, 0, 4, 3, 2]
+   C)[0, 5, 4, 3, 2]
+   D)[1, 5, 4, 3, 2]
+   - Answer: B
+
+61. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2]
+x.remove(2) print(x)
+CODE-END
+   A)[5, 3, 2]
+   B)[5, 4, 3]
+   C)[5, 4, 2]
+   D)[3, 2]
+   - Answer: B
+
+62. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] print(x.pop(3))
+CODE-END
+   A)4
+   B)3
+   C)2
+   D)1
+   - Answer: C
+
+63. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] print(x.index(1))
+CODE-END
+   A)4
+   B)3
+   C)2
+   D)1
+   - Answer: A
+
+64. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1]
+x.extend(x) print(x)
+CODE-END
+   A)[5, 4, 3, 2, 1]
+   B)[]
+   C)[1, 2, 3, 4, 5]
+   D)[5, 4, 3, 2, 1, 5, 4, 3, 2, 1]
+   - Answer: D
+
+65. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] y = [0, 5, 10]
+x.extend(y) print(x)
+CODE-END
+   A)[5, 4, 3, 2, 1, 0, 5, 10]
+   B)[]
+   C)[5, 4, 3, 2, 1]
+   D)[0, 5, 10, 5, 4, 3, 2, 1]
+   - Answer: A
+
+66. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] y = [10, 5, 0]
+x.extend(y) print(y)
+CODE-END
+   A)[5, 4, 3, 2, 1, 10, 5, 0]
+   B)[]
+   C)[10, 5, 0, 5, 4, 3, 2, 1]
+   D)[10, 5, 0]
+   - Answer: D
+
+67. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] y = [10, 5, 0]
+y.extend(x) print(y)
+CODE-END
+   A)[5, 4, 3, 2, 1, 10, 5, 0]
+   B)[10, 5, 0, 5, 4, 3, 2, 1]
+   C)[5, 4, 3, 2, 1]
+   D)[10, 5, 0]
+   - Answer: B
+
+68. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1]
+x.reverse() print(x)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[0, 5, 4, 3, 2, 1]
+   C)[5, 4, 3, 2, 1, 0]
+   D)[1, 2, 3, 4, 5]
+   - Answer: D
+
+69. What will be the output after the following statements?
+CODE-START
+x = [25, 14, 53, 62, 11]
+x.sort() print(x)
+CODE-END
+   A)[11, 14, 25, 53, 62]
+   B)[25, 14, 53, 62, 11]
+   C)[62, 53, 25, 14, 11]
+   D)[25, 53, 62, 14, 11]
+   - Answer: A
+
+70. What will be the output after the following statements?
+CODE-START
+x = ['25', 'Today', '53', 'Sunday', '15']
+x.sort() print(x)
+CODE-END
+   A)['Today', 'Sunday', '15', '25', '53']
+   B)['Sunday', 'Today', '15', '25', '53']
+   C)['15', '25', '53', 'Sunday', 'Today']
+   D)['15', '25', '53', 'Today', 'Sunday']
+   - Answer: C
+
+71. What will be the output after the following statements?
+CODE-START
+x = [25, 'Today', 53, 'Sunday', 15]
+x.reverse()
+print(x)
+CODE-END
+   A)['Today', 'Sunday', 15, 25, 53]
+   B)[15, 'Sunday', 53, 'Today', 25]
+   C)[15, 25, 53, 'Sunday', 'Today']
+   D)[15, 25, 53, 'Today', 'Sunday']
+   - Answer: B
+
+72. What will be the output after the following statements?
+CODE-START
+x = [25, 35, 53, 25, 52, 35, 25] print(x.count(25))
+CODE-END
+   A)25
+   B)3
+   C)53
+   D)35
+   - Answer: B
+
+73. What will be the output after the following statements?
+CODE-START
+x = [25, 35, 53, 25, 52, 35, 25] print(len(x))
+CODE-END
+   A)25
+   B)5
+   C)7
+   D)35
+   - Answer: C
+
+74. What will be the output after the following statements?
+CODE-START
+x = [25, 35, 53, 25, 52, 35, 25] len(x) print(x)
+CODE-END
+   A)25
+   B)5
+   C)7
+   D)[25, 35, 53, 25, 52, 35, 25]
+   - Answer: D
+
+75. What will be the output after the following statements?
+CODE-START
+x = [25, 35, 53, 25, 52, 35, 25] del x[3] print(x)
+CODE-END
+   A)[25, 35, 53, 52, 35, 25]
+   B)[25, 5, 5, 25, 52, 5, 25]
+   C)[35, 53, 52, 35]
+   D)[25, 35, 53, 25, 52, 35, 25]
+   - Answer: A
+
+76. What will be the output after the following statements?
+CODE-START
+x = [5, 3, 6, 2, 4, 0, 1] del x[2:3] print(x)
+CODE-END
+   A)[5, 3, 6, 4, 0, 1]
+   B)[5, 3, 2, 4, 0, 1]
+   C)[5, 6, 2, 4, 0, 1]
+   D)[5, 4, 0, 1]
+   - Answer: B
+
+77. What will be the output after the following statements?
+CODE-START
+x = [5, 3, 6, 2, 4, 0, 7] del x[0:7]
+print(x)
+CODE-END
+   A)[]
+   B)[5, 3, 6, 2, 4, 0, 7]
+   C)[5, 3, 6, 2, 4, 0]
+   D)[3, 6, 2, 4, 0]
+   - Answer: A
+
+78. What will be the output after the following statements?
+CODE-START
+x = [5, 3, 6, 2, 4, 0, 7] del x[0:4] print(x)
+CODE-END
+   A)[]
+   B)[5, 3, 6, 2, 7]
+   C)[5, 3, 6, 2, 4, 0]
+   D)[4, 0, 7]
+   - Answer: D
+
+79. What will be the output after the following statements?
+CODE-START
+x = [5, 3, 6, 2, 4, 0, 7] del x[:] print(x)
+CODE-END
+   A)[]
+   B)[5, 3, 6, 2, 7]
+   C)[5, 3, 6, 2, 4, 0]
+   D)[4, 0, 7]
+   - Answer: A
+
+80. What will be the output after the following statements?
+CODE-START
+x = [4, 0, 7]
+y = str(x[0]) + str(x[1]) print(y)
+CODE-END
+   A)11
+   B)4
+   C)40
+   D)7
+   - Answer: C
+
+81. What will be the output after the following statements?
+CODE-START
+x = [4, 0, 7] y = float(x[0] + x[2]) print(y)
+CODE-END
+   A)11
+   B)11.0
+   C)47.0
+   D)47
+   - Answer: B
+
+82. What will be the data type of x after the following statement?
+CODE-START
+ x = (34, 81, 50)
+CODE-END
+   A)List
+   B)String
+   C)Dictionary
+   D)Tuple
+   - Answer: D
+
+83. What will be the data type of x after the following statement?
+CODE-START
+x = 'Python 3 Test'
+CODE-END
+   A)List
+   B)String
+   C)Dictionary
+   D)Tuple
+   - Answer: B
+
+84. What will be the data type of x after the following statement?
+CODE-START
+ x = [2290, 376, 198]
+CODE-END
+   A)List
+   B)String
+   C)Dictionary
+   D)Tuple
+   - Answer: A
+
+85. What will be the data type of x after the following statement?
+CODE-START
+ x = {'lang' :'Python', 'version' : '3'}
+CODE-END
+   A)List
+   B)Set
+   C)Dictionary
+   D)Tuple
+   - Answer: C
+
+86. What will be the data type of x after the following statement?
+CODE-START
+ x = {2015, 2016, 2017, 2018}
+CODE-END
+   A)List
+   B)Set
+   C)Dictionary
+   D)Tuple
+   - Answer: B
+
+87. What will be the data type of x after the following statement?
+CODE-START
+ x = [2016, 'Leap Year', 'True']
+CODE-END
+   A)List
+   B)String
+   C)Dictionary
+   D)Boolean
+   - Answer: A
+
+88. What will be the data type of x after the following statement?
+   A)List
+   B)String
+   C)Dictionary
+   D)Boolean
+   - Answer: D
+
+89. Which of the following function can be used to find the data type of a variable?
+   A)data()
+   B)type()
+   C)true()
+   D)str()
+   - Answer: B
+
+90. What will be the output after the following statements?
+CODE-START
+x = [24, 50, 37]
+y = 24 in x print(y)
+CODE-END
+   A)x[0]
+   B)[24]
+   C)True
+   D)False
+   - Answer: C
+
+91. What will be the output after the following statements?
+CODE-START
+x = {'A', 'B', 'C'} y = 'b' in x print(y)
+CODE-END
+   A)x[1]
+   B)['B']
+   C)True
+   D)False
+   - Answer: D
+
+92. What will be the output after the following statements?
+CODE-START
+x = 'Python' y = 'y' in x print(y)
+CODE-END
+   A)[1]
+   B)y
+   C)True
+   D)False
+   - Answer: C
+
+93. What will be the output after the following statements?
+CODE-START
+x = {0:4, 1:8, 2:16, 3:32} y = 0 in x print(y)
+CODE-END
+   A)x[0]
+   B)[24]
+   C)True
+   D)False
+   - Answer: C
+
+94. What will be the output after the following statements?
+CODE-START
+x = {0:4, 1:8, 2:16, 3:32} y = 8 in x
+print(y)
+CODE-END
+   A)x[0]
+   B)[24]
+   C)True
+   D)False
+   - Answer: D
+
+95. What will be the data type of x after the following statements?
+CODE-START
+false = "This is not true" x = false
+CODE-END
+   A)List
+   B)String
+   C)Dictionary
+   D)Boolean
+   - Answer: B
+
+96. Which of the following is immutable (values that cannot be changed)?
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: C
+
+97. Which of the following has only unique values?
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: D
+
+98. What will be the output after the following statements?
+CODE-START
+x = {0:4, 1:8, 2:16, 3:32} print(x.keys())
+CODE-END
+   A)dict_keys([0, 1, 2, 3])
+   B)dict_keys{0, 1, 2, 3}
+   C)dict_keys(0, 1, 2, 3)
+   D)dict_keys[0, 1, 2, 3]
+   - Answer: A
+
+99. What will be the output after the following statements?
+CODE-START
+x = {0:4, 1:8, 2:16, 3:32} print(x.values())
+CODE-END
+   A)dict_values([4, 8, 16, 32])
+   B)dict_values{4, 8, 16, 32}
+   C)dict_values(4, 8, 16, 32)
+   D)dict_values[4, 8, 16, 32]
+   - Answer: A
+
+100. What will be the output after the following statements?
+CODE-START
+x = {1:'Jan', 2:'Feb', 3:'March', 4:'April'} print(x[2])
+CODE-END
+   A)Jan
+   B)Feb
+   C)March
+   D)April
+   - Answer: B
+
+101. What will be the output after the following statements?
+CODE-START
+x = {0:4, 1:8, 2:16, 3:32} print(list(x.values())[2])
+CODE-END
+   A)[4, 8]
+   B)[4, 8, 16]
+   C)16
+   D)8
+   - Answer: C
+
+102. What will be the output after the following statements?
+CODE-START
+x = {0:4, 1:8, 2:16, 3:32} print(x.items())
+CODE-END
+   A)dict_items(4, 8, 16, 32)
+   B)dict_items([4, 8, 16, 32])
+   C)dict_items[0, 1, 2, 3]
+   D)dict_items([(0, 4), (1, 8), (2, 16), (3, 32)])
+   - Answer: D
+
+103. What will be the output after the following statements?
+CODE-START
+x = {5:4, 8:8, 3:16, 9:32} print(sorted(x.items()))
+CODE-END
+   A)[4, 8, 16, 32]
+   B)[(3, 16), (5, 4), (8, 8), (9, 32)]
+   C)[3, 5, 8, 9]
+   D)[(4, 5), (8, 8), (16, 3), (32, 9)]
+   - Answer: B
+
+104. What will be the output after the following statements?
+CODE-START
+x = 7 if x > 5:     print(20)
+CODE-END
+   A)20
+   B)5
+   C)x
+   D)7
+   - Answer: A
+
+105. What will be the output after the following statements?
+CODE-START
+x = 8 if x > 8:     print(20) else:     print(10)
+CODE-END
+   A)20
+   B)x
+   C)10
+   D)8
+   - Answer: C
+
+106. What will be the output after the following statements?
+CODE-START
+x = 40
+if x > 10:     print(20) elif x == 40:     print(10) else:     print(30)
+CODE-END
+   A)20
+   B)40
+   C)10
+   D)30
+   - Answer: A
+
+107. What will be the output after the following statements?
+CODE-START
+x = 15
+if x > 15:
+print(0)
+elif x == 15:
+print(1)
+else:
+print(2)
+CODE-END
+   A)0
+   B)1
+   C)2
+   D)15
+   - Answer: B
+
+108. What will be the output after the following statements?
+CODE-START
+x = 5 if x > 15:
+print('yes') elif x == 15:     print('equal') else:     print('no')
+CODE-END
+   A)15
+   B)yes
+   C)equal
+   D)no
+   - Answer: D
+
+109. What will be the output after the following statements?
+CODE-START
+x = 50
+if x > 10  and x < 15:     print('true') elif x > 15  and x < 25:     print('not true') elif x > 25  and x < 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: D
+
+110. What will be the output after the following statements?
+CODE-START
+x = 25 if x > 10  and x < 15:     print('true') elif x > 15  and x < 25:     print('not true') elif x > 25  and x < 35:
+print('false') else:
+print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: D
+
+111. What will be the output after the following statements?
+CODE-START
+x = 15 if x > 10  and x <= 15:
+print('true') elif x > 15  and x < 25:     print('not true') elif x > 25  and x < 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: A
+
+112. What will be the output after the following statements?
+CODE-START
+x = 25 if x > 10  and x <= 15:
+print('true') elif x >= 15  and x < 25:     print('not true') elif x >= 25  and x < 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: B
+
+113. What will be the output after the following statements?
+CODE-START
+x = 25 if x >= 10  and x <= 15:
+print('true') elif x >= 15  and x <= 25:     print('not true') elif x >= 25  and x <= 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: C
+
+114. What will be the output after the following statements?
+CODE-START
+x = 20 if x <= 10 or x >= 75:     print('true') elif x <= 15 or x >= 55:     print('not true') elif x <= 25 or x >= 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: B
+
+115. What will be the output after the following statements?
+CODE-START
+x = 30 if x <= 10 or x >= 75:     print('true') elif x <= 15 or x >= 55:     print('not true') elif x <= 25 or x >= 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: D
+
+116. What will be the output after the following statements?
+CODE-START
+x = 80 if x <= 10 or x >= 75:     print('true') elif x <= 15 or x >= 55:     print('not true') elif x <= 25 or x >= 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: A
+
+117. What will be the output after the following statements?
+CODE-START
+x = 60 if x <= 10 or x >= 75:     print('true') elif x <= 15 or x >= 55:     print('not true') elif x <= 25 or x >= 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: C
+
+118. What will be the output after the following statements?
+CODE-START
+x = 68 if x <= 50 and x >= 25:
+print('true')
+elif x <= 60 or x >= 55:     print('not true') elif x <= 70 and x >= 35:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: C
+
+119. What will be the output after the following statements?
+CODE-START
+x = 99 if x <= 30 or x >= 100:
+print('true')
+elif x >= 50 and x <= 80:     print('not true') elif x >= 100 or x <= 75:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: D
+
+120. What will be the output after the following statements?
+CODE-START
+x = 70 if x <= 30 or x >= 100:
+print('true') elif x <= 50 and x == 50:     print('not true') elif x >= 150 or x <= 75:
+print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: B
+
+121. What will be the output after the following statements?
+CODE-START
+x = 40 y = 25 if x + y >= 100:     print('true') elif x + y == 50:     print('not true') elif x + y <= 90:     print('false') else:     print('not false')
+CODE-END
+   A)true
+   B)false
+   C)not true
+   D)not false
+   - Answer: B
+
+122. What will be the output after the following statements?
+CODE-START
+x = 1 while x < 10:     print(x, end='')     x = x + 1
+CODE-END
+   A)123456789
+   B)1
+   C)10
+   D)2
+   - Answer: A
+
+123. What will be the output after the following statements?
+CODE-START
+x = 0 while x < 10:     print(x, end='')     x += 4
+CODE-END
+   A)0123456789
+   B)123456789
+   C)4123456789
+   D)048
+   - Answer: D
+
+124. What will be the output after the following statements?
+CODE-START
+x = 0 y = 4 while x + y < 10:     print(x, end='')     x += 1
+CODE-END
+   A)012345
+   B)0123456789
+   C)4123456789
+   D)048
+   - Answer: A
+
+125. What will be the output after the following statements?
+CODE-START
+x = 0 y = 4 while x + y < 10:     x += 1     print(x, end='')
+CODE-END
+   A)012345
+   B)0123456
+   C)123456
+   D)0123456
+   - Answer: C
+
+126. What will be the output after the following statements?
+CODE-START
+x = 1 y = 4 while x * y < 10:     print(y, end='')     y += 1
+CODE-END
+   A)012345
+   B)456789
+   C)123456789
+   D)0123456789
+   - Answer: B
+
+127. What will be the output after the following statements?
+CODE-START
+x = 1 y = 4 while x * y < 10:     print(y, end='')     x += 1     y += 1
+CODE-END
+   A)4
+   B)48
+   C)148
+   D)0123456789
+   - Answer: A
+
+128. What will be the output after the following statements?
+CODE-START
+x = 1 y = 4 while x * y <= 10:     print(x, end='')     x += 1     y += 1
+CODE-END
+   A)4
+   B)48
+   C)14
+   D)12
+   - Answer: D
+
+129. What will be the output after the following statements?
+CODE-START
+x, y = 2, 5 while y - x < 5:
+print(x*y, end=' ')     x += 3     y += 4
+CODE-END
+   A)1045
+   B)10 45
+   C)34
+   D)3 4 10 45
+   - Answer: B
+
+130. What will be the output after the following statements?
+CODE-START
+x, y = 0, 1 while y < 10:     print(y, end=' ')     x, y = y, x + y
+CODE-END
+   A)1 1 2 3 5 8
+   B)112358
+   C)0123456789
+   D)0 2 4 6 8
+   - Answer: A
+
+131. What will be the output after the following statements?
+CODE-START
+x = 1 while x < 4:     x += 1     y = 1     while y < 3:         print(y, end=' ')         y += 1
+CODE-END
+   A)1 1 2 2
+   B)1 1 2 2 3 3 4 4
+   C)1 2 3 4
+   D)1 2 1 2 1 2
+   - Answer: D
+
+132. What will be the output after the following statements?
+CODE-START
+x = y = 1 while x < 4:     x += 1     while y < 3:         print(y, end=' ')         y += 1
+CODE-END
+   A)1 1 2 2
+   B)1 2
+   C)1 2 3 4
+   D)1 2 1 2 1 2
+   - Answer: B
+
+133. What type of loop is this?
+CODE-START
+x = 1 while x < 5:     print(x, end='')
+CODE-END
+   A)Closed loop
+   B)One time loop
+   C)Infinite loop
+   D)Evergreen loop
+   - Answer: C
+
+134. What will be the output after the following statements?
+CODE-START
+x = 'hello' for i in x:     print(i, end='')
+CODE-END
+   A)h
+   B)hello
+   C)h e l l o
+   D)i x
+   - Answer: B
+
+135. What will be the output after the following statements?
+CODE-START
+for i in range(5):     print(i, end='')
+CODE-END
+   A)5
+   B)1 5
+   C)012345
+   D)01234
+   - Answer: D
+
+136. What will be the output after the following statements?
+CODE-START
+for i in range(1,5):     print(i, end='')
+CODE-END
+   A)15
+   B)12345
+   C)1234
+   D)012345
+   - Answer: C
+
+137. What will be the output after the following statements?
+CODE-START
+for i in range(1,25,5):     print(i, end=' ')
+CODE-END
+   A)1 6 11 16 21
+   B)1 5 10 15 20 25
+   C)1 5 25
+   D)16111621
+   - Answer: A
+
+138. What will be the output after the following statements?
+CODE-START
+x = ['P', 'y', 't', 'h', 'o', 'n'] for i in x:     print(i, end='')
+CODE-END
+   A)P
+   B)python
+   C)Pytho
+   D)Python
+   - Answer: D
+
+139. What will be the output after the following statements?
+CODE-START
+x = ('a', 'b', 'c', 'd') for i in x:     print(i, end=' ')
+CODE-END
+   A)abcd
+   B)a b c d
+   C)False
+   D)True
+   - Answer: B
+
+140. What will be the output after the following statements?
+CODE-START
+x = {'x', 'z', 'y'} for i in x:     print(i, end='')
+CODE-END
+   A)x z y
+   B)xzy
+   C)False
+   D)True
+   - Answer: B
+
+141. What will be the output after the following statements?
+CODE-START
+x = {'z:1', 'y:2', 'x:3'} for i in x:     print(i, end=' ')
+CODE-END
+   A)x y z
+   B)1 2 3
+   C)x:3 y:2 z:1
+   D)True
+   - Answer: C
+
+142. What will be the output after the following statements?
+CODE-START
+x = ['P', 'y', 't', 'h', 'o', 'n'] for i in enumerate(x):     print(i, end='')
+CODE-END
+   A)('P')('y')('t')('h')('o')('n')
+   B)python
+   C)python
+   D)(0, 'P')(1, 'y')(2, 't')(3, 'h')(4, 'o')(5, 'n')
+   - Answer: D
+
+143. What will be the output after the following statements?
+CODE-START
+x = {'x':1, 'y':2, 'z':3} for i in x:     print(i, end=' ')
+CODE-END
+   A)x y z
+   B)1 2 3
+   C)x:1 y:2 z:3
+   D)True
+   - Answer: A
+
+144. What will be the output after the following statements?
+CODE-START
+x = {'x':1, 'y':2, 'z':3} for i, j in x.items():     print(i, j, end=' ')
+CODE-END
+   A)x y z
+   B)x 1 y 2 z 3
+   C)x:1 y:2 z:3
+   D)x, 1, y, 2, z, 3
+   - Answer: B
+
+145. What will be the output after the following statements?
+CODE-START
+x = ['p', 'y', 't', 'h', 'o', 'n'] y = ['0', '1', '2', '3', '4', '5'] for i in zip(x, y):     print(i, end='')
+CODE-END
+   A)('P')('y')('t')('h')('o')('n')
+   B)python 0 1 2 3 4 5
+   C)('p', '0')('y', '1')('t', '2')('h', '3')('o', '4')('n', '5')
+   D)(0, 'P')(1, 'y')(2, 't')(3, 'h')(4, 'o')(5, 'n')
+   - Answer: C
+
+146. What will be the output after the following statements?
+CODE-START
+for i in range(1,5):     print(i, end='')     if i == 3:         break
+CODE-END
+   A)123
+   B)1234
+   C)12
+   D)12345
+   - Answer: A
+
+147. What will be the output after the following statements?
+CODE-START
+for i in range(0,5):
+if i == 2:         break     print(i, end='')
+CODE-END
+   A)12
+   B)01
+   C)012
+   D)0123
+   - Answer: B
+
+148. What will be the output after the following statements?
+CODE-START
+for i in range(1,5):     if i == 3:         continue     print(i, end=' ')
+CODE-END
+   A)1 2 4
+   B)1 2 3 4
+   C)1 2
+   D)1 2 3
+   - Answer: A
+
+149. What will be the output after the following statements?
+CODE-START
+for i in range(0,5):     print(i, end='')     if i == 2:         continue
+CODE-END
+   A)0124
+   B)01234
+   C)12
+   D)1345
+   - Answer: B
+
+150. What will be the output after the following statements?
+CODE-START
+myvar = 5 def printvar() :     print(myvar) printvar()
+CODE-END
+   A)01245
+   B)12345
+   C)5
+   D)1234
+   - Answer: C
+
+151. What is printvar in the following statements?
+CODE-START
+myvar = 5 def printvar() :     print(myvar) printvar()
+CODE-END
+   A)A list
+   B)A string
+   C)An integer
+   D)A function
+   - Answer: D
+
+152. What will be the output after the following statements?
+CODE-START
+myvar = 5 def printvar() :
+print(myvar, end ='') printvar() printvar()
+CODE-END
+   A)55
+   B)5 5
+   C)5
+   D)10
+   - Answer: A
+
+153. What will be the output after the following statements?
+CODE-START
+def call(var) :
+print(var, end ='') call(45)
+CODE-END
+   A)55
+   B)4 5
+   C)45
+   D)var
+   - Answer: C
+
+154. What will be the output after the following statements?
+CODE-START
+def call(var1, var2) :
+print(var1 + var2, end ='')
+call(10, 40)
+CODE-END
+   A)10
+   B)50
+   C)40
+   D)10 + 40
+   - Answer: B
+
+155. What will be the output after the following statements?
+CODE-START
+def call(var1, var2, var3) :
+print(var1 var2 var3, end ='') a = b = c = 10 call(a, b, c)
+CODE-END
+   A)1000
+   B)10
+   C)30
+   D)10 10 10
+   - Answer: A
+
+156. What will be the output after the following statements?
+CODE-START
+def call(var1=20, var2=5, var3=2) :     print(var1 var2 var3, end ='') call()
+CODE-END
+   A)100
+   B)1000
+   C)2052
+   D)200
+   - Answer: D
+
+157. What will be the output after the following statements?
+CODE-START
+def call(var1=20, var2=5, var3=2) :     print(var1 var2 var3, end ='') call(5,9,7)
+CODE-END
+   A)597
+   B)315
+   C)2052
+   D)200
+   - Answer: B
+
+158. What will be the output after the following statements?
+CODE-START
+def call(var1=20, var2=5, var3=2) :     print(var1 var2 var3, end ='') call(5,7)
+CODE-END
+   A)57
+   B)315
+   C)70
+   D)200
+   - Answer: C
+
+159. What will be the output after the following statements?
+CODE-START
+def call(var1=20, var2=5, var3=2) :     print((var1 * var2) - var3, end ='') call(var2=5, var3=3, var1=4)
+CODE-END
+   A)17
+   B)98
+   C)70
+   D)11
+   - Answer: A
+
+160. What will be the output after the following statements?
+CODE-START
+def call(var1=20, var2=5, var3=2) :     print((var1 * var2) - var3, end ='') call(7,4)
+CODE-END
+   A)17
+   B)98
+   C)26
+   D)11
+   - Answer: C
+
+161. What will be the output after the following statements?
+CODE-START
+def call(x, y) :     return x * y print(call(5, 3))
+CODE-END
+   A)18
+   B)5, 3
+   C)15
+   D)8
+   - Answer: C
+
+162. What will be the output after the following statements?
+CODE-START
+def call(y, x) :     return x / y z = call(4, 9) print(z)
+CODE-END
+   A)0.444445
+   B)2
+   C)0
+   D)2.25
+   - Answer: D
+
+163. What will be the output after the following statements?
+CODE-START
+def call(x,y) :     if y == 0:         return     return y - x print(call(8,2))
+CODE-END
+   A)6
+   B)-6
+   C)2
+   D)6.0
+   - Answer: B
+
+164. What will be the output after the following statements?
+CODE-START
+def call(x,y) :     if x == 0:     return     return y + x print(call(0,5))
+CODE-END
+   A)5
+   B)5.0
+   C)0
+   D)None
+   - Answer: D
+
+165. What will be the output after the following statements?
+CODE-START
+y = lambda x: x*4 print(y(6))
+CODE-END
+   A)24
+   B)24.0
+   C)6: 24
+   D)36
+   - Answer: A
+
+166. What will be the output after the following statements?
+CODE-START
+x = 27 if x < 25:     print(x) else:
+pass
+CODE-END
+   A)None
+   B)25
+   C)27
+   D)No output
+   - Answer: D
+
+167. Which of the following is not a core data structure in Python?
+   A)List
+   B)Module
+   C)Dictionary
+   D)Tuple
+   - Answer: B
+
+168. What will be the output after the following statements?
+CODE-START
+def gen():     x = 0     while True:         yield x         x += 1 y = gen() print(next(y), end='') print(next(y), end='') print(next(y), end='')
+CODE-END
+   A)012
+   B)123
+   C)111
+   D)000
+   - Answer: A
+
+169. What will be the output after the following statements?
+CODE-START
+def gen():     x = 2     while True:         yield x         x += 1 y = gen() for i in y:     if i >= 5:         break     else:         print(i, end='')
+CODE-END
+   A)0123
+   B)123
+   C)12345
+   D)234
+   - Answer: D
+
+170. What do you type to enter the interactive help mode of Python?
+   A)HELP
+   B)save
+   C)help()
+   D)help
+   - Answer: C
+
+171. What does the following statement do?
+CODE-START
+import random
+CODE-END
+   A)Imports the random module
+   B)Imports a random module from a list of modules
+   C)Imports the random function
+   D)imports the directory named random
+   - Answer: A
+
+172. What does the following statement do?
+CODE-START
+ import keyword, sys
+CODE-END
+   A)Imports all the python keywords
+   B)Imports the keyword and sys modules
+   C)Imports the keyword and sys functions
+   D)imports the directories named keyword and sys
+   - Answer: B
+
+173. What will be the output after the following statements?
+CODE-START
+import random as rd print(rd.randint(4,7))
+CODE-END
+   A)A random float value between 4 and 7, including 4 and 7
+   B)A random float value between 4 and 7, excluding 4 and 7
+   C)A random integer value between 4 and 7, excluding 4 and 7
+   D)A random integer value between 4 and 7, including 4 and 7 
+   - Answer: D
+
+174. What will be the output after the following statements?
+CODE-START
+import random as rd print(rd.random())
+CODE-END
+   A)A random float value between 0 and 1
+   B)A random integer value between 0 and 1
+   C)A random float value between 0 and 10
+   D)A random integer value between 0 and 10
+   - Answer: A
+
+175. What will be the output after the following statements?
+CODE-START
+from random import * x = [0, 2, 4, 6, 8, 10] print(sample(x, 3))
+CODE-END
+   A)A dictionary containing 3 random keys from list x
+   B)Three random integer values between 0 and 10
+   C)A list containing 3 random elements from list x
+   D)A tuple containing 2 random elements from list x
+   - Answer: C
+
+176. Which of the following can be a possible output after the following statements?
+CODE-START
+from random import * print(sample(range(0,10), 3))
+CODE-END
+   A)[4, 11, 30]
+   B)[3, 15, 10]
+   C)[1, 5, 7, 4]
+   D)[1, 5, 0]
+   - Answer: D
+
+177. What does the following statements do?
+CODE-START
+import sys print(sys.version)
+CODE-END
+   A)Displays the Python version
+   B)Displays the operating system version
+   C)Displays the date
+   D)Displays the year
+   - Answer: A
+
+178. What does the following statements do?
+CODE-START
+import sys print(sys.executable)
+CODE-END
+   A)Displays the Python version
+   B)Displays the operating system version
+   C)Displays the location of the Python interpreter
+   D)Displays the date and time
+   - Answer: C
+
+179. What does the following statements do?
+CODE-START
+import keyword print(keyword.kwlist)
+CODE-END
+   A)Displays the list of Python modules
+   B)Displays a list of all the Python keywords
+   C)Displays a random keyword from the Python keywords
+   D)Displays the date and time
+   - Answer: B
+
+180. What will be the output after the following statements?
+CODE-START
+import math print(math.floor(67.3))
+CODE-END
+   A)67
+   B)68
+   C)67.0
+   D)68.0
+   - Answer: A
+
+181. What will be the output after the following statements?
+CODE-START
+import math print(math.ceil(21.4))
+CODE-END
+   A)21
+   B)22
+   C)21.0
+   D)22.0
+   - Answer: B
+
+182. What will be the output after the following statements?
+CODE-START
+import math print(math.sqrt(4))
+CODE-END
+   A)2.1
+   B)2
+   C)2.0
+   D)4.0
+   - Answer: C
+
+183. What will be the output after the following statements?
+CODE-START
+import math print(math.pow(3,2))
+CODE-END
+   A)6
+   B)9
+   C)6.0
+   D)9.0
+   - Answer: D
+
+184. What does the following statements do?
+CODE-START
+import datetime print(datetime.datetime.today())
+CODE-END
+   A)Displays current date and time
+   B)Displays a list of all the hours remaining till midnight
+   C)Displays a random time from today's date
+   D)Displays today's weekday name
+   - Answer: A
+
+185. What does the following statements do?
+CODE-START
+from datetime import * print(getattr(datetime.today(),'hour'))
+CODE-END
+   A)Displays current date and time
+   B)Displays a list of all the hours remaining till midnight
+   C)Displays current hour of the day
+   D)Displays the number of hours in a day
+   - Answer: C
+
+186. What does the following statements do?
+CODE-START
+from datetime import * print(getattr(datetime.today(),'year'))
+CODE-END
+   A)Displays current date and year
+   B)Displays current year
+   C)Displays the number of months in a year
+   D)Displays the number of days in a year
+   - Answer: B
+
+187. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%A'))
+CODE-END
+   A)Displays the full month name
+   B)Displays the abbreviated month name
+   C)Displays the abbreviated day name
+   D)Displays the full weekday name
+   - Answer: D
+
+188. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%B'))
+CODE-END
+   A)Displays the full weekday name
+   B)Displays the full month name
+   C)Displays the abbreviated day name
+   D)Displays the abbreviated month name
+   - Answer: B
+
+189. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%d'))
+CODE-END
+   A)Displays the hour number of 12-hour clock
+   B)Displays the date and time appropriate for locale
+   C)Displays the day of the month number (from 01 to 31)
+   D)Displays the microsecond number (from 0 to 999999) 190. What does the following statements do?
+   - Answer: C
+
+190. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%c'))
+CODE-END
+   A)Displays the date and time appropriate for locale
+   B)Displays the microsecond number (from 0 to 999999)
+   C)Displays the hour number of 12-hour clock
+   D)Displays the hour number of 24-hour clock 
+   - Answer: A
+
+191. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%f'))
+CODE-END
+   A)Displays the date and time appropriate for locale
+   B)Displays the microsecond number (from 0 to 999999)
+   C)Displays the hour number of 24-hour clock
+   D)Displays the hour number of 12-hour clock
+   - Answer: B
+
+192. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%I')) 
+CODE-END
+   A)Displays the hour number of 12-hour clock
+   B)Displays the minute number from 00 to 59
+   C)Displays the hour number of 24-hour clock
+   D)Displays the day number of the year from 000 to 366 193. What does the following statements do?
+   - Answer: A
+
+193. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%H'))
+CODE-END
+   A)Displays the minute number from 00 to 59
+   B)Displays the hour number of 12-hour clock
+   C)Displays the hour number of 24-hour clock
+   D)Displays the day number of the year from 000 to 366 
+   - Answer: C
+
+194. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%j'))
+CODE-END
+   A)Displays the month number from 01 to 12
+   B)Displays the minute number from 00 to 59
+   C)Displays the day number of the year from 000 to 366
+   D)Displays the second number from 00 to 59 195. 
+   - Answer: C
+
+195. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%M'))
+CODE-END
+   A)Displays the month number from 01 to 12
+   B)Displays the second number from 00 to 59
+   C)Displays the AM or PM equivalent for locale
+   D)Displays the minute number from 00 to 59 
+   - Answer: D
+
+196. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%m'))
+CODE-END
+   A)Displays the minute number from 00 to 59
+   B)Displays the month number from 01 to 12
+   C)Displays the second number from 00 to 59
+   D)Displays the AM or PM equivalent for locale 
+   - Answer: B
+
+197. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%p'))
+CODE-END
+   A)Displays the AM or PM equivalent for locale
+   B)Displays the minute number from 00 to 59
+   C)Displays the month number from 01 to 12
+   D)Displays the second number from 00 to 59 
+   - Answer: A
+
+198. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%S'))
+CODE-END
+   A)Displays the AM or PM equivalent for locale
+   B)Displays the second number from 00 to 59
+   C)Displays the week number of the year from 00 to 53
+   D)Displays the month number from 01 to 12
+   - Answer: B
+
+199. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%W'))
+CODE-END
+   A)Displays the weekday number from 0(Sunday) to 6(Saturday)
+   B)Displays the AM or PM equivalent for locale
+   C)Displays the date appropriate for locale
+   D)Displays the week number of the year from 00 to 53
+   - Answer: D
+
+199. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%w'))
+CODE-END
+   A)Displays the week number of the year from 00 to 53
+   B)Displays the date appropriate for locale
+   C)Displays the weekday number from 0(Sunday) to 6(Saturday)
+   D)Displays the time appropriate for locale
+   - Answer: C
+
+201. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%x'))
+CODE-END
+   A)Displays the time appropriate for locale
+   B)Displays the current year as 00 to 99
+   C)Displays the current year as 0001 to 9999
+   D)Displays the date appropriate for locale
+   - Answer: D
+
+202. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%X'))
+CODE-END
+   A)Displays the current year as 0001 to 9999
+   B)Displays the timezone name
+   C)Displays the time appropriate for locale
+   D)Displays the current year as 00 to 99
+   - Answer: C
+
+203. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%y'))
+CODE-END
+   A)Displays the current year as 00 to 99
+   B)Displays the current year as 0001 to 9999
+   C)Displays the timezone name
+   D)Displays the timezone offset from UTC as +HHMM or -HHMM 204. 
+   - Answer: A
+
+204. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%Y'))
+CODE-END
+   A)Displays the current year as 0001 to 9999
+   B)Displays the timezone name
+   C)Displays the timezone offset from UTC as +HHMM or -HHMM
+   D)Displays the full month name
+   - Answer: A
+
+205. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%Z'))
+CODE-END
+   A)Displays the timezone offset from UTC as +HHMM or -HHMM
+   B)Displays the timezone name
+   C)Displays the abbreviated month name
+   D)Displays the full month name
+   - Answer: B
+
+206. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%z'))
+CODE-END
+   A)Displays the full month name
+   B)Displays the abbreviated month name
+   C)Displays the abbreviated day name
+   D)Displays the timezone offset from UTC as +HHMM or -HHMM 207. 
+   - Answer: D
+
+207. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%a'))
+CODE-END
+   A)Displays the full month name
+   B)Displays the full day name
+   C)Displays the abbreviated day name
+   D)Displays the abbreviated month name
+   - Answer: C
+
+208. What does the following statements do?
+CODE-START
+from datetime import * print(datetime.today().strftime('%b'))
+CODE-END
+   A)Displays the full month name
+   B)Displays the abbreviated month name
+   C)Displays the full day name
+   D)Displays the abbreviated day name
+   - Answer: B
+
+209. What does the following statements do?
+CODE-START
+from time import *
+print(time())
+CODE-END
+   A)Displays the current time in seconds since the Epoch as a floating point number
+   B)Displays the current time in minutes since the Epoch as a floating point number
+   C)Displays the current time in seconds since the Epoch as an integer
+   D)Displays the current time in minutes since the Epoch as an integer 
+   - Answer: A
+
+210. What does the following statements do?
+CODE-START
+from time import * sleep(3)
+CODE-END
+   A)Pauses the execution of the program by 3 minutes
+   B)Pauses the execution of the program by 3 seconds
+   C)Displays the current time in seconds since the Epoch as an integer
+   D)Displays the current time in minutes since the Epoch as an integer 
+   - Answer: B
+
+211. What does the following statements do?
+CODE-START
+x = 'Python' y = 'MCQ' print(x + y)
+CODE-END
+   A)Python Python
+   B)MCQ MCQ
+   C)Python MCQ
+   D)PythonMCQ
+   - Answer: D
+
+212. What will be the output after the following statements?
+CODE-START
+x = 'Python ' print(x*3)
+CODE-END
+   A)Pyt Pyt Pyt
+   B)t
+   C)Python Python Python
+   D)PythonPythonPython
+   - Answer: C
+
+213. What will be the output after the following statements?
+CODE-START
+x = 'Python ' print(x[4])
+CODE-END
+   A)h
+   B)t
+   C)Python Python Python Python
+   D)o
+   - Answer: D
+
+214. What will be the output after the following statements?
+CODE-START
+x = 'Python' print(x[2:4])
+CODE-END
+   A)Pyth
+   B)th
+   C)tho
+   D)thon
+   - Answer: B
+
+215. What will be the output after the following statements?
+CODE-START
+x = 'Python' print(x[:])
+CODE-END
+   A)yth
+   B)Pn
+   C)Python
+   D)PythonPythonPython
+   - Answer: C
+
+216. What will be the output after the following statements?
+CODE-START
+x = 'Python' print('y' in x)
+CODE-END
+   A)y
+   B)Y
+   C)Python
+   D)True
+   - Answer: D
+
+217. What will be the output after the following statements?
+CODE-START
+x = 'Python' print('p' not in x)
+CODE-END
+   A)p
+   B)P
+   C)True
+   D)False
+   - Answer: C
+
+218. What will be the output after the following statements?
+CODE-START
+x = '{} 3 {}'.format('Python', 'Test') print(x)
+CODE-END
+   A)Python 3 Test
+   B)Python Test
+   C)Test 3 Python
+   D)Test Python
+   - Answer: A
+
+219. What will be the output after the following statements?
+CODE-START
+x = '{1} for {0}'.format('Python', 'Questions') print(x)
+CODE-END
+   A)Python for Questions
+   B)Questions for Python
+   C)1 for 0
+   D)Python 1 for 0 Questions
+   - Answer: B
+
+220. What will be the output after the following statements?
+CODE-START
+x = '%s MCQ %s' %('Python', 'Test') print(x)
+CODE-END
+   A)Python MCQ
+   B)MCQ Test
+   C)Test MCQ Python
+   D)Python MCQ Test
+   - Answer: D
+
+221. What will be the output after the following statements?
+CODE-START
+x = 'Python %d Version' %(3) print(x)
+CODE-END
+   A)Python 3
+   B)3 Version
+   C)Python 3 Version
+   D)Python Version 3
+   - Answer: C
+
+222. What will be the output after the following statements?
+CODE-START
+x = 'Python %c or Python %c' %('2', '3') print(x)
+CODE-END
+   A)Python 3 or Python 2
+   B)Python 2 or Python 3
+   C)Python 2 or Python 2
+   D)Python 23
+   - Answer: B
+
+223. What will be the output after the following statements?
+CODE-START
+x = 'Python %.1f or Python %.2f' %(2.7, 3.51) print(x)
+CODE-END
+   A)Python 3.51 or Python 2.7
+   B)Python 2 or Python 3
+   C)Python 2.7 or Python 3.5
+   D)Python 2.7 or Python 3.51
+   - Answer: D
+
+224. What will be the output after the following statements?
+CODE-START
+x = 'Python' print(x.capitalize())
+CODE-END
+   A)Python
+   B)Python.capitalize
+   C)PYTHON
+   D)pYTHON
+   - Answer: A
+
+225. What will be the output after the following statements?
+CODE-START
+x = 'python job interview' print(x.title())
+CODE-END
+   A)python job interview
+   B)Python job interview
+   C)Python Job Interview
+   D)Python job Interview
+   - Answer: C
+
+226. What will be the output after the following statements?
+CODE-START
+x = 'python jobs' print(x.upper())
+CODE-END
+   A)PYTHON JOBS
+   B)Python jobs
+   C)Python Jobs
+   D)python jobs
+   - Answer: A
+
+227. What will be the output after the following statements?
+CODE-START
+x = 'python jobs' print(x.lower())
+CODE-END
+   A)PYTHON JOBS
+   B)Python jobs
+   C)Python Jobs
+   D)python jobs
+   - Answer: D
+
+228. What will be the output after the following statements?
+CODE-START
+x = 'Python Jobs' print(x.swapcase())
+CODE-END
+   A)PYTHON JOBS
+   B)pYTHON jOBS
+   C)Python Jobs
+   D)python jobs
+   - Answer: B
+
+229. What will be the output after the following statements?
+CODE-START
+x = 'Python' print(x.join('33'))
+CODE-END
+   A)Python33
+   B)3Python3
+   C)Python3
+   D)Python 33
+   - Answer: B
+
+230. What will be the output after the following statements?
+CODE-START
+x = 'Python Test' print(x.join('33'))
+CODE-END
+   A)3Python Test3
+   B)3Python3Test
+   C)Python3Test3
+   D)Python Test33
+   - Answer: A
+
+231. What will be the output after the following statements?
+CODE-START
+x = ' Python ' y = '3'
+print(x.lstrip()+y.lstrip())
+CODE-END
+   A)Python 3
+   B)3Python3
+   C)Python3
+   D)Python+3
+   - Answer: A
+
+232. What will be the output after the following statements?
+CODE-START
+x = 'Python ' y = '3 '
+print(x.rstrip()+y.rstrip())
+CODE-END
+   A)Python 3
+   B)3Python3
+   C)Python3
+   D)Python+3
+   - Answer: C
+
+233. What will be the output after the following statements?
+CODE-START
+x = ' Python ' y = ' 3 ' z = ' Questions ' print(x.strip()+y.strip()+z.strip())
+CODE-END
+   A)Python 3 Questions
+   B)Python3Questions
+   C)Python3 Questions
+   D)Python 3Questions
+   - Answer: B
+
+234. What will be the output after the following statements?
+CODE-START
+x = 'Interview' print(x.replace('e',' '))
+CODE-END
+   A)Interview
+   B)Intrviw
+   C)I n t e r v i e w
+   D)Int rvi w
+   - Answer: D
+
+235. What will be the output after the following statements?
+CODE-START
+x = 'MCQs' print(x.ljust(10,'*'))
+CODE-END
+   A)MCQs******
+   B)M C Q S
+   C)******MCQs
+   D)M C Q s
+   - Answer: A
+
+236. What will be the output after the following statements?
+CODE-START
+x = 'MCQs' print(x.rjust(10,'*'))
+CODE-END
+   A)MCQs******
+   B)M C Q S
+   C)******MCQs
+   D)M C Q s
+   - Answer: C
+
+237. What will be the output after the following statements?
+CODE-START
+x = 'MCQs' print(x.center(10,'*'))
+CODE-END
+   A)MCQs******
+   B)***MCQs***
+   C)******MCQs
+   D)M C Q s
+   - Answer: B
+
+238. What will be the output after the following statements?
+CODE-START
+x = 'Python Pi Py Pip' print(x.count('p'))
+CODE-END
+   A)1
+   B)0
+   C)4
+   D)5
+   - Answer: A
+
+239. What will be the output after the following statements?
+CODE-START
+x = 'Python Pi Py' print(x.find('p'))
+CODE-END
+   A)-1
+   B)0
+   C)1
+   D)3
+   - Answer: A
+
+240. What will be the output after the following statements?
+CODE-START
+x = 'Python Pi Py'
+print(x.find('P'))
+CODE-END
+   A)-1
+   B)0
+   C)1
+   D)3
+   - Answer: B
+
+241. What will be the output after the following statements?
+CODE-START
+x = 'Pi Py Python' print(x.startswith('p'))
+CODE-END
+   A)1
+   B)0
+   C)True
+   D)False
+   - Answer: D
+
+242. What will be the output after the following statements?
+CODE-START
+x = 'Pi Py Python' print(x.endswith('n'))
+CODE-END
+   A)1
+   B)0
+   C)True
+   D)False
+   - Answer: C
+
+243. What will be the output after the following statements?
+CODE-START
+x = 'Python' print(x.isalpha())
+CODE-END
+   A)1
+   B)0
+   C)True
+   D)False
+   - Answer: C
+
+244. What will be the output after the following statements?
+CODE-START
+x = 'Python 3' print(x.isnumeric())
+CODE-END
+   A)1
+   B)0
+   C)True
+   D)False
+   - Answer: D
+
+245. What will be the output after the following statements?
+CODE-START
+x = 'Python 3 MCQ' print(x.isalnum())
+CODE-END
+   A)1
+   B)0
+   C)True
+   D)False
+   - Answer: D
+
+246. What will be the output after the following statements?
+CODE-START
+x = 'Python 3 MCQ' print(x.islower())
+CODE-END
+   A)True
+   B)False
+   C)1
+   D)0
+   - Answer: B
+
+247. What will be the output after the following statements?
+CODE-START
+x = 'Python 3 MCQ' print(x.istitle())
+CODE-END
+   A)True
+   B)False
+   C)1
+   D)0
+   - Answer: B
+
+248. What will be the output after the following statements?
+CODE-START
+x = 'MCQ' print(x.isupper())
+CODE-END
+   A)True
+   B)False
+   C)1
+   D)0
+   - Answer: A
+
+249. What will be the output after the following statements?
+CODE-START
+x = '\n' print(x.isspace())
+CODE-END
+   A)True
+   B)False
+   C)1
+   D)0
+   - Answer: A
+
+250. What will be the output after the following statements?
+CODE-START
+x = '2000' print(x.isdigit())
+CODE-END
+   A)True
+   B)False
+   C)1
+   D)0
+   - Answer: A
+
+251. What will be the output after the following statements?
+CODE-START
+x = '2.7' print(x.isdecimal())
+CODE-END
+   A)True
+   B)False
+   C)1
+   D)0
+   - Answer: B
+
+252. What does the following statement do?
+CODE-START
+x = open('python.csv', 'r')
+CODE-END
+   A)Opens an existing text file named python.csv to write
+   B)Opens an existing text file named python.csv to append
+   C)Opens an existing text file named python.csv to read
+   D)Opens a new file named python.csv to read
+   - Answer: C
+
+253. What does the following statement do?
+CODE-START
+x = open('python.csv', 'w')
+CODE-END
+   A)Opens or creates a text file named python.csv to write
+   B)Opens or creates a text file named python.csv to append
+   C)Opens or creates a text file named python.csv to read
+   D)Opens a new file named python.csv to write
+   - Answer: A
+
+254. What does the following statement do?
+CODE-START
+x = open('python.csv', 'a')
+CODE-END
+   A)Opens or creates a text file named python.csv to write
+   B)Opens or creates a text file named python.csv to append
+   C)Opens or creates a text file named python.csv to read
+   D)Opens a new file named python.csv to append
+   - Answer: B
+
+255. What does the following statement do?
+CODE-START
+x = open('python.txt', 'r+')
+CODE-END
+   A)Opens a text file named python.txt to read from or write to
+   B)Opens a text file named python.txt to read
+   C)Opens a text file named python.txt to write
+   D)Opens a new file named python.txt to append
+   - Answer: A
+
+256. What does the following statement do?
+CODE-START
+x = open('python.txt', 'r+')
+CODE-END
+   A)Opens a text file named python.txt to read
+   B)Opens a text file named python.txt to write to or read from
+   C)Opens a text file named python.txt to write
+   D)Opens a new file named python.txt to append 
+   - Answer: B
+
+257. What does the following statement do?
+CODE-START
+    x = open('python.txt', 'a+')
+CODE-END
+   A)Opens a text file named python.txt to read
+   B)Opens a text file named python.txt to read and write
+   C)Opens a text file named python.txt to write to
+   D)Opens or creates a text file named python.txt to read from or write to at the end of the file
+   - Answer: B
+
+258. What does the following statement do?
+CODE-START
+ x = open('python.bat', 'rb')
+CODE-END
+   A)Opens an existing text file named python.bat to write
+   B)Opens an existing binary file named python.bat to write
+   C)Opens an existing binary file named python.bat to append
+   D)Opens an existing binary file named python.bat to read
+   - Answer: D
+
+259. What does the following statement do?
+CODE-START
+x = open('python.bat', 'wb')
+CODE-END
+   A)Opens or creates a binary file named python.bat to write
+   B)Opens or creates a binary file named python.bat to append
+   C)Opens or creates a binary file named python.bat to read
+   D)Opens a new file named python.bat to write
+   - Answer: A
+
+260. What does the following statement do?
+CODE-START
+x = open('python.bat', 'ab')
+CODE-END
+   A)Opens or creates a binary file named python.bat to write
+   B)Opens or creates a binary file named python.bat to append
+   C)Opens or creates a binary file named python.bat to read
+   D)Opens a new file named python.bat to append
+   - Answer: B
+
+261. What will be the output after the following statements?
+CODE-START
+x = open('python.txt', 'r') print(x.name)
+CODE-END
+   A)python
+   B)python.txt opened
+   C)python.txt or FileNotFoundError
+   D)python r
+   - Answer: C
+
+262. What will be the output after the following statements?
+CODE-START
+x = open('python.csv', 'w') print(x.mode)
+CODE-END
+   A)python write
+   B)python.txt
+   C)r
+   D)w
+   - Answer: D
+
+263. What will be the output after the following statements?
+CODE-START
+x = open('python.csv', 'w') print(x.closed)
+CODE-END
+   A)open
+   B)closed
+   C)True
+   D)False
+   - Answer: D
+
+264. What will be the output after the following statements?
+CODE-START
+x = open('python.csv', 'w')
+x.close() print(x.closed)
+CODE-END
+   A)open
+   B)closed
+   C)True
+   D)False
+   - Answer: C
+
+265. What will be the output after the following statements?
+CODE-START
+x = open('python.csv', 'w') print(x.readable())
+CODE-END
+   A)readable
+   B)writable
+   C)True
+   D)False
+   - Answer: D
+
+266. What will be the output after the following statements?
+CODE-START
+x = open('python.csv', 'w') print(x.writable())
+CODE-END
+   A)readable
+   B)writable
+   C)True
+   D)False
+   - Answer: C
+
+267. What will be the output after the following statements?
+CODE-START
+x = open('python.csv', 'a') print(x.writable())
+CODE-END
+   A)readable
+   B)writable
+   C)True
+   D)False
+   - Answer: C
+
+268. In IDLE shell, the output will be the same for all the following statements except one. Which one?
+   A)4+4
+   B)4 + 4
+   C)4*2
+   D)4**2
+   - Answer: D
+
+269. In IDLE shell, what is the keyboard shortcut for the previous command in history on Windows/Linux?
+   A)Page Down
+   B)Page Up
+   C)Alt + P
+   D)Ctrl + P
+   - Answer: C
+
+270. In IDLE shell, what is the keyboard shortcut for the next command in history on Windows/Linux?
+   A)Page Down
+   B)Page Up
+   C)Ctrl + N
+   D)Alt + N
+   - Answer: D
+
+271. In IDLE shell, what is the keyboard shortcut for the previous command in history on Mac OS X?
+   A)Page Down
+   B)Page Up
+   C)Alt + P
+   D)Ctrl + P
+   - Answer: D
+
+272. In IDLE shell, what is the keyboard shortcut for the next command in history on Mac OS X?
+   A)Page Down
+   B)Page Up
+   C)Ctrl + N
+   D)Alt + N
+   - Answer: C
+
+273. In IDLE file editor, what is the keyboard shortcut for executing the program in shell?
+   A)F5
+   B)F1
+   C)Shift
+   D)Alt
+   - Answer: A
+
+274. What type of error is shown when you use a variable without assigning an initial value?
+   A)Not declared
+   B)Not defined
+   C)Not assigned
+   D)Not a variable
+   - Answer: B
+
+275. What type of language is Python?
+   A)High level
+   B)Low level
+   C)Top level
+   D)Bottom level
+   - Answer: A
+
+276. Python language was named after?
+   A)Python - the reptile
+   B)Monty Python
+   C)A pet
+   D)A company
+   - Answer: B
+
+277. Who is the creator of Python?
+   A)Bill Gates
+   B)Guido Van Rossum
+   C)Jeff Bezos
+   D)Larry Page
+   - Answer: B
+
+278. Which of the following is identified with Python?
+   A)Dynamic typing
+   B)Static typing
+   C)Slow typing
+   D)Auto typing
+   - Answer: A
+
+279. Which of the following is used to enclose strings?
+   A)Single quotes
+   B)Double quotes
+   C)Either single quotes or double quotes
+   D)! symbol
+   - Answer: C
+
+280. Which of the following is used to add an invisible tab character to the output?
+   A)\t
+   B)\tab
+   C)\a
+   D)\b
+   - Answer: A
+
+281. What will be the output after the following statement?
+CODE-START
+print('2\\t4')
+CODE-END
+   A)2 t 4
+   B)2\t4
+   C)2 4
+   D)2 tab 4
+   - Answer: B
+
+282. What will be the output after the following statements?
+CODE-START
+a = True b = False c = 5 if (a == 1) else b print(c)
+CODE-END
+   A)True
+   B)False
+   C)b
+   D)5
+   - Answer: D
+
+283. What will be the output after the following statements?
+CODE-START
+a = True b = False c = 'a' if (b == 0) else 'b' print(c)
+CODE-END
+   A)True
+   B)False
+   C)a
+   D)b
+   - Answer: C
+
+284. What will be the output after the following statements?
+CODE-START
+a = False b = False print(a and b)
+CODE-END
+   A)True
+   B)False
+   C)ab
+   D)ba
+   - Answer: B
+
+285. In the order of precedence, which of the operation will be completed first in the following statement?
+CODE-START
+ 3 * 6 + 5 - 4 / 2
+CODE-END
+   A)Multiplication
+   B)Division
+   C)Addition
+   D)Subtraction
+   - Answer: A
+
+286. In the order of precedence, which of the operation will be completed last in the following statement? 
+CODE-START
+3 * 6 + 5 - 4 / 2
+CODE-END
+   A)Multiplication
+   B)Division
+   C)Addition
+   D)Subtraction
+   - Answer: D
+
+287. What will be the order of precedence of operations in the following statement?
+CODE-START
+10 * 4 - 1 + 8 / 5
+CODE-END
+   A)Multiplication, Division, Subtraction, Addition
+   B)Multiplication, Division, Addition, Subtraction
+   C)Division, Multiplication, Subtraction, Addition
+   D)Division, Multiplication, Addition, Subtraction
+   - Answer: B
+
+288. What will be the data type of x after the following statement if input entered is 64?
+CODE-START
+x = float(input('Enter a number: '))
+CODE-END
+   A)Integer
+   B)String
+   C)List
+   D)Float
+   - Answer: D
+
+289. What will be the output after the following statements?
+CODE-START
+a = 27 / 3 % 2 * 4**2 print(a)
+CODE-END
+   A)0
+   B)16.0
+   C)32
+   D)4.0
+   - Answer: B
+
+290. What will be the output after the following statements?
+CODE-START
+a = 3 / 3 47 - 3*3 print(a)
+CODE-END
+   A)20.0
+   B)1.0
+   C)36.0
+   D)0.0
+   - Answer: A
+
+291. What will be the output after the following statements?
+CODE-START
+a = [1,3,5,7,9,11,13,15,17,19] print(a[1:5],a[3:17])
+CODE-END
+   A)[3, 5, 7, 9]
+   B)[1, 3, 5] [3, 5, 7, 9, 11, 13, 15, 17]
+   C)[3, 5, 7, 9] [7, 9, 11, 13, 15, 17, 19]
+   D)[3, 5, 7, 9, 11, 13, 15, 17, 19]
+   - Answer: C
+
+292. What will be the output after the following statements?
+CODE-START
+a = [1,3,5] print(a * 2)
+CODE-END
+   A)[1, 3, 5, 1, 3, 5]
+   B)[1, 2, 3, 5]
+   C)[3, 5]
+   D)[11, 33, 55]
+   - Answer: A
+
+293. Which of the following is not a valid variable name?
+   A)abc
+   B)abc123
+   C)123abc
+   D)abc_123
+   - Answer: C
+
+294. Which of the following is a valid variable name?
+   A)a$1
+   B)a1
+   C)1a
+   D)abc 123
+   - Answer: B
+
+295. What will be the output after the following statements?
+CODE-START
+a = 15 b = a a = 25 print(a,b)
+CODE-END
+   A)25 15
+   B)15 25
+   C)a 15
+   D)25 a
+   - Answer: A
+
+296. What will be the output after the following statements?
+CODE-START
+x = 16 / 4 * 5 y = 16 / 4 * 5.0 z = 16 / 4.0 * 5 print(x, y, z)
+CODE-END
+   A)25 15 20
+   B)20.0 20.0 20.0
+   C)20.0 20 20.0
+   D)20 20.0 20
+   - Answer: B
+
+297. What will be the data type of x after the following statement?
+CODE-START
+ x = 1/2
+CODE-END
+   A)Integer
+   B)List
+   C)String
+   D)Float
+   - Answer: D
+
+298. What will be the output after the following statements?
+CODE-START
+def x(y,z):     pass x(1,4)
+CODE-END
+   A)1,4
+   B)y,z
+   C)No output
+   D)None
+   - Answer: C
+
+299. What will be the output after the following statements?
+CODE-START
+b = 1 for a in range(1, 10, 3):
+b += a + 1 print(b)
+CODE-END
+   A)14
+   B)16
+   C)20
+   D)25
+   - Answer: B
+
+300. What will be the output after the following statements?
+CODE-START
+b = 1 for a in range(1, 10):
+b += a - 1 print(b)
+CODE-END
+   A)37
+   B)47
+   C)44
+   D)38
+   - Answer: A
+
+301. What will be the output after the following statements?
+CODE-START
+b = 3
+for a in range(10, 1):
+b -= a + 1 print(b)
+CODE-END
+   A)7
+   B)4
+   C)3
+   D)8
+   - Answer: C
+
+302. What will be the output after the following statements?
+CODE-START
+b = 1 for a in range(1, 5):
+b *= a + 1 print(b)
+CODE-END
+   A)120
+   B)40
+   C)36
+   D)250
+   - Answer: A
+
+303. What will be the output after the following statements?
+CODE-START
+a = True print(a and not a)
+CODE-END
+   A)a
+   B)False
+   C)not a
+   D)True
+   - Answer: B
+
+304. What will be the output after the following statements?
+CODE-START
+a = True b = False print(a == b or not b)
+CODE-END
+   A)a == b
+   B)False
+   C)not b
+   D)True
+   - Answer: D
+
+305. What will be the output after the following statements?
+CODE-START
+a = 'Hello' b = 'hello' print(a is b)
+CODE-END
+   A)a is b
+   B)False
+   C)not b
+   D)True
+   - Answer: B
+
+306. What will be the output after the following statements?
+CODE-START
+a = 'Python' b = 'Python' print(a is b)
+CODE-END
+   A)a is b
+   B)False
+   C)not b
+   D)True
+   - Answer: D
+
+307. What will be the output after the following statements?
+CODE-START
+a = [4, 7, 9] b = [4, 7, 9] print(a is b)
+CODE-END
+   A)a is b
+   B)False
+   C)not b
+   D)True
+   - Answer: B
+
+308. What will be the output after the following statements?
+CODE-START
+a = [4, 7, 9] b = [7, 4, 9] print(a is not b)
+CODE-END
+   A)a is b
+   B)False
+   C)not b
+   D)True
+   - Answer: D
+
+309. What will be the output after the following statements?
+CODE-START
+a = [3, 6, 9] b = [3, 6, 9] print(a is b, a == b)
+CODE-END
+   A)True True
+   B)False False
+   C)False True
+   D)True False
+   - Answer: C
+
+310. What will be the output after the following statements?
+CODE-START
+a = 0 b = 5 c = 10 a = b b = c c = a print(a, b, c)
+CODE-END
+   A)0 5 10
+   B)5 10 10
+   C)5 10 5
+   D)5 5 10
+   - Answer: C
+
+311. What will be the output after the following statements?
+CODE-START
+b = 15 c = 20
+a = b b = c c = a print(b, c)
+CODE-END
+   A)20 15
+   B)15 20
+   C)a 20
+   D)15 a
+   - Answer: A
+
+312. In IDLE shell, the output will be the same for all the following statements except one. Which one?
+   A)4*3
+   B)60//5
+   C)17-5
+   D)12/1
+   - Answer: D
+
+313. In IDLE shell, the output will be an error for one of the following statements. Which one?
+   A)P = 'python' * int('1')
+   B)P = 'python' + 1
+   C)P = 'python' + str(1)
+   D)P = 'python' * 1
+   - Answer: B
+
+314. What will be the output after the following statements?
+CODE-START
+a = 4**3 b = pow(4,3) print(a, b)
+CODE-END
+   A)4 4
+   B)4 3
+   C)12 12
+   D)64 64
+   - Answer: D
+
+315. What will be the output after the following statements?
+CODE-START
+a = min(10, 15, 6, 17, 24) print(a)
+CODE-END
+   A)(10, 15, 6, 17, 24)
+   B)6
+   C)5
+   D)24
+   - Answer: B
+
+316. What will be the output after the following statements?
+CODE-START
+a = [4, 25, 16, 9, 24] print(max(a))
+CODE-END
+   A)[4, 25, 16, 9, 24]
+   B)9
+   C)25
+   D)24
+   - Answer: C
+
+317. What will be the output after the following statements?
+CODE-START
+a = round(5.3) b = round(5.6) c = round(5.5) print(a, b, c)
+CODE-END
+   A)5 5 5
+   B)6 5 6
+   C)5 6 6
+   D)5 6 5
+   - Answer: C
+
+318. How many times will "Python 3" be printed after the following statements?
+CODE-START
+for i in range(1, 5):     print('Python 3')
+CODE-END
+   A)3
+   B)4
+   C)5
+   D)6
+   - Answer: B
+
+319. What will be the output after the following statements?
+CODE-START
+a = round(4.49999) print(a)
+CODE-END
+   A)4
+   B)5
+   C)4.0
+   D)4.5
+   - Answer: A
+
+320. What will be the output for a function that does not return any value?
+   A)None
+   B)No value
+   C)Zero
+   D)Bool
+   - Answer: A
+
+321. What type of error will be shown after the following statement?
+CODE-START
+ a = b
+CODE-END
+   A)SyntaxError
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: D
+
+322. What type of error will be shown after the following statement?
+CODE-START
+ a = int('hello')
+CODE-END
+   A)SyntaxError
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: C
+
+323. What type of error will be shown after the following statement?
+CODE-START
+ a = {7)
+CODE-END
+   A)SyntaxError
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: A
+
+324. What type of error will be shown after the following statement?
+CODE-START
+ a = 'Python' + 3
+CODE-END
+   A)SyntaxError
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: B
+
+325. What is the data type of a after the following statement? 
+CODE-START
+a = {'A', 'B', 'C', 'D'}
+CODE-END
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: D
+
+326. What is the data type of a after the following statement?
+CODE-START
+a = {'A':1, 'B':2, 'C':3, 'D':4}
+CODE-END
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: B
+
+327. What is the data type of a after the following statement?
+CODE-START
+ a = (1, 4, 3, 6)
+CODE-END
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: C
+
+328. What is the data type of a after the following statement?
+CODE-START
+ a = [1, 4, 3, 6]
+CODE-END
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: A
+
+329. What is the data type used to store values in key values pair?
+   A)List
+   B)Dictionary
+   C)Tuple
+   D)Set
+   - Answer: B
+
+330. In IDLE shell, which of the following statements gives SyntaxError?
+   A)"Python\tis\tEasy\n"
+   B)"Hello, it's very easy to learn Python"
+   C)"Python", "easy"
+   D)"Python is easy'
+   - Answer: D
+
+331. What will be the output after the following statements?
+CODE-START
+a = 45 b = 55
+c = (a + b) / 2 print(c)
+CODE-END
+   A)45
+   B)50.0
+   C)45.0
+   D)55.0
+   - Answer: B
+
+332. Which of the following has the highest precedence in an expression?
+   A)Parentheses
+   B)Exponential
+   C)Division
+   D)Subtraction
+   - Answer: A
+
+333. What will be the output after the following statements?
+CODE-START
+a = 4*3**2 print(a)
+CODE-END
+   A)32
+   B)144
+   C)36
+   D)24
+   - Answer: C
+
+334. What is the name of Python's built-in module for regular expressions?
+   A)regex
+   B)regexes
+   C)REG
+   D)re
+   - Answer: D
+
+335. What is the name of Python's built-in module for delimited files?
+   A)csv
+   B)tsc
+   C)delimited
+   D)pipe
+   - Answer: A
+
+336. What is the name of Python's built-in module for basic date and time types?
+   A)date
+   B)time
+   C)datetime
+   D)dates
+   - Answer: C
+
+337. What is the name of Python's built-in module for email related tasks?
+   A)mailserver
+   B)email
+   C)message
+   D)mail
+   - Answer: B
+
+338. What is the name of Python's built-in module for reading passwords?
+   A)getpass
+   B)password
+   C)login
+   D)readpass
+   - Answer: A
+
+339. What is the name of Python's built-in module for IPv4/IPv6 manipulation?
+   A)getip
+   B)ipman
+   C)ip
+   D)ipaddress
+   - Answer: D
+
+340. What is the name of Python's built-in module for encoding/decoding JSON format?
+   A)json
+   B)jcode
+   C)jsonencode
+   D)jsoncode
+   - Answer: A
+
+341. What is the name of Python's built-in module for Python keywords?
+   A)string
+   B)keyword
+   C)stringtest
+   D)keytest
+   - Answer: B
+
+342. What is the name of Python's built-in module for mathematical functions? 
+   A)maths
+   B)mathematics
+   C)math
+   D)mathfunc
+   - Answer: C
+
+343. What is the name of Python's built-in module for operating system interfaces?
+   A)windows
+   B)liunx
+   C)operatingsystem
+   D)os
+   - Answer: D
+
+344. What is the name of Python's built-in module for data pretty printer?
+   A)pprint
+   B)print
+   C)prettyprint
+   D)printp
+   - Answer: A
+
+345. What is the name of Python's built-in module for generating pseudo-random numbers?
+   A)psrandom
+   B)random
+   C)psuedo
+   D)randomnum
+   - Answer: B
+
+346. What is the name of Python's built-in module for general purpose event scheduler?
+   A)scheduler
+   B)eventsched
+   C)sched
+   D)schedule
+   - Answer: C
+
+347. What is the name of Python's built-in module for high level file operations?
+   A)shutil
+   B)fileutil
+   C)futility
+   D)fileop
+   - Answer: A
+
+348. What is the name of Python's built-in module for low level networking interface?
+   A)net
+   B)socket
+   C)webking
+   D)webworking
+   - Answer: B
+
+349. What is the name of Python's built-in module for SQLite databases?
+   A)SQL
+   B)sqldb
+   C)dbase
+   D)sqlite3
+   - Answer: D
+
+350. What is the name of Python's built-in module for TLS/SSL wrapper for socket objects?
+   A)ssl
+   B)swrap
+   C)tlsssl
+   D)sslobj
+   - Answer: A
+
+351. What is the name of Python's built-in module for mathematical statistics functions?
+   A)mathstats
+   B)statistics
+   C)statmath
+   D)statfunc
+   - Answer: B
+
+352. What is the name of Python's built-in module for subprocess management?
+   A)sub
+   B)mansub
+   C)submng
+   D)subprocess
+   - Answer: D
+
+353. What is the name of Python's built-in module for Python's configuration information?
+   A)config
+   B)pysys
+   C)sysconfig
+   D)pycon
+   - Answer: C
+
+354. What is the name of Python's built-in module for telnet client class? 
+   A)telnetlib
+   B)tellib
+   C)tnet
+   D)telnet
+   - Answer: A
+
+355. What is the name of Python's built-in module for generating temporary files and directories?
+   A)temp
+   B)tempdir
+   C)temporary
+   D)tempfile
+   - Answer: D
+
+356. What is the name of Python's built-in module for thread based parallelism?
+   A)thread
+   B)threadall
+   C)threading
+   D)thrpar
+   - Answer: C
+
+357. What is the name of Python's built-in module for time access and conversions?
+   A)timely
+   B)time
+   C)primetime
+   D)mytime
+   - Answer: B
+
+358. What is the name of Python's built-in module for working with calendars?
+   A)calendars
+   B)calendar
+   C)yearcal
+   D)calc
+   - Answer: B
+
+359. What is the name of Python's built-in module for measuring execution time of code snippets?
+   A)timeit
+   B)selftime
+   C)codetime
+   D)timer
+   - Answer: A
+
+360. What is the name of Python's built-in module for interface to Tcl/Tk for graphical user interfaces?
+   A)tkgui
+   B)guitk
+   C)intertk
+   D)tkinter
+   - Answer: D
+
+361. What is the name of Python's built-in module for simple educational graphical applications?
+   A)torque
+   B)tedu
+   C)turtle
+   D)moveturtle
+   - Answer: C
+
+362. What is the name of Python's built-in module for url handling? 
+   A)urls
+   B)urllib
+   C)URL
+   D)httpurl
+   - Answer: B
+
+363. What is the name of Python's built-in module for interface to WAV sound format?
+   A)wav
+   B)WAVE
+   C)WAV
+   D)wave
+   - Answer: D
+
+364. What is the name of Python's built-in module for web browser controlller? 
+   A)browser
+   B)browse
+   C)webrowser
+   D)webbrowser
+   - Answer: D
+
+365. What is the name of Python's built-in module for xml processing?
+   A)xml
+   B)XML
+   C)allxml
+   D)onlyxml
+   - Answer: A
+
+366. What is the name of Python's built-in module for reading and writing ZIP archive files?
+   A)readzip
+   B)zipfile
+   C)writezip
+   D)rwzip
+   - Answer: B
+
+367. What is the name of Python's built-in module for running Python scripts via CGI?
+   A)pcgi
+   B)pycgi
+   C)cgi
+   D)cgipy
+   - Answer: C
+
+368. What is the name of Python's built-in module for mathematical functions for complex numbers?
+   A)complexmath
+   B)cmath
+   C)mathc
+   D)mathplex
+   - Answer: B
+
+369. What is the name of Python's built-in module for conversions between color systems?
+   A)color
+   B)colors
+   C)colours
+   D)colorsys
+   - Answer: D
+
+370. What is the name of Python's built-in module for shallow and deep copy operations?
+   A)copyd
+   B)copyme
+   C)copy
+   D)copys
+   - Answer: C
+
+371. What is the name of Python's built-in module for comparing files? 
+   A)filecmp
+   B)cmpfile
+   C)compare
+   D)filecompare
+   - Answer: A
+
+372. What is the name of Python's built-in module for FTP protocol client? 
+   A)ftp
+   B)ftplib
+   C)FTP
+   D)pftp
+   - Answer: B
+
+373. What is the name of Python's built-in module for unix style pathname pattern expansion?
+   A)upattern
+   B)pathpat
+   C)upath
+   D)glob
+   - Answer: D
+
+374. What is the name of Python's built-in module for html manipulation? 
+   A)hyper
+   B)xml
+   C)html
+   D)uml
+   - Answer: C
+
+375. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1]
+x.clear()
+print(x)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[0]
+   C)[]
+   D)[1, 2, 3, 4, 5]
+   - Answer: C
+
+376. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] y = x.copy() print(y)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[5, 4, 3, 2, 1]
+   C)[]
+   D)[1, 2, 3, 4, 5]
+   - Answer: B
+
+377. What will be the output after the following statements?
+CODE-START
+x = [] for i in range(10):
+x.append(i**2) print(x)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+   C)[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+   D)[1, 4, 9, 16, 25, 36, 49, 64, 81]
+   - Answer: B
+
+378. What will be the output after the following statements?
+CODE-START
+x = list(map(lambda x:x**2, range(5))) print(x)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[1, 4, 9, 16, 25]
+   C)[0, 1, 4, 9, 16, 25]
+   D)[0, 1, 4, 9, 16]
+   - Answer: D
+
+379. What will be the output after the following statements?
+CODE-START
+x = [i**2 for i in range(4)] print(x)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[1, 4, 9]
+   C)[0, 1, 4, 9]
+   D)[0, 1, 4, 9, 16]
+   - Answer: C
+
+380. What will be the output after the following statements?
+CODE-START
+a = [(x, y) for x in [0, 1, 2] for y in [3, 4, 5] if x!=y] print(a)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]
+   C)[(0, 1, 2), (3, 4, 5)]
+   D)[(0, 3), (0, 4), (0, 5), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]
+   - Answer: D
+
+380. What will be the output after the following statements?
+CODE-START
+a = [(x, y) for x in [0, 3, 5] for y in [5, 4, 0] if x!=y] print(a)
+CODE-END
+   A)[(0, 5), (0, 4), (3, 5), (3, 4), (3, 0), (5, 4), (5, 0)]
+   B)[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]
+   C)[(0, 3, 5), (0, 4, 5)]
+   D)[(0, 5), (0, 4), (0, 0), (3, 5), (3, 4), (3, 0), (5, 5), (5, 4), (5, 0)] 
+   - Answer: A
+
+380. What will be the output after the following statements?
+CODE-START
+a = [(x, y) for x in [0, 2] for y in [2, 4, 0] if x==y] print(a)
+CODE-END
+   A)[(0, 2)]
+   B)[(0, 0), (2, 2)]
+   C)[(0, 2), (2, 4, 0)]
+   D)[(0, 2), (0, 4), (0, 0), (2, 2), (2, 4), (2, 0)]
+   - Answer: A
+
+383. What will be the output after the following statements?
+CODE-START
+a = [(x, y) for x in [0, 2] for y in [2, 4, 0] if x!=y] print(a)
+CODE-END
+   A)[(0, 2)]
+   B)[(0, 0), (2, 2)]
+   C)[(0, 2), (0, 4), (2, 4), (2, 0)]
+   D)[(0, 2), (0, 4), (0, 0), (2, 2), (2, 4), (2, 0)]
+   - Answer: C
+
+384. What will be the output after the following statements?
+CODE-START
+a = [] for x in [0, 1, 2]:     for y in [3, 4, 5]:         if x!=y:
+a.append((x,y)) print(a)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]
+   C)[(0, 1, 2), (3, 4, 5)]
+   D)[(0, 3), (0, 4), (0, 5), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]
+   - Answer: D
+
+380. What will be the output after the following statements?
+CODE-START
+a = [-2, -1, 0, 1, 2] print([i**3 for i in a])
+CODE-END
+   A)[(0, 2)]
+   B)[-2, -1, 0, 1, 2]
+   C)[8, 1, 0, 1, 8]
+   D)[-8, -1, 0, 1, 8]
+   - Answer: D   
+
+386. What will be the output after the following statements?
+CODE-START
+a = [-3, -1, 0, 1, 3] print([i**4 for i in a])
+CODE-END
+   A)[81, 1, 0, 1, 81]
+   B)[-81, -1, 0, 1, 81]
+   C)[16, 1, 0, 1, 16]
+   D)[-16, -1, 0, 1, 16]
+   - Answer: A
+
+387. What will be the output after the following statements?
+CODE-START
+a = [-3, -1, 0, 1, 3] print([x for x in a if x>=0])
+CODE-END
+   A)[-3, -1, 0, 1, 3]
+   B)[0, 1, 3]
+   C)[1, 3]
+   D)[-1, 0, 1]
+   - Answer: B
+
+388. What will be the output after the following statements?
+CODE-START
+a = [-3, -1, 0, 1, 3] print([abs(x) for x in a])
+CODE-END
+   A)[-3, -1, 0, 1, 3]
+   B)[0, 1, 3]
+   C)[3, 1, 0, 1, 3]
+   D)[-1, 0, 1]
+   - Answer: C
+
+389. What will be the output after the following statements?
+CODE-START
+a = [' today', ' tomorrow ', 'not now'] print([x.strip() for x in a])
+CODE-END
+   A)['today', 'tomorrow ', 'not now']
+   B)[' today', ' tomorrow', 'not now']
+   C)['today', 'tomorrow', 'notnow']
+   D)['today', 'tomorrow', 'not now']
+   - Answer: D
+
+390. What will be the output after the following statements?
+CODE-START
+print([(x, x*2) for x in range(4)])
+CODE-END
+   A)[(0, 0), (1, 2), (2, 4), (3, 6)]
+   B)[(0, 0), (1, 2), (2, 4), (3, 6), (4, 8)]
+   C)[(1, 2), (2, 4), (3, 6), (4, 8)]
+   D)[(1, 2), (2, 4), (3, 6)]
+   - Answer: A
+
+391. What will be the output after the following statements?
+CODE-START
+a = [[0, 1, 2], [7, 8, 9], [4, 5, 6]] print([x for y in a for x in y])
+CODE-END
+   A)[0, 1, 2, 4, 5, 6, 7, 8, 9]
+   B)[0, 1, 2, 7, 8, 9, 4, 5, 6]
+   C)[(0, 1, 2), (7, 8, 9), (4, 5, 6)]
+   D)[(0, 7, 4), (1, 8, 5), (2, 9, 6)]
+   - Answer: B
+
+392. What will be the output after the following statements?
+CODE-START
+from math import pi a = [str(round(pi, i)) for i in range(0,5)] print(a)
+CODE-END
+   A)[3.0, 3.1, 3.14, 3.142, 3.1416]
+   B)['3.0', '3.1', '3.14', '3.142']
+   C)['3.0', '3.1', '3.14', '3.142', '3.1416']
+   D)['3.1', '3.14', '3.142', '3.1416']
+   - Answer: C
+
+393. What will be the output after the following statements?
+CODE-START
+a = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]] b = [[x[i] for x in a] for i in range(4)] print(b)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+   B)[[0, 4, 8], [1, 5, 9], [2, 6, 10], [3, 7, 11]]
+   C)[[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11]]
+   D)[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]
+   - Answer: B
+
+394. What will be the output after the following statements?
+CODE-START
+a = [] b = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]] for i in range(4):
+a.append([row[i] for row in b]) print(a)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+   B)[[0, 4, 8], [1, 5, 9], [2, 6, 10], [3, 7, 11]]
+   C)[[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11]]
+   D)[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]
+   - Answer: B
+
+395. What will be the output after the following statements?
+CODE-START
+a = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]] print(list(zip(*a)))
+CODE-END
+   A)[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+   B)[[0, 4, 8], [1, 5, 9], [2, 6, 10], [3, 7, 11]]
+   C)[[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11]]
+   D)[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]
+   - Answer: B
+
+396. What will be the output after the following statements?
+CODE-START
+a = [0, 1, 2, 3] del a print(a)
+CODE-END
+   A)None
+   B)Null
+   C)[0, 1, 2, 3]
+   D)NameError
+   - Answer: D
+
+397. What will be the output after the following statements?
+CODE-START
+a = [0, 1, 2, 3] del a[:] print(a)
+CODE-END
+   A)None
+   B)[]
+   C)[0, 1, 2, 3]
+   D)NameError
+   - Answer: B
+
+398. What will be the output after the following statements?
+CODE-START
+x = [i*2-4 for i in range(5)] print(x)
+CODE-END
+   A)[0, 1, 2, 3, 4, 5]
+   B)[0, 1, 2, 3, 4]
+   C)[-4, -2, 0, 2, 4]
+   D)[0, 1, 4, 9, 16]
+   - Answer: C
+
+399. What will be the output after the following statements?
+CODE-START
+x = [i**2-3 for i in range(0,7,3)] print(x)
+CODE-END
+   A)[-3, 6, 33]
+   B)[0, 1, 2, 3, 4]
+   C)[-3, -2, 0, 2, 3]
+   D)[-3, 9, 18, 36]
+   - Answer: A
+
+400. What will be the output after the following statements?
+CODE-START
+x = [i**4//7 for i in range(0,6,2)] print(x)
+CODE-END
+   A)[0, 2, 36]
+   B)[0, 1, 2, 3, 4]
+   C)[0, 6, 2]
+   D)[0, 2, 14]
+   - Answer: A
+
+401. What will be the output after the following statements?
+CODE-START
+x = [int(i**3/3) for i in range(0,5,2)] print(x)
+CODE-END
+   A)[0, 2, 36]
+   B)[0, 2, 21]
+   C)[0, 6, 2]
+   D)[0, 2, 14]
+   - Answer: B
+
+402. What will be the output after the following statements?
+CODE-START
+x = [int(i/2-5) for i in range(3,8,2)] print(x)
+CODE-END
+   A)[-3, -2, -1]
+   B)[0, 2, 6]
+   C)[0, 1, 2]
+   D)[-3, -1, 3]
+   - Answer: A
+
+403. What is the famous one-line Hello World program of Python?
+   A)print("Hello World!")
+   B)print "Hello World!"
+   C)print("Hello World!")!
+   D)print("Hello World!"):
+   - Answer: A
+
+404. What is used for multi-line strings in Python?
+   A)Three braces {{{ }}}
+   B)Three Colons ::: :::
+   C)Three hashes ### ###
+   D)Three Quotes ''' '''
+   - Answer: D
+
+405. What will be the output after the following statements?
+CODE-START
+x = 90 y = 'I ran for %s minutes' print(y % x)
+CODE-END
+   A)y ran for x minutes
+   B)y ran for 90 minutes
+   C)I ran for 90 minutes
+   D)I ran for x minutes
+   - Answer: C
+
+406. What will be the output after the following statements?
+CODE-START
+x = 'She' y = 60 z = 'ran for %s minutes' print(x, z % y)
+CODE-END
+   A)ran for 60 minutes
+   B)she ran for 60 minutes
+   C)She ran for 60 minutes
+   D)x ran for 60 minutes
+   - Answer: C
+
+407. What will be the output after the following statements?
+CODE-START
+x = 75 y = 60 z = 'ran for %s minutes' print(z % y)
+CODE-END
+   A)ran for 75 minutes
+   B)ran for 60 minutes
+   C)ran for 135 minutes
+   D)y ran for 60 minutes
+   - Answer: B
+
+408. What will be the output after the following statements?
+CODE-START
+x = 7 y = 6 z = 'He ran for %s minutes for %s days' print(z % (x, y))
+CODE-END
+   A)He ran for 7 minutes for 7 days
+   B)He ran for 6 minutes for 6 days
+   C)He ran for 6 minutes for 7 days
+   D)He ran for 7 minutes for 6 days
+   - Answer: D
+
+409. What will be the output after the following statements?
+CODE-START
+x = 'Python 2' y = 'Python 3' z = 'We can convert %s program to %s program' print(z % (x, y))
+CODE-END
+   A)We can not convert Python 2 program to Python 3 program
+   B)We can not convert Python 3 program to Python 2 program
+   C)We can convert Python 2 program to Python 3 program
+   D)We can convert Python 3 program to Python 2 program
+   - Answer: C
+
+410. What will be the output after the following statements?
+CODE-START
+x = ' ' print(x*5)
+CODE-END
+   A)Displays a tab
+   B)Displays 5 spaces
+   C)Displays a newline
+   D)Displays 10 quotes
+   - Answer: B
+
+411. What will be the output after the following statements?
+CODE-START
+x = 'no' y = 'yes' z = 'may be' a = [y, z, x] print(a)
+CODE-END
+   A)'yes', 'may be', 'no'
+   B)'no', 'may be', 'yes'
+   C)['no', 'may be', 'yes']
+   D)['yes', 'may be', 'no']
+   - Answer: D
+
+412. Which of the following operations is not possible while manipulating lists? 
+   A)Addition
+   B)Multiplication
+   C)Division
+   D)Deletion
+   - Answer: C
+
+413. Which of the following is used by interpreter to identify code blocks? 
+   A)Braces
+   B)Indentation
+   C)Commas
+   D)Expressions
+   - Answer: B
+
+414. What will be the output after the following statements?
+CODE-START
+x = ["Yesterday's", "Today's", "Tomorrow's"] y = ['weather', 'temperature', 'humidity'] for i in x:
+print(i, end=' ') for j in y:         print(j, end=' ')
+CODE-END
+   A)Yesterday's Today's Tomorrow's weather temperature humidity
+   B)Yesterday's weather temperature humidity
+   C)Yesterday's weather temperature humidity Today's Tomorrow's
+   D)Yesterday's weather Today's temperature Tomorrow's humidity 
+   - Answer: A
+
+414. What will be the output after the following statements?   
+CODE-START
+x = ["Yesterday's", "Today's", "Tomorrow's"] y = ['temperature'] for i in x:
+print(i, end=' ')     for j in y:         print(j, end=' ')
+CODE-END
+   A)Yesterday's Today's Tomorrow's temperature
+   B)Yesterday's temperature
+   C)Yesterday's temperature Today's Tomorrow's
+   D)Yesterday's temperature Today's temperature Tomorrow's temperature 
+   - Answer: C
+
+414. What will be the output after the following statements?
+CODE-START
+x = ["Yesterday's", "Today's", "Tomorrow's"] y = ['temperature'] for i in x:         if i[0] == 'T':             for j in y:                 print(i, j, end=' ')
+CODE-END
+   A)Today's Tomorrow's temperature
+   B)Today's temperature Tomorrow's temperature
+   C)temperature Today's Tomorrow's
+   D)Today's temperature Tomorrow's
+   - Answer: B   
+
+417. What will be the output after the following statements?
+CODE-START
+x = ["Yesterday's", "Today's", "Tomorrow's"] y = ['temperature'] for i in x:
+if i[0] != 'T':             for j in y:                 print(i, end=' ')
+CODE-END
+   A)Today's Tomorrow's temperature
+   B)Yesterday's temperature Tomorrow's temperature
+   C)Yesterday's
+   D)Yesterday's Today's Tomorrow's
+   - Answer: C
+
+418. What will be the output after the following statements?
+CODE-START
+x = ["Yesterday's", "Today's", "Tomorrow's"] y = ['temperature'] for i in x:         if i[0] != 'y':             for j in y:                 print(j, end=' ')
+CODE-END
+   A)temperature temperature
+   B)temperature
+   C)temperature temperature temperature
+   D)Yesterday's Today's Tomorrow's
+   - Answer: C
+
+419. What will be the output after the following statements?
+CODE-START
+x = 25 y = 10 while x < 26 and y < 11:
+x = x + 1     y = y + 1     print(x,y)
+CODE-END
+   A)26 11
+   B)25 11
+   C)25 10
+   D)26 10
+   - Answer: A
+
+420. What will be the output after the following statements?
+CODE-START
+x = 25
+y = 10 while x < 26 and y < 11:
+print(x,y)     x = x + 1     y = y + 1
+CODE-END
+   A)26 11
+   B)25 11
+   C)25 10
+   D)26 10
+   - Answer: C
+
+421. What will be the output after the following statement?
+CODE-START
+   print(list(range(0,5)))
+CODE-END
+   A)list(range(0,5))
+   B)list(0, 1, 2, 3, 4)
+   C)0, 1, 2, 3, 4
+   D)[0, 1, 2, 3, 4]
+   - Answer: D
+
+422. What will be the output after the following statements?
+CODE-START
+def abc(world):     print('hello %s' % world) abc('Python')
+CODE-END
+   A)hello world
+   B)hello Python
+   C)hello
+   D)hello % world
+   - Answer: B
+
+423. What will be the output after the following statements?
+CODE-START
+def abc(x, y):
+print('hello %s %s' % (y, x)) abc('Python', 'world')
+CODE-END
+   A)hello world
+   B)hello Python world
+   C)hello Python
+   D)hello world Python
+   - Answer: D
+
+424. What will be the output after the following statements?
+CODE-START
+b = 'Python' a = 'world' def pypi(x, y):
+print('hello %s %s' % (y, x)) pypi(a, b)
+CODE-END
+   A)hello world
+   B)hello Python world
+   C)hello Python
+   D)hello world Python
+   - Answer: B
+
+425. What will be the output after the following statements?
+CODE-START
+a = 12 b = 45
+c = 10 def pypi(x, y, z):     return(z * y - x) print(pypi(b, c, a))
+CODE-END
+   A)15
+   B)45
+   C)75
+   D)120
+   - Answer: C
+
+426. What will be the output after the following statements?
+CODE-START
+def pypi():     b = 25     c = 20     return(a * b - c) a = 12 print(pypi())
+CODE-END
+   A)280
+   B)Error
+   C)60
+   D)215
+   - Answer: A
+
+427. What will be the output after the following statements?
+CODE-START
+class Furniture:     def legs(x):         print('has %s legs' % x)
+Furniture.legs(4)
+CODE-END
+   A)Furniture has 4 legs
+   B)Error
+   C)has 4 legs
+   D)legs has 4 legs
+   - Answer: C
+
+428. What will be the output after the following statements?
+CODE-START
+class Furniture:     def legs():         print('is made of wood')
+Furniture.legs()
+CODE-END
+   A)Furniture is made of wood
+   B)is made of wood
+   C)print(is made of wood)
+   D)legs is made of wood
+   - Answer: B
+
+429. What will be the output after the following statements?
+CODE-START
+class Furniture:     def chair(x):
+print('It has %s legs' % x)     def table(x):         print('It has %s legs' % x) Furniture.table(6)
+CODE-END
+   A)It has 4 legs
+   B)It has no legs
+   C)It has 0 legs
+   D)It has 6 legs
+   - Answer: D
+
+430. What will be the output after the following statements?
+CODE-START
+class Furniture:     def chair():
+print('It has 4 legs')     def table():         print('It has 6 legs') Furniture.chair()
+CODE-END
+   A)It has 4 legs
+   B)It has no legs
+   C)It has 0 legs
+   D)It has 6 legs
+   - Answer: A
+
+431. What will be the output after the following statements?
+CODE-START
+x = -4 if abs(x) > 0:     print('This is absolute value')
+CODE-END
+   A)None
+   B)Error
+   C)Wrong Value
+   D)This is absolute value
+   - Answer: D
+
+432. What will be the output after the following statements?
+CODE-START
+x = -3 if abs(x) < 3:     print(x) else:     print(0)
+CODE-END
+   A)No output
+   B)Error
+   C)0
+   D)-3
+   - Answer: C
+
+433. What will be the output after the following statements?
+CODE-START
+x = -4 if bool(x):     print(x) else:     print(0)
+CODE-END
+   A)No output
+   B)Error
+   C)0
+   D)-4
+   - Answer: D
+
+434. What will be the output after the following statements?
+CODE-START
+x = 0 if bool(x):     print(x) else:     print(5)
+CODE-END
+   A)No output
+   B)Error
+   C)5
+   D)0
+   - Answer: C
+
+435. What will be the output after the following statements?
+CODE-START
+x = 'None' if bool(x):     print('Yes') else:     print('No')
+CODE-END
+   A)None
+   B)Yes
+   C)No
+   D)0
+   - Answer: B
+
+436. What will be the output after the following statements?
+CODE-START
+x = '' if bool(x):     print('Yes') else:
+print('No')
+CODE-END
+   A)None
+   B)Yes
+   C)No
+   D)0
+   - Answer: C
+
+437. What will be the output after the following statements?
+CODE-START
+x = ' ' if bool(x):     print('Yes') else:     print('No')
+CODE-END
+   A)None
+   B)Yes
+   C)No
+   D)0
+   - Answer: B
+
+438. What will be the output after the following statements?
+CODE-START
+x = [] if bool(x):     print('Yes') else:     print('No')
+CODE-END
+   A)No
+   B)Yes
+   C)None
+   D)0
+   - Answer: A
+
+439. What will be the output after the following statements?
+CODE-START
+x = [1, 2, 3] if bool(x):     print('Yes') else:     print('No')
+CODE-END
+   A)No
+   B)Yes
+   C)None
+   D)0
+   - Answer: B
+
+440. What will be the output after the following statements?
+CODE-START
+x = '' if not bool(x):     print('Yes') else:     print('No')
+CODE-END
+   A)Yes
+   B)No
+   C)None
+   D)0
+   - Answer: A
+
+441. What will be the output after the following statements?
+CODE-START
+x = 'print("Python")' eval(x)
+CODE-END
+   A)x
+   B)print("Python")
+   C)Python
+   D)0
+   - Answer: C
+
+442. What will be the output after the following statements if input entered is 45*2?
+CODE-START
+x = input("Enter an expression: ") print(eval(x))
+CODE-END
+   A)45*2
+   B)eval("90")
+   C)90
+   D)0
+   - Answer: C
+
+443. What will be the output after the following statements?
+CODE-START
+x = '''print("Python 3", end='') print(" is Good")''' exec(x)
+CODE-END
+   A)Python 3is Good
+   B)Python 3 is Good
+   C)Python 3
+   D)is Good
+   - Answer: B
+
+444. What will be the output after the following statements?
+CODE-START
+a = ['a', 'b', 'c', 'A', 'B'] print(max(a))
+CODE-END
+   A)a
+   B)A
+   C)b
+   D)c
+   - Answer: D
+
+445. What will be the output after the following statements?
+CODE-START
+a = ['a', 'b', 'c', 'A', 'B'] print(min(a))
+CODE-END
+   A)a
+   B)A
+   C)b
+   D)c
+   - Answer: B
+
+446. What will be the output after the following statements?
+CODE-START
+a = ['a', 'b', 'c', '1', '2', 'A', 'B'] print(max(a))
+CODE-END
+   A)a
+   B)A
+   C)1
+   D)c
+   - Answer: D
+
+447. What will be the output after the following statements?
+CODE-START
+a = ['a', 'b', 'c', '1', '2', 'A', 'B'] print(min(a))
+CODE-END
+   A)a
+   B)A
+   C)1
+   D)c
+   - Answer: C
+
+448. What will be the output after the following statements?
+CODE-START
+a = [1, 2, 3] print(sum(a))
+CODE-END
+   A)3
+   B)2
+   C)1
+   D)6
+   - Answer: D
+
+449. What will be the output after the following statements?
+CODE-START
+a = list(range(0,10,3)) print(sum(a))
+CODE-END
+   A)10
+   B)100
+   C)18
+   D)30
+   - Answer: C
+
+450. What will be the output after the following statements?
+CODE-START
+a = list(range(10,-10,3)) print(sum(a))
+CODE-END
+   A)10
+   B)0
+   C)18
+   D)90
+   - Answer: B
+
+451. What will be the output after the following statements?
+CODE-START
+a = list(range(-10,5,2))
+print(sum(a))
+CODE-END
+   A)-24
+   B)0
+   C)24
+   D)20
+   - Answer: A
+
+452. What will be the output after the following statements?
+CODE-START
+x = [5, 4, 3, 2, 1] y = x.copy() x[0] = 6 print(y)
+CODE-END
+   A)[6, 4, 3, 2, 1]
+   B)6
+   C)[5, 4, 3, 2, 1]
+   D)5
+   - Answer: C
+
+453. What will be the output after the following statements?
+CODE-START
+import copy x = [5, 4, 3, 2, 1] y = copy.copy(x)
+x.append(6) print(y[0])
+CODE-END
+   A)[6, 4, 3, 2, 1]
+   B)6
+   C)[5, 4, 3, 2, 1]
+   D)5
+   - Answer: D
+
+454. What will be the output after the following statements?
+CODE-START
+import keyword print(keyword.iskeyword('IS'))
+CODE-END
+   A)True
+   B)keyword
+   C)for
+   D)False
+   - Answer: D
+
+455. What will be the output after the following statements?
+CODE-START
+import keyword print(keyword.iskeyword('for'))
+CODE-END
+   A)True
+   B)keyword
+   C)for
+   D)False
+   - Answer: A
+
+456. What will be the output after the following statements?
+CODE-START
+import keyword
+print(keyword.iskeyword('Python'))
+CODE-END
+   A)True
+   B)keyword
+   C)for
+   D)False
+   - Answer: D
+
+457. What will be the output after the following statements?
+CODE-START
+import random x = [3, 8, 6, 5, 0] print(random.choice(x))
+CODE-END
+   A)A random element from the list x
+   B)The list x
+   C)A random element from the list x, excluding 3 and 0
+   D)A random element from the list elements 3 and 0
+   - Answer: A
+
+458. What will be the output after the following statements?
+CODE-START
+import random x = [3, 8, 6, 5, 0] random.shuffle(x) print(x)
+CODE-END
+   A)A random element from the list x
+   B)The shuffled list x with the elements mixed up
+   C)A random element from the list x, excluding 3 and 0
+   D)A random element from the list elements 3 and 0
+   - Answer: B
+
+459. What will be the output after the following statements?
+CODE-START
+import random x = [3, 8, 6, 5, 0] y = random.shuffle(x) print(y)
+CODE-END
+   A)A random element from the list x
+   B)The shuffled list x with the elements mixed up
+   C)None
+   D)A random element from the list x, excluding 3 and 0
+   - Answer: C
+
+460. What will be the output after the following statements?
+CODE-START
+import sys
+x = sys.stdout.write('Python Jobs')
+CODE-END
+   A)A random character from the string 'Python Jobs'
+   B)Python Jobs
+   C)None
+   D)PJ
+   - Answer: B
+
+461. What will be the output after the following statements?
+CODE-START
+import time print(time.time())
+CODE-END
+   A)Current time in seconds since the Epoch at 00:00:00 GMT on January 1, 1970 
+   B)Today's time in hours
+   C)None
+   D)Today's time in minutes
+   - Answer: A
+
+462. What will be the data type of the output after the following statements?
+CODE-START
+import time print(time.time())
+CODE-END
+   A)String
+   B)Integer
+   C)List
+   D)Float
+   - Answer: D
+
+463. What will be the data type of the output after the following statements?
+CODE-START
+import time print(time.asctime())
+CODE-END
+   A)String
+   B)Integer
+   C)List
+   D)Float
+   - Answer: A
+
+464. What will be the output after the following statements?
+CODE-START
+import time print(time.asctime())
+CODE-END
+   A)Current time in seconds since the Epoch at 00:00:00 GMT on January 1, 1970 
+   B)Current date and time
+   C)None
+   D)Today's time in minutes
+   - Answer: B
+
+465. What will be the output after the following statements?
+CODE-START
+import time y = (2016, 2, 10, 12, 45, 32, 5, 0, 0) print(time.asctime(y))
+CODE-END
+   A)Current time in seconds since the Epoch at 00:00:00 GMT on January 1, 1970 
+   B)Current date and time
+   C)Sat Feb 10 12:45:32 2016
+   D)No output
+   - Answer: C
+
+466. What is likely to be the output after the following statements?
+CODE-START
+import time y = time.asctime() print(y[:3])
+CODE-END
+   A)2016
+   B)3:40
+   C)Mon
+   D)04
+   - Answer: C
+
+467. What will be the output after the following statements?
+CODE-START
+import random print(int(random.random()*10))
+CODE-END
+   A)10
+   B)A random integer number within the range of 0 to 9
+   C)None
+   D)A random floating point number within the range of 0 to 9 
+   - Answer: B
+
+467. What will be the output after the following statements?
+CODE-START
+import random
+print(int(random.random()*10) + 1)
+CODE-END
+   A)11
+   B)A random integer number within the range of 0 to 11
+   C)None
+   D)A random whole number within the range of 1 to 10
+   - Answer: D
+
+469. What will be the output after the following statements?
+CODE-START
+import random
+print(random.sample(range(20), 5))
+CODE-END
+   A)A list of 5 unique numbers within the range of 0 to 19
+   B)A list of 5 unique numbers within the range of 0 to 20
+   C)A list of 4 unique numbers within the range of 0 to 19
+   D)A tuple of 5 unique numbers within the range of 0 to 19
+   - Answer: A
+
+470. What will be the output after the following statements?
+CODE-START
+import random
+print(random.sample(range(5, 20), 4))
+CODE-END
+   A)A list of 5 unique numbers within the range of 4 to 19
+   B)A list of 5 unique numbers within the range of 5 to 20
+   C)A list of 4 unique numbers within the range of 5 to 19
+   D)A tuple of 4 unique numbers within the range of 5 to 19
+   - Answer: C
+
+471. What will be the output after the following statement? 
+CODE-START
+print(a)
+CODE-END
+   A)SyntaxError
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: D
+
+472. What will be the output after the following statement?
+CODE-START
+a = "Python Practice'
+CODE-END
+   A)SyntaxError
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: A
+
+473. What will be the output after the following statement? 
+CODE-START
+a = true
+CODE-END
+   A)No Error
+   B)TypeError
+   C)ValueError
+   D)NameError
+   - Answer: D
+
+474. What is the value of the NoneType data type?
+   A)undefined
+   B)Null
+   C)Nan
+   D)None
+   - Answer: D
+
+475. What will be the output after the following statements?
+CODE-START
+def xyz():     a = 56 xyz()
+print(a)
+CODE-END
+   A)NameError
+   B)56
+   C)a = 56
+   D)xyz
+   - Answer: A
+
+476. What will be the output after the following statements?
+CODE-START
+def xyz():     x = 40     abc()     print(x) def abc():     a = 32     x = 10 xyz()
+CODE-END
+   A)NameError
+   B)40
+   C)10
+   D)32
+   - Answer: B
+
+477. What will be the output after the following statements?
+CODE-START
+def xyz():     x = 40
+def abc():     xyz()     a = 32     x = 10     print(x) abc()
+CODE-END
+   A)NameError
+   B)40
+   C)10
+   D)32
+   - Answer: C
+
+478. What will be the output after the following statements?
+CODE-START
+def abc():     print(x) x = 10 abc()
+CODE-END
+   A)NameError
+   B)x
+   C)10
+   D)0
+   - Answer: C
+
+479. What will be the output after the following statements?
+CODE-START
+def abc():     x = 12
+print(x) x = 10 abc()
+CODE-END
+   A)NameError
+   B)12
+   C)10
+   D)0
+   - Answer: B
+
+480. What will be the output after the following statements?
+CODE-START
+def abc():     x = 10     print(x) abc() x = 12
+CODE-END
+   A)NameError
+   B)12
+   C)10
+   D)0
+   - Answer: C
+
+481. What will be the output after the following statements?
+CODE-START
+def abc():     global x     x = 23
+x = 10 abc() print(x)
+CODE-END
+   A)NameError
+   B)23
+   C)10
+   D)0
+   - Answer: B
+
+482. What will be the output after the following statements?
+CODE-START
+def abc():     print(x)     x = 10 abc() x = 20
+CODE-END
+   A)NameError
+   B)20
+   C)10
+   D)UnboundLocalError
+   - Answer: D
+
+483. What will be the output after the following statements?
+CODE-START
+def abc(x):     return 20 / x print(abc(4))
+CODE-END
+   A)NameError
+   B)5
+   C)5.0
+   D)ZeroDivisionError
+   - Answer: C
+
+484. What will be the output after the following statements?
+CODE-START
+def abc(x):     return 20 / x print(abc(0))
+CODE-END
+   A)NameError
+   B)Undefined
+   C)5.0
+   D)ZeroDivisionError
+   - Answer: D
+
+485. What will be the output after the following statements?
+CODE-START
+def abc(x):     try:
+print(20 / x)     except:         print('Not a valid argument', end=' ') print(abc(0))
+CODE-END
+   A)NameError
+   B)Not a valid argument
+   C)Not a valid argument None
+   D)ZeroDivisionError
+   - Answer: C
+
+486. What will be the output after the following statements?
+CODE-START
+def abc(x):     try:
+print(20 / x)
+except:
+print('Not a valid argument', end=' ')     finally:         print(0, end=' ') print(abc(0))
+CODE-END
+   A)Not a valid argument 0 None
+   B)Not a valid argument
+   C)Not a valid argument None
+   D)ZeroDivisionError
+   - Answer: A
+
+487. What will be the output after the following statements?
+CODE-START
+x = [1, 2, 3, 4] print(x[4])
+CODE-END
+   A)4
+   B)3
+   C)[1, 2, 3, 4]
+   D)IndexError
+   - Answer: D
+
+488. What will be the output after the following statements?
+CODE-START
+x = [10, 20, 30, 40] print(x[20])
+CODE-END
+   A)20
+   B)30
+   C)[20]
+   D)IndexError
+   - Answer: D
+
+489. What will be the output after the following statements?
+CODE-START
+x = [1.0, 2.0, 3.0] print(x[2.0])
+CODE-END
+   A)2
+   B)3.0
+   C)TypeError
+   D)IndexError
+   - Answer: C
+
+490. What will be the output after the following statements?
+CODE-START
+x = [1.0, 2.0, 3.0] print(x[int(2.0)])
+CODE-END
+   A)2
+   B)3.0
+   C)TypeError
+   D)IndexError
+   - Answer: B
+
+491. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'nice', 'day'] print(x[0] + ' is a ' + x[1] + x[2])
+CODE-END
+   A)Today is a niceday
+   B)Today is a nice day
+   C)Todayis aniceday
+   D)Todayisaniceday
+   - Answer: A
+
+492. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'Sunday', 'Monday']
+print(x[0] + ' was a great day')
+CODE-END
+   A)Today was a great day
+   B)Sunday was a great day
+   C)TypeError
+   D)IndexError
+   - Answer: A
+
+493. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'Sunday', 'Monday'] print(x[-1] + ' was a great day')
+CODE-END
+   A)Today was a great day
+   B)Sunday was a great day
+   C)Monday was a great day
+   D)IndexError
+   - Answer: C
+
+494. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'Sunday', 'Monday'] print(x[-3] + ' was a great day')
+CODE-END
+   A)Today was a great day
+   B)Sunday was a great day
+   C)Monday was a great day
+   D)IndexError
+   - Answer: A
+
+495. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'Sunday', 'Monday'] x[2] = 'Friday' x[1] = 'Yesterday'
+print(x[-2] + ' was a great day')
+CODE-END
+   A)Friday was a great day
+   B)Sunday was a great day
+   C)Monday was a great day
+   D)Yesterday was a great day
+   - Answer: D
+
+496. What will be the output after the following statements?
+CODE-START
+x = ['Today', 'Sunday', 'Monday'] y = [4, 6, 8] print(y + x)
+CODE-END
+   A)['Today', 'Sunday', 'Monday', 4, 6, 8]
+   B)[4, 6, 8, 'Today', 'Sunday', 'Monday']
+   C)['Today', 'Sunday', 'Monday']
+   D)[4, 6, 8]
+   - Answer: B
+
+497. What will be the output after the following statements?
+CODE-START
+x = 'Monday' print('Mon' in x)
+CODE-END
+   A)'Mon' in x
+   B)'Monday' in x
+   C)True
+   D)False
+   - Answer: C
+
+498. What will be the output after the following statements?
+CODE-START
+x = 'Monday' print('Day' not in x)
+CODE-END
+   A)'Day' not in x
+   B)'Monday' not in x
+   C)True
+   D)False
+   - Answer: C
+
+499. What will be the output after the following statements?
+CODE-START
+x = ['hot', '100', True] weather = x[0] temperature = x[1] humid = x[2]
+print(weather, temperature, humid)
+CODE-END
+   A)x
+   B)['hot', '100', True]
+   C)'hot', '100', True
+   D)hot 100 True
+   - Answer: D
+
+500. What will be the output after the following statements?
+CODE-START
+x = ['hot', '100', True] weather, temperature, humid = x print(weather, temperature, humid)
+CODE-END
+   A)ValueError
+   B)['hot', '100', True]
+   C)'hot', '100', True
+   D)hot 100 True
+   - Answer: D
+
+501. What will be the output after the following statements?
+CODE-START
+x = ['hot', '100', True] weather, humid = x print(weather, humid)
+CODE-END
+   A)ValueError
+   B)hot 100
+   C)hot True
+   D)hot 100 True
+   - Answer: A
+
+502. What will be the output after the following statements?
+CODE-START
+x = ['hot', '100', True]
+x.remove('100') weather, humid = x print(weather, humid)
+CODE-END
+   A)ValueError
+   B)hot 100
+   C)hot True
+   D)hot 100 True
+   - Answer: C
+
+503. What will be the output after the following statements?
+CODE-START
+x = ['a', 'b', 'c', 'A', 'B', 'C']
+x.sort() print(x)
+CODE-END
+   A)SortError
+   B)['a', 'b', 'c', 'A', 'B', 'C']
+   C)['a', 'A', 'b', 'B', 'c', 'C']
+   D)['A', 'B', 'C', 'a', 'b', 'c']
+   - Answer: D
+
+504. What will be the output after the following statements?
+CODE-START
+x = ['a', 'b', 'c', 'A', 'B', 'C']
+x.sort(key=str.lower) print(x)
+CODE-END
+   A)SortError
+   B)['a', 'b', 'c', 'A', 'B', 'C']
+   C)['a', 'A', 'b', 'B', 'c', 'C']
+   D)['A', 'B', 'C', 'a', 'b', 'c']
+   - Answer: C
+
+505. What will be the output after the following statements?
+CODE-START
+x = ['a', 'b', 'c', 'A', 'B', 'C']
+x.sort(key=str.swapcase) print(x)
+CODE-END
+   A)TypeError
+   B)['a', 'b', 'c', 'A', 'B', 'C']
+   C)['a', 'A', 'b', 'B', 'c', 'C']
+   D)['A', 'B', 'C', 'a', 'b', 'c']
+   - Answer: B
+
+506. What will be the output after the following statements?
+CODE-START
+x = ['a', 'b', 1, 2, 'A', 'B']
+x.sort() print(x)
+CODE-END
+   A)TypeError
+   B)['a', 'b', 'c', 'A', 'B', 'C']
+   C)['a', 'A', 'b', 'B', 'c', 'C']
+   D)['A', 'B', 'C', 'a', 'b', 'c']
+   - Answer: A
+
+507. What will be the output after the following statements?
+CODE-START
+import random 
+x = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+print(x[random.randint(0, len(x) - 1)])
+CODE-END
+   A)IndexError
+   B)A random day from all the seven days
+   C)A random day from all the days except Sunday
+   D)A random day from all the days except Monday
+   - Answer: B
+
+508. What will be the output after the following statements?
+CODE-START
+x = 'Today is a nice day' + \
+' I will go for a walk today' print(x)
+CODE-END
+   A)SyntaxError
+   B)Today is a nice day
+   C)I will go for a walk today
+   D)Today is a nice day I will go for a walk today
+   - Answer: D
+
+509. What will be the output after the following statements?
+CODE-START
+x = 'Today is a nice day' x[9] =  'not ' print(x)
+CODE-END
+   A)TypeError
+   B)Today is a nice day
+   C)SyntaxError
+   D)Today is not a nice day
+   - Answer: A
+
+510. What will be the output after the following statements?
+CODE-START
+x = 'Today is a nice day' y =  x[:9] + 'not ' + x[9:] print(y)
+CODE-END
+   A)TypeError
+   B)Today is a nice day
+   C)SyntaxError
+   D)Today is not a nice day
+   - Answer: D
+
+511. What will be the output after the following statements?
+CODE-START
+x = 'Today is a nice day' y =  x[:9] + 'not ' + x[9:] print(x)
+CODE-END
+   A)TypeError
+   B)Today is a nice day
+   C)SyntaxError
+   D)Today is not a nice day
+   - Answer: B
+
+512. What will be the output after the following statements?
+CODE-START
+x =  'Today is not a nice day' x = 'Today is a nice day' print(x)
+CODE-END
+   A)TypeError
+   B)Today is a nice day
+   C)SyntaxError
+   D)Today is not a nice day
+   - Answer: B
+
+513. What will be the output after the following statements?
+CODE-START
+x =  ('Today', 'nice', 'day') x[1] = 'not' print(x)
+CODE-END
+   A)TypeError
+   B)('Today', 'nice', 'day')
+   C)SyntaxError
+   D)('Today', 'not', 'nice', 'day')
+   - Answer: A
+
+514. What will be the data type of the output after the following statements?
+CODE-START
+x =  ('Today') print(x)
+CODE-END
+   A)TypeError
+   B)String
+   C)Tuple
+   D)List
+   - Answer: B
+
+515. What will be the data type of the output after the following statements?
+CODE-START
+x =  ('Today',) print(x)
+CODE-END
+   A)TypeError
+   B)String
+   C)Tuple
+   D)List
+   - Answer: C
+
+516. What will be the data type of y after the following statements?
+CODE-START
+x =  [1, 2, 3, 4] y = tuple(x)
+CODE-END
+   A)TypeError
+   B)String
+   C)Tuple
+   D)List
+   - Answer: C
+
+517. What will be the data type of z after the following statements?
+CODE-START
+x =  [1, 2, 3, 4] y = tuple(x) z = list(y)
+CODE-END
+   A)TypeError
+   B)String
+   C)Tuple
+   D)List
+   - Answer: D
+
+518. What will be the data type of the output after the following statements?
+CODE-START
+x =  'Python' y =  list(x) print(y)
+CODE-END
+   A)TypeError
+   B)String
+   C)Tuple
+   D)List
+   - Answer: D
+
+519. What will be the data type of the output after the following statements?
+CODE-START
+x =  'Python' y =  tuple(x) print(y)
+CODE-END
+   A)TypeError
+   B)String
+   C)Tuple
+   D)List
+   - Answer: C
+
+520. What will be the output after the following statements?
+CODE-START
+x =  ('Python') print(x)
+CODE-END
+   A)('P', 'y', 't', 'h', 'o', 'n')
+   B)Python
+   C)P y t h o n
+   D)('Python')
+   - Answer: B
+
+521. What will be the output after the following statements?
+CODE-START
+x =  ('Python',) print(x)
+CODE-END
+   A)('Python',)
+   B)Python
+   C)P y t h o n
+   D)('Python')
+   - Answer: A
+
+522. What will be the output after the following statements?
+CODE-START
+x =  [0, 2, 4, 6] print(tuple(x))
+CODE-END
+   A)[0, 2, 4, 6]
+   B)(0, 2, 4, 6)
+   C)0, 2, 4, 6
+   D)0 2 4 6
+   - Answer: B
+
+523. What will be the output after the following statements?
+CODE-START
+x =  (0, 2, 4, 6) print(list(x))
+CODE-END
+   A)[0, 2, 4, 6]
+   B)(0, 2, 4, 6)
+   C)0, 2, 4, 6
+   D)0 2 4 6
+   - Answer: A
+
+524. What will be the output after the following statements?
+CODE-START
+x =  'Python' print(list(x))
+CODE-END
+   A)('P', 'y', 't', 'h', 'o', 'n')
+   B)(Python)
+   C)['P', 'y', 't', 'h', 'o', 'n']
+   D)['Python']
+   - Answer: C
+
+525. What will be the output after the following statements?
+CODE-START
+x =  'Python' print(tuple(x))
+CODE-END
+   A)('P', 'y', 't', 'h', 'o', 'n')
+   B)(Python)
+   C)['P', 'y', 't', 'h', 'o', 'n']
+   D)['Python']
+   - Answer: A
+
+526. What will be the output after the following statements?
+CODE-START
+x =  [4, 5, 7, 8, 9] y = x y[1] = 6 print(y)
+CODE-END
+   A)[4, 5, 7, 8, 9]
+   B)[4, 5, 6, 7, 8, 9]
+   C)[4, 6, 7, 8, 9]
+   D)[4, 7, 8, 9]
+   - Answer: C
+
+527. What will be the output after the following statements?
+CODE-START
+x =  [4, 5, 7, 8, 9] y = x y[1] = 6 print(x)
+CODE-END
+   A)[4, 5, 7, 8, 9]
+   B)[4, 5, 6, 7, 8, 9]
+   C)[4, 6, 7, 8, 9]
+   D)[4, 7, 8, 9]
+   - Answer: C
+
+528. What will be the output after the following statements?
+CODE-START
+def abc(z):
+z.append(44) x =  [7, 8, 9] abc(x) print(x)
+CODE-END
+   A)[7, 8, 9]
+   B)[7, 8, 9, 44]
+   C)[7, 44, 8, 9]
+   D)[44, 7, 8, 9]
+   - Answer: B
+
+529. What will be the output after the following statements?
+CODE-START
+import copy x = [5, 4, 3, 2, 1] y = copy.copy(x)
+x.append(6) print(y[-1])
+CODE-END
+   A)5
+   B)6
+   C)[5, 4, 3, 2, 1, 6]
+   D)1
+   - Answer: D
+
+530. What will be the output after the following statements?
+CODE-START
+import copy x = [5, 4, 3, 2, 1] y = copy.copy(x) x[2] = 6 print(y[2])
+CODE-END
+   A)3
+   B)6
+   C)[5, 4, 6, 3, 2, 1]
+   D)4
+   - Answer: A
+
+531. What will be the output after the following statements?
+CODE-START
+import copy x = [5, 4, 3, 2, 1] y = [7, 8, 9] z = [x, y] a = copy.copy(z) x[2] = 6 print(a)
+CODE-END
+   A)[[5, 4, 3, 2, 1], [7, 8, 9]]
+   B)[[5, 4, 6, 2, 1], [7, 8, 9]]
+   C)[5, 4, 6, 3, 2, 1]
+   D)[5, 4, 6, 2, 1, 7, 8, 9]
+   - Answer: B
+
+532. What will be the output after the following statements?
+CODE-START
+import copy x = [5, 4, 3, 2, 1] y = [7, 8, 9] z = [x, y] a = copy.deepcopy(z) x[2] = 6 print(a)
+[[5, 4, 3, 2, 1], [7, 8, 9]]
+[[5, 4, 6, 2, 1], [7, 8, 9]]
+[5, 4, 6, 3, 2, 1]
+[5, 4, 6, 2, 1, 7, 8, 9]
+
+533. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(x['year'])
+CODE-END
+   A)day
+   B)KeyError
+   C)Sunday
+   D)10
+   - Answer: B
+
+534. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} for i in x.values():     print(i, end=' ')
+CODE-END
+   A)Sunday 10
+   B)KeyError
+   C)Sunday
+   D)10
+   - Answer: A
+
+536. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} for i in x.keys():     print(i, end=' ')
+CODE-END
+   A)Sunday 10
+   B)day week
+   C)Sunday
+   D)10
+   - Answer: B
+
+537. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} for i in x.items():     print(i, end=' ')
+CODE-END
+   A)('day', 'Sunday') ('week', 10)
+   B)day week
+   C)('week', 10)
+   D)('day', 'Sunday')
+   - Answer: A
+
+538. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(list(x.keys()))
+CODE-END
+   A)(('week', 10), ('day', 'Sunday'))
+   B)('day', 'Sunday') ('week', 10)
+   C)['day', 'week']
+   D)(day, week)
+   - Answer: C
+
+539. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(tuple(x.items()))
+CODE-END
+   A)(('week', 10), ('day', 'Sunday'))
+   B)('day', 'Sunday') ('week', 10)
+   C)['day', 'week']
+   D)(day, week)
+   - Answer: A
+
+540. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(tuple(x.values()))
+CODE-END
+   A)Sunday 10
+   B)('Sunday', 10)
+   C)['Sunday', 10]
+   D)10
+   - Answer: B
+
+541. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} for i, j in x.items():     print(i, j, end=' ')
+CODE-END
+   A)('day', 'Sunday') ('week', 10)
+   B){'day':'Sunday', 'week':10}
+   C)'day':'Sunday', 'week':10
+   D)day Sunday week 10
+   - Answer: D
+
+542. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print('day' in x.values())
+CODE-END
+   A)Sunday
+   B)True
+   C)False
+   D)day
+   - Answer: C
+
+543. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print('day' in x.keys())
+CODE-END
+   A)Sunday
+   B)True
+   C)False
+   D)day
+   - Answer: B
+
+544. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(x.get('day', 'Friday'))
+CODE-END
+   A)Friday
+   B)True
+   C)Sunday
+   D)day
+   - Answer: C
+
+545. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(x.get('days', 'Friday'))
+CODE-END
+   A)Friday
+   B)True
+   C)Sunday
+   D)day
+   - Answer: A
+
+546. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(x.get('weak', 5))
+CODE-END
+   A)10
+   B)5
+   C)Sunday
+   D)day
+   - Answer: B
+
+547. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(x.get('week', 5))
+CODE-END
+   A)10
+   B)5
+   C)Sunday
+   D)day
+   - Answer: A
+
+548. What will be the output after the following statements?
+CODE-START
+x = {'day':'Sunday', 'week':10} print(x.get('year', 2016))
+CODE-END
+   A)year
+   B)2016
+   C)Sunday
+   D)10
+   - Answer: B
+
+549. What will be the output after the following statements?
+CODE-START
+x = {'year': 2016, 'month': 'March'} if 'day' not in x:
+x['day'] = 'Tuesday' print(x)
+CODE-END
+   A)('day', 'Tuesday')
+   B){'day': 'Tuesday', 'month': 'March'}
+   C)'day': 'Tuesday', 'month': 'March', 'year': 2016
+   D){'day': 'Tuesday', 'month': 'March', 'year': 2016}
+   - Answer: D
+
+550. What will be the output after the following statements?
+CODE-START
+x = {'year': 2016, 'month': 'March'}
+x.setdefault('day', 'Tuesday') print(x)
+CODE-END
+   A)('day', 'Tuesday')
+   B){'day': 'Tuesday', 'month': 'March'}
+   C)'day': 'Tuesday', 'month': 'March', 'year': 2016
+   D){'day': 'Tuesday', 'month': 'March', 'year': 2016}
+   - Answer: D
+
+551. What will be the output after the following statements?
+CODE-START
+x = {'year': 2016, 'month': 'March'}
+x.setdefault('day', 'Tuesday')
+x.setdefault('day', 'Monday') print(x)
+CODE-END
+   A)('day', 'Monday')
+   B){'day': 'Monday', 'month': 'March'}
+   C){'day': 'Tuesday', 'month': 'March', 'year': 2016}
+   D){'day': 'Monday', 'month': 'March', 'year': 2016}
+   - Answer: C
+
+552. What will be the data type of x after the following statement? 
+CODE-START
+x = {}
+CODE-END
+   A)Tuple
+   B)Set
+   C)List
+   D)Dictionary
+   - Answer: D
+
+553. What will be the output after the following statement?
+CODE-START
+ print(r'Today is a \n nice day')
+CODE-END
+   A)Today is a \n nice day
+   B)Today is a nice day
+   C)Today is a nice day
+   D)'Today is a \n nice day'
+   - Answer: A
+
+554. What will be the output after the following statements?
+CODE-START
+x = 'python jobs'
+x.upper()
+print(x)
+CODE-END
+   A)PYTHON JOBS
+   B)Python jobs
+   C)Python Jobs
+   D)python jobs
+   - Answer: D
+
+555. What will be the output after the following statements?
+CODE-START
+x = 'Python Jobs'
+x.lower() print(x)
+CODE-END
+   A)PYTHON JOBS
+   B)Python jobs
+   C)Python Jobs
+   D)python jobs
+   - Answer: C
+
+556. What will be the output after the following statements?
+CODE-START
+x = 'Python Jobs' if x.lower() == 'python jobs':
+print('Python jobs') else:     print('python 3 jobs')
+CODE-END
+   A)python 3 jobs
+   B)Python jobs
+   C)Python Jobs
+   D)python jobs
+   - Answer: B
+
+557. What will be the output after the following statements?
+CODE-START
+x = 'Python Jobs' if x.isupper():
+print('Python jobs') else:     print('python 3 jobs')
+CODE-END
+   A)python 3 jobs
+   B)Python jobs
+   C)Python Jobs
+   D)python jobs
+   - Answer: A
+
+558. What will be the output after the following statements?
+CODE-START
+x = 'Python Jobs' y = x.upper().lower().upper() print(y)
+CODE-END
+   A)python Jobs
+   B)PYTHON JOBS
+   C)Python Jobs
+   D)python jobs
+   - Answer: B
+
+559. What will be the output after the following statements?
+CODE-START
+x = 'Python Jobs' y = x.upper().lower().isupper() print(y)
+CODE-END
+   A)python jobs
+   B)PYTHON JOBS
+   C)False
+   D)True
+   - Answer: C
+
+560. What will be the output after the following statements?
+CODE-START
+x = ['Python', 'is', 'interesting'] y = ' '.join(x) print(y)
+CODE-END
+   A)'Python', 'is', 'interesting'
+   B)Python is interesting
+   C)Pythonisinteresting
+   D)['Python', 'is', 'interesting']
+   - Answer: B
+
+561. What will be the output after the following statements?
+CODE-START
+x = 'Python is interesting' y = x.split() print(y)
+CODE-END
+   A)'Python', 'is', 'interesting'
+   B)Python is interesting
+   C)Pythonisinteresting
+   D)['Python', 'is', 'interesting']
+   - Answer: D
+
+562. What will be the output after the following statements?
+CODE-START
+x = '''Today is a nice day.
+Let's go for a walk. We'll also go to the park.''' y = x.split('\n') print(y)
+CODE-END
+   A)['Today is a nice day.', "Let's go for a walk.", "We'll also go to the park."]
+   B)Today is a nice day.
+   C)Let's go for a walk.
+   D)We'll also go to the park.
+   - Answer: A
+
+563. What will be the output after the following statements?
+CODE-START
+x = 'Python 2 and Python 3' print(x.strip('and'))
+CODE-END
+   A)Python 2
+   B)Python 3
+   C)Python 2 and Python 3
+   D)Python 2 Python 3
+   - Answer: C
+
+
+564. What will be the output after the following statements?
+CODE-START
+x = 'Python 2 and Python 3' print(x.strip('thon 3'))
+CODE-END
+   A)Python 2
+   B)Python 2 and Py
+   C)Python 2 and Python 3
+   D)Python 2 Python 3
+   - Answer: B
+
+565. What is the first line of the following statements on Windows?
+CODE-START
+#! python3 x = 'Python 3'
+CODE-END
+   A)A comment
+   B)Python String
+   C)Shebang line
+   D)Python Variable
+   - Answer: C
+
+566. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\d\d\d-\d\d\d\d') y = x.search('The phone number is 444-4444') print(y.group())
+CODE-END
+   A)The phone number is 444-4444
+   B)\d\d\d-\d\d\d\d
+   C)444-4444
+   D)r'\d\d\d-\d\d\d\d'
+   - Answer: C
+
+567. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(\d\d\d)-(\d\d\d\d)') y = x.search('The phone number is 444-4444') print(y.group(2))
+CODE-END
+   A)The phone number is 444-4444
+   B)4444
+   C)444-4444
+   D)444
+   - Answer: B
+
+568. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(\d\d\d)-(\d\d\d\d)') y = x.search('The phone number is 444-4444') print(y.group(1))
+CODE-END
+   A)The phone number is 444-4444
+   B)4444
+   C)444-4444
+   D)444
+   - Answer: D
+
+569. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(\d\d\d)-(\d\d\d\d)') y = x.search('The phone number is 444-4444') print(y.group(0))
+CODE-END
+   A)The phone number is 444-4444
+   B)4444
+   C)444-4444
+   D)444
+   - Answer: C
+
+570. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(\d\d\d)-(\d\d\d\d)') y = x.search('The phone number is 444-4444') print(y.groups())
+CODE-END
+   A)('444', '4444')
+   B)4444
+   C)444-4444
+   D)444
+   - Answer: A
+
+571. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(\(\d\d\d\))-(\d\d\d\d)') y = x.search('The phone number is (444)-4444') print(y.group(1))
+CODE-END
+   A)('444', '4444')
+   B)444
+   C)444-4444
+   D)(444)
+   - Answer: D
+
+572. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'Python 2|Python 3') y = x.search('Python 3 MCQ') print(y.group())
+CODE-END
+   A)Python 2|Python 3
+   B)Python 2
+   C)Python 3
+   D)Python 3 MCQ
+   - Answer: C
+
+573. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'Python 2|Python 3') y = x.search('Python 2.7') print(y.group())
+CODE-END
+   A)Python 2.7
+   B)Python 2
+   C)Python 3
+   D)Python 2|Python 3
+   - Answer: B
+
+574. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'day') y = x.search('Today is a nice day and a Sunday') print(y.group())
+CODE-END
+   A)day
+   B)Today
+   C)nice day
+   D)Sunday
+   - Answer: A
+
+575. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun)?day') y = x.search('Today is a nice day and a Sunday') print(y.group())
+CODE-END
+   A)day
+   B)Today
+   C)nice day
+   D)Sunday
+   - Answer: A
+
+576. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun|To)?day') y = x.search('Today is a nice day and a Sunday') print(y.group())
+CODE-END
+   A)day
+   B)Today
+   C)nice day
+   D)Sunday
+   - Answer: B
+
+577. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun)*day') y = x.search('Today is a nice day and a Sunday') print(y.group())
+CODE-END
+   A)nice day
+   B)Today
+   C)day
+   D)Sunday
+   - Answer: C
+
+578. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun)+day') y = x.search('Today is a nice day and a Sunday') print(y.group())
+CODE-END
+   A)day
+   B)Today
+   C)nice day
+   D)Sunday
+   - Answer: D
+
+579. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Python){2}') y = x.search('PythonPythonPython') print(y.group())
+CODE-END
+   A)PythonPythonPython
+   B)PythonPython
+   C)Python
+   D)Python 2
+   - Answer: B
+
+580. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Python){2,3}') y = x.search('PythonPythonPython') print(y.group())
+CODE-END
+   A)PythonPythonPython
+   B)PythonPython
+   C)Python
+   D)Python 2
+   - Answer: A
+
+581. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Python){1,3}?') y = x.search('PythonPythonPython') print(y.group())
+CODE-END
+   A)PythonPythonPython
+   B)PythonPython
+   C)Python
+   D)Python 2
+   - Answer: C
+
+582. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)day
+   B)Today
+   C)['day', 'day', 'day']
+   D)('day', 'day', 'day')
+   - Answer: C
+
+583. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun)?day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)('day', 'day', 'day')
+   B)['', '', 'Sun']
+   C)['day', 'day', 'day']
+   D)Sunday
+   - Answer: B
+
+584. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun|To)?day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)('day', 'day', 'day')
+   B)['', '', 'Sun']
+   C)['day', 'day', 'day']
+   D)['To', '', 'Sun']
+   - Answer: D
+
+585. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun)*day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)('day', 'day', 'day')
+   B)['', '', 'Sun']
+   C)['day', 'day', 'day']
+   D)['To', '', 'Sun']
+   - Answer: B
+
+586. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(Sun)+day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)['', '', 'Sun']
+   B)['Sun']
+   C)['day', 'day', 'day']
+   D)['To', '', 'Sun']
+   - Answer: B
+
+587. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(\(\d\d\d\))-(\d\d\d\d)') y = x.findall('The phone number is (444)-4444') print(y)
+CODE-END
+   A)[('(444)', '4444')]
+   B)[('444)', '4444']
+   C)(('(444)', '4444'))
+   D)('444', '4444')
+   - Answer: A
+
+588. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\d') y = x.findall('The phone number is (444)-4444') print(y)
+CODE-END
+   A)[('(444)', '4444')]
+   B)'4', '4', '4', '4', '4', '4', '4'
+   C)(('(444)', '4444'))
+   D)['4', '4', '4', '4', '4', '4', '4']
+   - Answer: D
+
+589. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\D') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['Python', '3']
+   B)['P', 'y', 't', 'h', 'o', 'n', ' ', '3']
+   C)['P', 'y', 't', 'h', 'o', 'n', ' ']
+   D)['P', 'y', 't', 'h', 'o', 'n']
+   - Answer: C
+
+590. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\w') y = x.findall('Python_3') print(y)
+CODE-END
+   A)['Python', '3']
+   B)['P', 'y', 't', 'h', 'o', 'n', '3']
+   C)['P', 'y', 't', 'h', 'o', 'n', ' ']
+   D)['P', 'y', 't', 'h', 'o', 'n', '_', '3']
+   - Answer: D
+
+591. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\W') y = x.findall('Python_3') print(y)
+CODE-END
+   A)['Python', '3']
+   B)[]
+   C)['P', 'y', 't', 'h', 'o', 'n', ' ']
+   D)[' ']
+   - Answer: B
+
+592. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\s') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['Python', '3']
+   B)[]
+   C)['P', 'y', 't', 'h', 'o', 'n', ' ']
+   D)[' ']
+   - Answer: D
+
+593. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'\S') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['P', 'y', 't', 'h', 'o', 'n', '3']
+   B)[]
+   C)['P', 'y', 't', 'h', 'o', 'n', ' ']
+   D)[' ']
+   - Answer: A
+
+594. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'[0-9]') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['P', 'y', 't', 'h', 'o', 'n', '3']
+   B)[]
+   C)['3']
+   D)[' ']
+   - Answer: C
+
+595. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'[ptPT]') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['P', 't', 'h', 'o', 'n']
+   B)['P', 't']
+   C)[]
+   D)[' ']
+   - Answer: B
+
+596. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'[p-t0-6]') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['P', 't', '3']
+   B)['P', 't']
+   C)[]
+   D)['t', '3']
+   - Answer: D
+
+597. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'[D-S0-2]') y = x.findall('Python 3') print(y)
+CODE-END
+   A)['P', 't', '3']
+   B)['P', 't']
+   C)['P']
+   D)['t', '3']
+   - Answer: C
+
+598. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'[^A-Za-z0-2]') y = x.findall('Python_3') print(y) a. ['_', '3']
+   B)['P', 't']
+   C)[' ', '3']
+   D)['t', '3']
+   - Answer: A
+
+599. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'^Py') y = x.search('Python_3') print(y.group())
+CODE-END
+   A)['Py']
+   B)Py
+   C)['P', 'y']
+   D)['P', 'y', '3']
+   - Answer: B
+
+600. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'3$') print(x.search('Python_3') == None)
+CODE-END
+   A)['3']
+   B)Python_3
+   C)True
+   D)False
+   - Answer: D
+
+601. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'.day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)['oday', 'nday']
+   B)['oday', ' day', 'nday']
+   C)['day', 'day', 'day']
+   D)['Today', ' day', 'Sunday']
+   - Answer: B
+
+602. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(.*)day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)['To']
+   B)['Today is a nice day and a Sunday']
+   C)['Today is a nice day and a Sun']
+   D)['Today is a nice day']
+   - Answer: C
+
+603. What will be the output after the following statements?
+CODE-START
+import re x = re.compile(r'(.*?)day') y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)['To', ' is a nice ', ' and a Sun']
+   B)['Today is a nice day and a Sunday']
+   C)['Today is a nice day and a Sun']
+   D)['Today is a nice day']
+   - Answer: A
+
+604. What will be the output after the following statements?
+CODE-START
+import re x = re.compile('.*') y = x.search("Today is a nice day.\n Let's go for a walk.\n We'll also go to the park.") print(y.group())
+CODE-END
+   A)Today is a nice day.\n Let's go for a walk.\n We'll also go to the park.
+   B)Today is a nice day.\n Let's go for a walk.
+   C)['Today is a nice day.']
+   D)Today is a nice day.
+   - Answer: D
+
+605. What will be the output after the following statements?
+CODE-START
+import re x = re.compile('.*', re.DOTALL) y = x.search("Today is a nice day.\n Let's go for a walk.\n We'll also go to the park.") print(y.group())
+CODE-END
+   A)Today is a nice day. Let's go for a walk. We'll also go to the park.
+   B)Today is a nice day.\n Let's go for a walk.
+   C)['Today is a nice day.']
+   D)Today is a nice day.
+   - Answer: A
+
+606. What will be the output after the following statements?
+CODE-START
+import re x = re.compile('Day') y = x.search('Today is a nice day') print(y)
+CODE-END
+   A)Today is a nice day.
+   B)None
+   C)['Today is a nice day.']
+   D)(Today is a nice day.)
+   - Answer: B
+
+607. What will be the output after the following statements?
+CODE-START
+import re x = re.compile('Day', re.I) y = x.search('Today is a nice day') print(y.group())
+CODE-END
+   A)Today is a nice day.
+   B)None
+   C)['Today is a nice day.']
+   D)day
+   - Answer: D
+
+608. What will be the output after the following statements?
+CODE-START
+import re x = re.compile('day', re.IGNORECASE) y = x.findall('Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)[Today is a nice day.]
+   B)['day', 'day']
+   C)['day', 'day', 'day']
+   D)day
+   - Answer: C
+
+609. What will be the output after the following statements?
+CODE-START
+import re x = re.compile('Sunday') y = x.sub('Wednesday', 'Today is a nice day and a Sunday') print(y)
+CODE-END
+   A)Today is a nice day
+   B)Today is a nice day and a Sunday
+   C)['Sunday']
+   D)Today is a nice day and a Wednesday
+   - Answer: D
+
+610. What will be the output after the following statements?
+CODE-START
+import os x = os.getcwd() print(x)
+CODE-END
+   A)Name of the operating system
+   B)Version of the operating system
+   C)The current working directory
+   D)Name of the current file
+   - Answer: C
+
+611. What do the following statements do?
+CODE-START
+import webbrowser
+webbrowser.open('http://google.com')
+CODE-END
+   A)Ping http://google.com
+   B)Display http://google.com in the shell
+   C)Download http://google.com as a text file
+   D)Launch a browser window to http://google.com
+   - Answer: D
+
+612. What will be the output after the following statements?
+CODE-START
+import sys print(sys.argv)
+CODE-END
+   A)A set of the program's filename and command line arguments
+   B)A list of the program's filename and command line arguments
+   C)A tuple of the program's filename and command line arguments
+   D)A dictionary of the program's filename and command line arguments
+   - Answer: B

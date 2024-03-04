@@ -49,8 +49,8 @@ const outPath = './data/final';
 
 // processFilesInDirectory(inPath);
 
-const inFile = './data/original/comp-arch.txt';
-const outFile = './data/final/comp-arch.json';
+const inFile = './data/original/python.txt';
+const outFile = './data/final/python.json';
 
 processFile(inFile, outFile);
 

@@ -2,39 +2,49 @@ import * as fs from 'fs';
 export interface MCQ {
     Id: number;
     question: string;
-    optionList: string[];
-    answer: number;
+    options: string[];
+    answer: string;
+    codeBlock: string;
 }
 
 export class Utility {
     convertToJson(lines: string[]): MCQ[] {
-   
         const mcqs: MCQ[] = [];
         let currentMCQ: Partial<MCQ> = {};
         let currentId = 1; // Start with ID 1
+        let codeBlock: string[] = [];
     
+        let codeBlockStart = false;
+
         lines.forEach(line => {
-            if(line.trim() != '') {
-            const idMatch = line.trim().match(/^(\d+)\./); // Match any number followed by a period at the start of the line
-            if (idMatch) { // Check if it's a new question
-                if (currentMCQ.question) {
-                    mcqs.push(currentMCQ as MCQ); // Push the previous MCQ if exists
-                    currentId++; // Increment ID for the next question
+            if (line.trim() != '') {
+                const idMatch = line.trim().match(/^(\d+)\./); // Match any number followed by a period at the start of the line
+                if (idMatch) { // Check if it's a new question
+                    if (currentMCQ.question) {
+                        mcqs.push(currentMCQ as MCQ); // Push the previous MCQ if exists
+                        currentId++; // Increment ID for the next question
+                    }
+                    currentMCQ = { Id: currentId, options: [] }; // Start a new MCQ with the current ID
+                    currentMCQ.question = line.trim().substring(idMatch[0].length).trim(); // Extract question text
+                } else if (line.trim().match(/^[A-D]\)/)) { //start wth A), B), C) or D) then option
+                    currentMCQ.options!.push(line.trim().substring(3));
+                } else if (line.trim().startsWith('- Answer: ')) {
+                    const answerMatch = line.split(':');
+                    if (answerMatch) {
+                        currentMCQ.answer = answerMatch[1].trim();
+                    }
+                } else if (line.trim().startsWith('CODE-START')) {
+                    codeBlock = [];
+                    codeBlockStart = true;
+                } else if (line.trim().startsWith('CODE-END')) {
+                    currentMCQ.codeBlock = codeBlock.join('\n');
+                    codeBlock = []; // Reset code block for the next MCQ
+                    codeBlockStart = false;
+                } else if (codeBlockStart == true) {
+                    codeBlock.push(line.trim());
                 }
-                currentMCQ = { Id: currentId }; // Start a new MCQ with the current ID
-                currentMCQ.question = line.trim().substring(idMatch[0].length).trim(); // Extract question text
-            } else if (line.trim().startsWith('- Answer: ')) {
-                const answerMatch = line.split(':');
-                if (answerMatch) {
-                    currentMCQ.answer = answerMatch[1].trim().charCodeAt(0) - 'A'.charCodeAt(0);
-                }
-            } else if (line.trim()) { // Non-empty line, assume it's an option
-                if (!currentMCQ.optionList) {
-                    currentMCQ.optionList = [];
-                }
-                currentMCQ.optionList.push(line.trim().substring(3));
             }
-        }});
+        });
     
         if (currentMCQ.question) {
             mcqs.push(currentMCQ as MCQ); // Push the last MCQ
@@ -45,14 +55,16 @@ export class Utility {
 
     verifyMCQStrings(mcqStrings: string[]): boolean {
         let retValue = false;
+        let withinCodeBlock = false; 
+
         for (let lineNumber = 0; lineNumber < mcqStrings.length; lineNumber++) {
     
             let mcqLine = mcqStrings[lineNumber].trim();
             // Requirement 0: Ignore blank line
             if (!mcqLine) {
                 continue;
-            }
-    
+            }          
+            
             // Requirement 1: Check if the question starts with an integer
             const questionRegex = /^\d+\..*/;
             if (!questionRegex.test(mcqLine)) {
@@ -60,6 +72,29 @@ export class Utility {
                 return retValue;
             }
     
+            // Requirement 1.A: Skip the line from CODE-START to CODE-END
+            while (true) {
+                lineNumber++;
+                mcqLine = mcqStrings[lineNumber].trim();
+    
+                if (mcqLine == 'CODE-START') {
+                    withinCodeBlock = true;
+                    continue; // Skip processing this line
+                } else if (mcqLine == 'CODE-END') {
+                    withinCodeBlock = false;
+                    continue; // Skip processing this line
+                }
+    
+                // Skip processing if within code block
+                if (withinCodeBlock) {
+                    continue;
+                } else {
+                    lineNumber--;
+                    break;
+                }
+            }
+
+            
             // Requirement 2: Check if there are only 4 options starting with A, B, C, and D
             const optionsRegex = /^[A-D]\).*/;
             for (let j = 0; j < 4; j++) {
